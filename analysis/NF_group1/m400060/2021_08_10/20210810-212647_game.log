@@ -1,0 +1,948 @@
+[2021-08-10 21:26:47,650]{game.py:76} INFO - Loading module /home/pi/src/CommanderTeensy/experiments/training.py
+[2021-08-10 21:26:47,652]{game.py:82} INFO - Adding /home/pi/src/CommanderTeensy/experiments to path to import "training"
+[2021-08-10 21:26:47,655]{game.py:91} DEBUG - Starting pyglet app...
+[2021-08-10 21:26:51,465]{Experiment.py:30} INFO - Starting experiment.
+[2021-08-10 21:26:51,469]{training.py:75} INFO - Starting trial 1 from the left with             0.0 s delay
+[2021-08-10 21:26:51,541]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 21:27:03,883]{training.py:142} INFO - Ending trial 1 with failure due to "overshoot" after 12.4 s
+[2021-08-10 21:27:03,883]{training.py:150} INFO - Total: 1, Successes: 0 (0.0% correct)!
+[2021-08-10 21:27:05,944]{training.py:75} INFO - Starting trial 2 from the left with             0.5 s delay
+[2021-08-10 21:27:06,442]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-10 21:27:09,127]{training.py:142} INFO - Ending trial 2 with success due to "goal" after 3.2 s
+[2021-08-10 21:27:09,127]{training.py:150} INFO - Total: 2, Successes: 1 (50.0% correct)!
+[2021-08-10 21:27:10,660]{training.py:75} INFO - Starting trial 3 from the left with             0.1 s delay
+[2021-08-10 21:27:10,787]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 21:27:10,911]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 21:27:23,255]{training.py:142} INFO - Ending trial 3 with success due to "goal" after 12.6 s
+[2021-08-10 21:27:23,256]{training.py:150} INFO - Total: 3, Successes: 2 (66.7% correct)!
+[2021-08-10 21:27:24,792]{training.py:75} INFO - Starting trial 4 from the left with             0.1 s delay
+[2021-08-10 21:27:24,962]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:27:30,478]{training.py:142} INFO - Ending trial 4 with success due to "goal" after 5.7 s
+[2021-08-10 21:27:30,478]{training.py:150} INFO - Total: 4, Successes: 3 (75.0% correct)!
+[2021-08-10 21:27:31,997]{training.py:75} INFO - Starting trial 5 from the left with             0.5 s delay
+[2021-08-10 21:27:32,492]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-10 21:28:00,262]{training.py:142} INFO - Ending trial 5 with success due to "goal" after 28.3 s
+[2021-08-10 21:28:00,263]{training.py:150} INFO - Total: 5, Successes: 4 (80.0% correct)!
+[2021-08-10 21:28:01,795]{training.py:75} INFO - Starting trial 6 from the left with             0.1 s delay
+[2021-08-10 21:28:01,972]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-10 21:28:19,754]{training.py:142} INFO - Ending trial 6 with success due to "goal" after 18.0 s
+[2021-08-10 21:28:19,754]{training.py:150} INFO - Total: 6, Successes: 5 (83.3% correct)!
+[2021-08-10 21:28:21,284]{training.py:75} INFO - Starting trial 7 from the left with             0.4 s delay
+[2021-08-10 21:28:21,675]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-10 21:28:22,360]{training.py:142} INFO - Ending trial 7 with failure due to "overshoot" after 1.1 s
+[2021-08-10 21:28:22,360]{training.py:150} INFO - Total: 7, Successes: 5 (71.4% correct)!
+[2021-08-10 21:28:24,413]{training.py:75} INFO - Starting trial 8 from the left with             0.1 s delay
+[2021-08-10 21:28:24,498]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-10 21:28:45,624]{training.py:142} INFO - Ending trial 8 with failure due to "overshoot" after 21.2 s
+[2021-08-10 21:28:45,625]{training.py:150} INFO - Total: 8, Successes: 5 (62.5% correct)!
+[2021-08-10 21:28:47,675]{training.py:75} INFO - Starting trial 9 from the left with             0.4 s delay
+[2021-08-10 21:28:48,083]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-10 21:28:48,789]{training.py:142} INFO - Ending trial 9 with success due to "goal" after 1.1 s
+[2021-08-10 21:28:48,790]{training.py:150} INFO - Total: 9, Successes: 6 (66.7% correct)!
+[2021-08-10 21:28:50,310]{training.py:75} INFO - Starting trial 10 from the left with             0.1 s delay
+[2021-08-10 21:28:50,465]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-10 21:29:11,909]{training.py:142} INFO - Ending trial 10 with success due to "goal" after 21.6 s
+[2021-08-10 21:29:11,909]{training.py:150} INFO - Total: 10, Successes: 7 (70.0% correct)!
+[2021-08-10 21:29:13,430]{training.py:75} INFO - Starting trial 11 from the left with             0.1 s delay
+[2021-08-10 21:29:13,566]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:29:19,363]{training.py:142} INFO - Ending trial 11 with success due to "goal" after 5.9 s
+[2021-08-10 21:29:19,364]{training.py:150} INFO - Total: 11, Successes: 8 (72.7% correct)!
+[2021-08-10 21:29:20,884]{training.py:75} INFO - Starting trial 12 from the left with             0.1 s delay
+[2021-08-10 21:29:21,023]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:29:22,135]{training.py:142} INFO - Ending trial 12 with failure due to "overshoot" after 1.3 s
+[2021-08-10 21:29:22,136]{training.py:150} INFO - Total: 12, Successes: 8 (66.7% correct)!
+[2021-08-10 21:29:24,195]{training.py:75} INFO - Starting trial 13 from the left with             0.5 s delay
+[2021-08-10 21:29:24,676]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 21:29:49,977]{training.py:142} INFO - Ending trial 13 with failure due to "overshoot" after 25.8 s
+[2021-08-10 21:29:49,978]{training.py:150} INFO - Total: 13, Successes: 8 (61.5% correct)!
+[2021-08-10 21:29:52,036]{training.py:75} INFO - Starting trial 14 from the left with             0.1 s delay
+[2021-08-10 21:29:52,210]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:29:58,370]{training.py:142} INFO - Ending trial 14 with failure due to "overshoot" after 6.3 s
+[2021-08-10 21:29:58,371]{training.py:150} INFO - Total: 14, Successes: 8 (57.1% correct)!
+[2021-08-10 21:30:00,422]{training.py:75} INFO - Starting trial 15 from the left with             0.3 s delay
+[2021-08-10 21:30:00,724]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 21:30:04,316]{training.py:142} INFO - Ending trial 15 with success due to "goal" after 3.9 s
+[2021-08-10 21:30:04,316]{training.py:150} INFO - Total: 15, Successes: 9 (60.0% correct)!
+[2021-08-10 21:30:05,843]{training.py:75} INFO - Starting trial 16 from the left with             0.1 s delay
+[2021-08-10 21:30:05,962]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:30:06,068]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:30:06,181]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:30:06,296]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:30:12,204]{training.py:142} INFO - Ending trial 16 with failure due to "overshoot" after 6.4 s
+[2021-08-10 21:30:12,205]{training.py:150} INFO - Total: 16, Successes: 9 (56.2% correct)!
+[2021-08-10 21:30:14,255]{training.py:75} INFO - Starting trial 17 from the left with             0.3 s delay
+[2021-08-10 21:30:14,600]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 21:30:17,329]{training.py:142} INFO - Ending trial 17 with success due to "goal" after 3.1 s
+[2021-08-10 21:30:17,330]{training.py:150} INFO - Total: 17, Successes: 10 (58.8% correct)!
+[2021-08-10 21:30:18,857]{training.py:75} INFO - Starting trial 18 from the left with             0.3 s delay
+[2021-08-10 21:30:19,149]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-10 21:30:22,909]{training.py:142} INFO - Ending trial 18 with failure due to "overshoot" after 4.1 s
+[2021-08-10 21:30:22,910]{training.py:150} INFO - Total: 18, Successes: 10 (55.6% correct)!
+[2021-08-10 21:30:24,952]{training.py:75} INFO - Starting trial 19 from the left with             0.1 s delay
+[2021-08-10 21:30:25,039]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-10 21:30:29,299]{training.py:142} INFO - Ending trial 19 with success due to "goal" after 4.3 s
+[2021-08-10 21:30:29,299]{training.py:150} INFO - Total: 19, Successes: 11 (57.9% correct)!
+[2021-08-10 21:30:30,825]{training.py:75} INFO - Starting trial 20 from the left with             0.3 s delay
+[2021-08-10 21:30:31,115]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-10 21:30:31,405]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-10 21:30:33,195]{training.py:142} INFO - Ending trial 20 with failure due to "overshoot" after 2.4 s
+[2021-08-10 21:30:33,197]{training.py:150} INFO - Total: 20, Successes: 11 (55.0% correct)!
+[2021-08-10 21:30:35,263]{training.py:75} INFO - Starting trial 21 from the left with             0.1 s delay
+[2021-08-10 21:30:35,363]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-10 21:30:54,428]{training.py:142} INFO - Ending trial 21 with failure due to "overshoot" after 19.2 s
+[2021-08-10 21:30:54,428]{training.py:150} INFO - Total: 21, Successes: 11 (52.4% correct)!
+[2021-08-10 21:30:56,483]{training.py:75} INFO - Starting trial 22 from the left with             0.1 s delay
+[2021-08-10 21:30:56,585]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-10 21:31:31,325]{training.py:142} INFO - Ending trial 22 with failure due to "overshoot" after 34.8 s
+[2021-08-10 21:31:31,326]{training.py:150} INFO - Total: 22, Successes: 11 (50.0% correct)!
+[2021-08-10 21:31:33,367]{training.py:75} INFO - Starting trial 23 from the left with             0.4 s delay
+[2021-08-10 21:31:39,591]{training.py:142} INFO - Ending trial 23 with success due to "goal" after 6.2 s
+[2021-08-10 21:31:39,592]{training.py:150} INFO - Total: 23, Successes: 12 (52.2% correct)!
+[2021-08-10 21:31:41,129]{training.py:75} INFO - Starting trial 24 from the left with             0.3 s delay
+[2021-08-10 21:31:41,433]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 21:31:51,988]{training.py:142} INFO - Ending trial 24 with success due to "goal" after 10.9 s
+[2021-08-10 21:31:51,988]{training.py:150} INFO - Total: 24, Successes: 13 (54.2% correct)!
+[2021-08-10 21:31:53,516]{training.py:75} INFO - Starting trial 25 from the left with             0.3 s delay
+[2021-08-10 21:32:37,817]{training.py:142} INFO - Ending trial 25 with failure due to "overshoot" after 44.3 s
+[2021-08-10 21:32:37,818]{training.py:150} INFO - Total: 25, Successes: 13 (52.0% correct)!
+[2021-08-10 21:32:39,883]{training.py:75} INFO - Starting trial 26 from the left with             0.2 s delay
+[2021-08-10 21:32:40,073]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-10 21:33:29,562]{training.py:142} INFO - Ending trial 26 with success due to "goal" after 49.7 s
+[2021-08-10 21:33:29,563]{training.py:150} INFO - Total: 26, Successes: 14 (53.8% correct)!
+[2021-08-10 21:33:31,085]{training.py:75} INFO - Starting trial 27 from the left with             0.5 s delay
+[2021-08-10 21:33:31,570]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 21:33:32,051]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 21:33:32,532]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 21:33:33,015]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 21:34:04,932]{training.py:142} INFO - Ending trial 27 with success due to "goal" after 33.8 s
+[2021-08-10 21:34:04,933]{training.py:150} INFO - Total: 27, Successes: 15 (55.6% correct)!
+[2021-08-10 21:34:06,465]{training.py:75} INFO - Starting trial 28 from the left with             0.3 s delay
+[2021-08-10 21:34:06,788]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-10 21:34:07,271]{training.py:142} INFO - Ending trial 28 with success due to "goal" after 0.8 s
+[2021-08-10 21:34:07,272]{training.py:150} INFO - Total: 28, Successes: 16 (57.1% correct)!
+[2021-08-10 21:34:08,793]{training.py:75} INFO - Starting trial 29 from the left with             0.4 s delay
+[2021-08-10 21:34:09,202]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-10 21:34:09,602]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-10 21:34:28,144]{training.py:142} INFO - Ending trial 29 with failure due to "overshoot" after 19.4 s
+[2021-08-10 21:34:28,145]{training.py:150} INFO - Total: 29, Successes: 16 (55.2% correct)!
+[2021-08-10 21:34:30,202]{training.py:75} INFO - Starting trial 30 from the left with             0.3 s delay
+[2021-08-10 21:34:30,562]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-10 21:34:37,480]{training.py:142} INFO - Ending trial 30 with failure due to "overshoot" after 7.3 s
+[2021-08-10 21:34:37,482]{training.py:150} INFO - Total: 30, Successes: 16 (53.3% correct)!
+[2021-08-10 21:34:39,531]{training.py:75} INFO - Starting trial 31 from the left with             0.1 s delay
+[2021-08-10 21:34:39,704]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:35:08,075]{training.py:142} INFO - Ending trial 31 with success due to "goal" after 28.5 s
+[2021-08-10 21:35:08,076]{training.py:150} INFO - Total: 31, Successes: 17 (54.8% correct)!
+[2021-08-10 21:35:09,603]{training.py:75} INFO - Starting trial 32 from the left with             0.1 s delay
+[2021-08-10 21:35:09,772]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:35:09,942]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:35:10,117]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:35:50,559]{training.py:142} INFO - Ending trial 32 with failure due to "overshoot" after 41.0 s
+[2021-08-10 21:35:50,560]{training.py:150} INFO - Total: 32, Successes: 17 (53.1% correct)!
+[2021-08-10 21:35:52,607]{training.py:75} INFO - Starting trial 33 from the left with             0.3 s delay
+[2021-08-10 21:35:52,917]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 21:35:57,500]{training.py:142} INFO - Ending trial 33 with failure due to "overshoot" after 4.9 s
+[2021-08-10 21:35:57,501]{training.py:150} INFO - Total: 33, Successes: 17 (51.5% correct)!
+[2021-08-10 21:35:59,555]{training.py:75} INFO - Starting trial 34 from the left with             0.1 s delay
+[2021-08-10 21:35:59,639]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 21:36:47,754]{training.py:142} INFO - Ending trial 34 with success due to "goal" after 48.2 s
+[2021-08-10 21:36:47,755]{training.py:150} INFO - Total: 34, Successes: 18 (52.9% correct)!
+[2021-08-10 21:36:49,274]{training.py:75} INFO - Starting trial 35 from the left with             0.2 s delay
+[2021-08-10 21:36:49,534]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.23s
+[2021-08-10 21:36:55,798]{training.py:142} INFO - Ending trial 35 with success due to "goal" after 6.5 s
+[2021-08-10 21:36:55,799]{training.py:150} INFO - Total: 35, Successes: 19 (54.3% correct)!
+[2021-08-10 21:36:57,323]{training.py:75} INFO - Starting trial 36 from the left with             0.2 s delay
+[2021-08-10 21:36:57,563]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-10 21:36:57,804]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-10 21:36:58,106]{training.py:142} INFO - Ending trial 36 with failure due to "overshoot" after 0.8 s
+[2021-08-10 21:36:58,106]{training.py:150} INFO - Total: 36, Successes: 19 (52.8% correct)!
+[2021-08-10 21:37:00,178]{training.py:75} INFO - Starting trial 37 from the left with             0.2 s delay
+[2021-08-10 21:37:00,383]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-10 21:37:01,197]{training.py:142} INFO - Ending trial 37 with failure due to "overshoot" after 1.0 s
+[2021-08-10 21:37:01,198]{training.py:150} INFO - Total: 37, Successes: 19 (51.4% correct)!
+[2021-08-10 21:37:03,248]{training.py:75} INFO - Starting trial 38 from the left with             0.2 s delay
+[2021-08-10 21:37:03,418]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-10 21:37:40,956]{training.py:142} INFO - Ending trial 38 with failure due to "overshoot" after 37.7 s
+[2021-08-10 21:37:40,957]{training.py:150} INFO - Total: 38, Successes: 19 (50.0% correct)!
+[2021-08-10 21:37:43,006]{training.py:75} INFO - Starting trial 39 from the left with             0.1 s delay
+[2021-08-10 21:37:43,107]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-10 21:38:16,999]{training.py:142} INFO - Ending trial 39 with failure due to "overshoot" after 34.0 s
+[2021-08-10 21:38:17,001]{training.py:150} INFO - Total: 39, Successes: 19 (48.7% correct)!
+[2021-08-10 21:38:19,050]{training.py:75} INFO - Starting trial 40 from the left with             0.1 s delay
+[2021-08-10 21:38:19,288]{training.py:142} INFO - Ending trial 40 with failure due to "overshoot" after 0.2 s
+[2021-08-10 21:38:19,289]{training.py:150} INFO - Total: 40, Successes: 19 (47.5% correct)!
+[2021-08-10 21:38:21,338]{training.py:75} INFO - Starting trial 41 from the left with             0.2 s delay
+[2021-08-10 21:38:21,544]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 21:39:05,100]{training.py:142} INFO - Ending trial 41 with failure due to "overshoot" after 43.8 s
+[2021-08-10 21:39:05,101]{training.py:150} INFO - Total: 41, Successes: 19 (46.3% correct)!
+[2021-08-10 21:39:07,151]{training.py:75} INFO - Starting trial 42 from the left with             0.3 s delay
+[2021-08-10 21:39:07,493]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 21:39:32,852]{training.py:142} INFO - Ending trial 42 with failure due to "overshoot" after 25.7 s
+[2021-08-10 21:39:32,852]{training.py:150} INFO - Total: 42, Successes: 19 (45.2% correct)!
+[2021-08-10 21:39:34,894]{training.py:75} INFO - Starting trial 43 from the left with             0.1 s delay
+[2021-08-10 21:39:35,030]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:39:35,171]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:39:35,705]{training.py:142} INFO - Ending trial 43 with success due to "goal" after 0.8 s
+[2021-08-10 21:39:35,706]{training.py:150} INFO - Total: 43, Successes: 20 (46.5% correct)!
+[2021-08-10 21:39:37,227]{training.py:75} INFO - Starting trial 44 from the left with             0.5 s delay
+[2021-08-10 21:39:37,717]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 21:40:36,090]{training.py:142} INFO - Ending trial 44 with failure due to "overshoot" after 58.9 s
+[2021-08-10 21:40:36,090]{training.py:150} INFO - Total: 44, Successes: 20 (45.5% correct)!
+[2021-08-10 21:40:38,143]{training.py:75} INFO - Starting trial 45 from the left with             0.1 s delay
+[2021-08-10 21:40:38,265]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 21:40:52,507]{training.py:142} INFO - Ending trial 45 with failure due to "overshoot" after 14.4 s
+[2021-08-10 21:40:52,508]{training.py:150} INFO - Total: 45, Successes: 20 (44.4% correct)!
+[2021-08-10 21:40:54,563]{training.py:75} INFO - Starting trial 46 from the left with             0.4 s delay
+[2021-08-10 21:40:54,960]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-10 21:41:20,717]{training.py:142} INFO - Ending trial 46 with failure due to "overshoot" after 26.2 s
+[2021-08-10 21:41:20,717]{training.py:150} INFO - Total: 46, Successes: 20 (43.5% correct)!
+[2021-08-10 21:41:22,771]{training.py:75} INFO - Starting trial 47 from the left with             0.2 s delay
+[2021-08-10 21:41:23,008]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-10 21:41:36,924]{training.py:142} INFO - Ending trial 47 with failure due to "overshoot" after 14.2 s
+[2021-08-10 21:41:36,925]{training.py:150} INFO - Total: 47, Successes: 20 (42.6% correct)!
+[2021-08-10 21:41:38,968]{training.py:75} INFO - Starting trial 48 from the left with             0.3 s delay
+[2021-08-10 21:41:39,311]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 21:41:39,660]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 21:41:40,004]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 21:41:40,350]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 21:41:40,689]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 21:41:41,029]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 21:41:41,376]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 21:41:53,914]{training.py:142} INFO - Ending trial 48 with success due to "goal" after 14.9 s
+[2021-08-10 21:41:53,915]{training.py:150} INFO - Total: 48, Successes: 21 (43.8% correct)!
+[2021-08-10 21:41:55,434]{training.py:75} INFO - Starting trial 49 from the left with             0.2 s delay
+[2021-08-10 21:41:55,693]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.23s
+[2021-08-10 21:41:59,952]{training.py:142} INFO - Ending trial 49 with failure due to "overshoot" after 4.5 s
+[2021-08-10 21:41:59,953]{training.py:150} INFO - Total: 49, Successes: 21 (42.9% correct)!
+[2021-08-10 21:42:02,007]{training.py:75} INFO - Starting trial 50 from the left with             0.1 s delay
+[2021-08-10 21:42:02,110]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-10 21:42:06,100]{training.py:142} INFO - Ending trial 50 with failure due to "overshoot" after 4.1 s
+[2021-08-10 21:42:06,101]{training.py:150} INFO - Total: 50, Successes: 21 (42.0% correct)!
+[2021-08-10 21:42:08,152]{training.py:75} INFO - Starting trial 51 from the left with             0.1 s delay
+[2021-08-10 21:42:08,272]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:42:08,391]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:42:08,511]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:42:09,330]{training.py:142} INFO - Ending trial 51 with success due to "goal" after 1.2 s
+[2021-08-10 21:42:09,331]{training.py:150} INFO - Total: 51, Successes: 22 (43.1% correct)!
+[2021-08-10 21:42:10,861]{training.py:75} INFO - Starting trial 52 from the left with             0.3 s delay
+[2021-08-10 21:42:11,150]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 21:42:53,766]{training.py:142} INFO - Ending trial 52 with success due to "goal" after 42.9 s
+[2021-08-10 21:42:53,768]{training.py:150} INFO - Total: 52, Successes: 23 (44.2% correct)!
+[2021-08-10 21:42:55,301]{training.py:75} INFO - Starting trial 53 from the left with             0.4 s delay
+[2021-08-10 21:42:55,771]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-10 21:42:56,237]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-10 21:42:56,703]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-10 21:42:57,170]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-10 21:42:57,634]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-10 21:42:58,099]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-10 21:43:55,317]{training.py:142} INFO - Ending trial 53 with failure due to "timeout" after 60.0 s
+[2021-08-10 21:43:55,317]{training.py:150} INFO - Total: 53, Successes: 23 (43.4% correct)!
+[2021-08-10 21:43:57,365]{training.py:75} INFO - Starting trial 54 from the left with             0.2 s delay
+[2021-08-10 21:43:57,606]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-10 21:43:57,846]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-10 21:44:42,102]{training.py:142} INFO - Ending trial 54 with failure due to "overshoot" after 44.7 s
+[2021-08-10 21:44:42,103]{training.py:150} INFO - Total: 54, Successes: 23 (42.6% correct)!
+[2021-08-10 21:44:44,162]{training.py:75} INFO - Starting trial 55 from the left with             0.3 s delay
+[2021-08-10 21:44:44,512]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 21:45:14,019]{training.py:142} INFO - Ending trial 55 with failure due to "overshoot" after 29.9 s
+[2021-08-10 21:45:14,019]{training.py:150} INFO - Total: 55, Successes: 23 (41.8% correct)!
+[2021-08-10 21:45:16,070]{training.py:75} INFO - Starting trial 56 from the left with             0.3 s delay
+[2021-08-10 21:45:16,380]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 21:45:16,671]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 21:46:01,876]{training.py:142} INFO - Ending trial 56 with success due to "goal" after 45.8 s
+[2021-08-10 21:46:01,877]{training.py:150} INFO - Total: 56, Successes: 24 (42.9% correct)!
+[2021-08-10 21:46:03,409]{training.py:75} INFO - Starting trial 57 from the left with             0.0 s delay
+[2021-08-10 21:46:03,477]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 21:46:04,218]{training.py:142} INFO - Ending trial 57 with success due to "goal" after 0.8 s
+[2021-08-10 21:46:04,219]{training.py:150} INFO - Total: 57, Successes: 25 (43.9% correct)!
+[2021-08-10 21:46:05,740]{training.py:75} INFO - Starting trial 58 from the left with             0.1 s delay
+[2021-08-10 21:46:05,877]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:46:32,498]{training.py:142} INFO - Ending trial 58 with success due to "goal" after 26.8 s
+[2021-08-10 21:46:32,499]{training.py:150} INFO - Total: 58, Successes: 26 (44.8% correct)!
+[2021-08-10 21:46:34,017]{training.py:75} INFO - Starting trial 59 from the left with             0.3 s delay
+[2021-08-10 21:46:34,381]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-10 21:46:34,737]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-10 21:46:35,095]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-10 21:46:50,972]{training.py:142} INFO - Ending trial 59 with success due to "goal" after 17.0 s
+[2021-08-10 21:46:50,973]{training.py:150} INFO - Total: 59, Successes: 27 (45.8% correct)!
+[2021-08-10 21:46:52,503]{training.py:75} INFO - Starting trial 60 from the left with             0.0 s delay
+[2021-08-10 21:46:52,571]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 21:47:31,171]{training.py:142} INFO - Ending trial 60 with success due to "goal" after 38.7 s
+[2021-08-10 21:47:31,171]{training.py:150} INFO - Total: 60, Successes: 28 (46.7% correct)!
+[2021-08-10 21:47:32,704]{training.py:75} INFO - Starting trial 61 from the left with             0.1 s delay
+[2021-08-10 21:47:32,787]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:32,873]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:32,965]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,048]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,136]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,219]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,304]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,388]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,473]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,562]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:33,646]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:34,069]{training.py:142} INFO - Ending trial 61 with failure due to "overshoot" after 1.4 s
+[2021-08-10 21:47:34,069]{training.py:150} INFO - Total: 61, Successes: 28 (45.9% correct)!
+[2021-08-10 21:47:36,121]{training.py:75} INFO - Starting trial 62 from the left with             0.1 s delay
+[2021-08-10 21:47:36,205]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:47:41,897]{training.py:142} INFO - Ending trial 62 with success due to "goal" after 5.8 s
+[2021-08-10 21:47:41,898]{training.py:150} INFO - Total: 62, Successes: 29 (46.8% correct)!
+[2021-08-10 21:47:43,421]{training.py:75} INFO - Starting trial 63 from the left with             0.3 s delay
+[2021-08-10 21:47:43,782]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-10 21:48:31,614]{training.py:142} INFO - Ending trial 63 with success due to "goal" after 48.2 s
+[2021-08-10 21:48:31,615]{training.py:150} INFO - Total: 63, Successes: 30 (47.6% correct)!
+[2021-08-10 21:48:33,143]{training.py:75} INFO - Starting trial 64 from the left with             0.1 s delay
+[2021-08-10 21:48:33,280]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:49:05,999]{training.py:142} INFO - Ending trial 64 with success due to "goal" after 32.9 s
+[2021-08-10 21:49:06,000]{training.py:150} INFO - Total: 64, Successes: 31 (48.4% correct)!
+[2021-08-10 21:49:07,519]{training.py:75} INFO - Starting trial 65 from the left with             0.4 s delay
+[2021-08-10 21:49:07,916]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-10 21:49:08,307]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-10 21:49:08,702]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-10 21:49:09,101]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-10 21:49:09,494]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-10 21:49:09,889]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-10 21:49:23,410]{training.py:142} INFO - Ending trial 65 with failure due to "overshoot" after 15.9 s
+[2021-08-10 21:49:23,411]{training.py:150} INFO - Total: 65, Successes: 31 (47.7% correct)!
+[2021-08-10 21:49:25,463]{training.py:75} INFO - Starting trial 66 from the left with             0.3 s delay
+[2021-08-10 21:49:25,756]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 21:50:12,030]{training.py:142} INFO - Ending trial 66 with failure due to "overshoot" after 46.6 s
+[2021-08-10 21:50:12,031]{training.py:150} INFO - Total: 66, Successes: 31 (47.0% correct)!
+[2021-08-10 21:50:14,083]{training.py:75} INFO - Starting trial 67 from the left with             0.1 s delay
+[2021-08-10 21:50:14,240]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:51:14,096]{training.py:142} INFO - Ending trial 67 with failure due to "timeout" after 60.0 s
+[2021-08-10 21:51:14,097]{training.py:150} INFO - Total: 67, Successes: 31 (46.3% correct)!
+[2021-08-10 21:51:16,149]{training.py:75} INFO - Starting trial 68 from the left with             0.3 s delay
+[2021-08-10 21:51:16,446]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-10 21:51:24,526]{training.py:142} INFO - Ending trial 68 with failure due to "overshoot" after 8.4 s
+[2021-08-10 21:51:24,526]{training.py:150} INFO - Total: 68, Successes: 31 (45.6% correct)!
+[2021-08-10 21:51:26,566]{training.py:75} INFO - Starting trial 69 from the left with             0.5 s delay
+[2021-08-10 21:51:27,082]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.50s
+[2021-08-10 21:51:56,979]{training.py:142} INFO - Ending trial 69 with failure due to "overshoot" after 30.4 s
+[2021-08-10 21:51:56,979]{training.py:150} INFO - Total: 69, Successes: 31 (44.9% correct)!
+[2021-08-10 21:51:59,032]{training.py:75} INFO - Starting trial 70 from the left with             0.0 s delay
+[2021-08-10 21:51:59,100]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 21:52:21,228]{training.py:142} INFO - Ending trial 70 with success due to "goal" after 22.2 s
+[2021-08-10 21:52:21,229]{training.py:150} INFO - Total: 70, Successes: 32 (45.7% correct)!
+[2021-08-10 21:52:22,753]{training.py:75} INFO - Starting trial 71 from the left with             0.1 s delay
+[2021-08-10 21:52:22,893]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:52:23,027]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:52:23,163]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:52:23,385]{training.py:142} INFO - Ending trial 71 with success due to "goal" after 0.6 s
+[2021-08-10 21:52:23,386]{training.py:150} INFO - Total: 71, Successes: 33 (46.5% correct)!
+[2021-08-10 21:52:24,922]{training.py:75} INFO - Starting trial 72 from the left with             0.1 s delay
+[2021-08-10 21:52:25,005]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 21:52:25,146]{training.py:142} INFO - Ending trial 72 with success due to "goal" after 0.2 s
+[2021-08-10 21:52:25,148]{training.py:150} INFO - Total: 72, Successes: 34 (47.2% correct)!
+[2021-08-10 21:52:26,670]{training.py:75} INFO - Starting trial 73 from the left with             0.2 s delay
+[2021-08-10 21:52:26,840]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-10 21:52:27,024]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-10 21:52:29,059]{training.py:142} INFO - Ending trial 73 with failure due to "overshoot" after 2.4 s
+[2021-08-10 21:52:29,060]{training.py:150} INFO - Total: 73, Successes: 34 (46.6% correct)!
+[2021-08-10 21:52:31,104]{training.py:75} INFO - Starting trial 74 from the left with             0.1 s delay
+[2021-08-10 21:52:31,224]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 21:52:33,128]{training.py:142} INFO - Ending trial 74 with failure due to "overshoot" after 2.0 s
+[2021-08-10 21:52:33,129]{training.py:150} INFO - Total: 74, Successes: 34 (45.9% correct)!
+[2021-08-10 21:52:35,180]{training.py:75} INFO - Starting trial 75 from the left with             0.1 s delay
+[2021-08-10 21:52:35,265]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:52:51,827]{training.py:142} INFO - Ending trial 75 with success due to "goal" after 16.6 s
+[2021-08-10 21:52:51,828]{training.py:150} INFO - Total: 75, Successes: 35 (46.7% correct)!
+[2021-08-10 21:52:53,353]{training.py:75} INFO - Starting trial 76 from the left with             0.4 s delay
+[2021-08-10 21:52:53,786]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 21:53:53,368]{training.py:142} INFO - Ending trial 76 with failure due to "timeout" after 60.0 s
+[2021-08-10 21:53:53,372]{training.py:150} INFO - Total: 76, Successes: 35 (46.1% correct)!
+[2021-08-10 21:53:55,421]{training.py:75} INFO - Starting trial 77 from the left with             0.2 s delay
+[2021-08-10 21:53:55,644]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 21:54:03,298]{training.py:142} INFO - Ending trial 77 with failure due to "overshoot" after 7.9 s
+[2021-08-10 21:54:03,298]{training.py:150} INFO - Total: 77, Successes: 35 (45.5% correct)!
+[2021-08-10 21:54:05,344]{training.py:75} INFO - Starting trial 78 from the left with             0.4 s delay
+[2021-08-10 21:54:05,743]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-10 21:54:09,683]{training.py:142} INFO - Ending trial 78 with failure due to "overshoot" after 4.3 s
+[2021-08-10 21:54:09,688]{training.py:150} INFO - Total: 78, Successes: 35 (44.9% correct)!
+[2021-08-10 21:54:11,745]{training.py:75} INFO - Starting trial 79 from the left with             0.0 s delay
+[2021-08-10 21:54:11,814]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 21:54:11,886]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 21:54:11,955]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 21:54:12,122]{training.py:142} INFO - Ending trial 79 with success due to "goal" after 0.4 s
+[2021-08-10 21:54:12,123]{training.py:150} INFO - Total: 79, Successes: 36 (45.6% correct)!
+[2021-08-10 21:54:13,647]{training.py:75} INFO - Starting trial 80 from the left with             0.4 s delay
+[2021-08-10 21:54:14,062]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.40s
+[2021-08-10 21:54:14,492]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.40s
+[2021-08-10 21:54:16,780]{training.py:142} INFO - Ending trial 80 with success due to "goal" after 3.1 s
+[2021-08-10 21:54:16,780]{training.py:150} INFO - Total: 80, Successes: 37 (46.2% correct)!
+[2021-08-10 21:54:18,308]{training.py:75} INFO - Starting trial 81 from the left with             0.5 s delay
+[2021-08-10 21:54:18,837]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.50s
+[2021-08-10 21:54:19,356]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.50s
+[2021-08-10 21:54:32,764]{training.py:142} INFO - Ending trial 81 with success due to "goal" after 14.5 s
+[2021-08-10 21:54:32,765]{training.py:150} INFO - Total: 81, Successes: 38 (46.9% correct)!
+[2021-08-10 21:54:34,289]{training.py:75} INFO - Starting trial 82 from the left with             0.2 s delay
+[2021-08-10 21:54:34,528]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-10 21:54:53,267]{training.py:142} INFO - Ending trial 82 with failure due to "overshoot" after 19.0 s
+[2021-08-10 21:54:53,269]{training.py:150} INFO - Total: 82, Successes: 38 (46.3% correct)!
+[2021-08-10 21:54:55,315]{training.py:75} INFO - Starting trial 83 from the left with             0.3 s delay
+[2021-08-10 21:54:55,658]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 21:54:56,001]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 21:55:09,161]{training.py:142} INFO - Ending trial 83 with failure due to "overshoot" after 13.8 s
+[2021-08-10 21:55:09,162]{training.py:150} INFO - Total: 83, Successes: 38 (45.8% correct)!
+[2021-08-10 21:55:11,222]{training.py:75} INFO - Starting trial 84 from the left with             0.1 s delay
+[2021-08-10 21:55:11,339]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:55:11,460]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:55:11,566]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:55:11,672]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:55:11,791]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:55:11,895]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 21:55:12,430]{training.py:142} INFO - Ending trial 84 with success due to "goal" after 1.2 s
+[2021-08-10 21:55:12,430]{training.py:150} INFO - Total: 84, Successes: 39 (46.4% correct)!
+[2021-08-10 21:55:13,962]{training.py:75} INFO - Starting trial 85 from the left with             0.2 s delay
+[2021-08-10 21:55:14,154]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-10 21:55:14,444]{training.py:142} INFO - Ending trial 85 with success due to "goal" after 0.5 s
+[2021-08-10 21:55:14,445]{training.py:150} INFO - Total: 85, Successes: 40 (47.1% correct)!
+[2021-08-10 21:55:15,975]{training.py:75} INFO - Starting trial 86 from the left with             0.3 s delay
+[2021-08-10 21:55:16,279]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 21:55:16,577]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 21:55:16,868]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 21:55:17,156]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 21:55:17,454]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 21:55:18,815]{training.py:142} INFO - Ending trial 86 with success due to "goal" after 2.8 s
+[2021-08-10 21:55:18,815]{training.py:150} INFO - Total: 86, Successes: 41 (47.7% correct)!
+[2021-08-10 21:55:20,348]{training.py:75} INFO - Starting trial 87 from the left with             0.0 s delay
+[2021-08-10 21:55:20,418]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 21:55:25,676]{training.py:142} INFO - Ending trial 87 with failure due to "overshoot" after 5.3 s
+[2021-08-10 21:55:25,677]{training.py:150} INFO - Total: 87, Successes: 41 (47.1% correct)!
+[2021-08-10 21:55:27,712]{training.py:75} INFO - Starting trial 88 from the left with             0.3 s delay
+[2021-08-10 21:55:28,036]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-10 21:56:06,347]{training.py:142} INFO - Ending trial 88 with success due to "goal" after 38.6 s
+[2021-08-10 21:56:06,349]{training.py:150} INFO - Total: 88, Successes: 42 (47.7% correct)!
+[2021-08-10 21:56:07,867]{training.py:75} INFO - Starting trial 89 from the left with             0.2 s delay
+[2021-08-10 21:56:08,263]{training.py:142} INFO - Ending trial 89 with success due to "goal" after 0.4 s
+[2021-08-10 21:56:08,263]{training.py:150} INFO - Total: 89, Successes: 43 (48.3% correct)!
+[2021-08-10 21:56:09,788]{training.py:75} INFO - Starting trial 90 from the left with             0.2 s delay
+[2021-08-10 21:56:09,995]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-10 21:56:30,290]{training.py:142} INFO - Ending trial 90 with success due to "goal" after 20.5 s
+[2021-08-10 21:56:30,291]{training.py:150} INFO - Total: 90, Successes: 44 (48.9% correct)!
+[2021-08-10 21:56:31,825]{training.py:75} INFO - Starting trial 91 from the left with             0.2 s delay
+[2021-08-10 21:56:32,030]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 21:56:34,651]{training.py:142} INFO - Ending trial 91 with failure due to "overshoot" after 2.8 s
+[2021-08-10 21:56:34,652]{training.py:150} INFO - Total: 91, Successes: 44 (48.4% correct)!
+[2021-08-10 21:56:36,701]{training.py:75} INFO - Starting trial 92 from the left with             0.3 s delay
+[2021-08-10 21:56:37,078]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-10 21:57:12,371]{training.py:142} INFO - Ending trial 92 with failure due to "overshoot" after 35.7 s
+[2021-08-10 21:57:12,372]{training.py:150} INFO - Total: 92, Successes: 44 (47.8% correct)!
+[2021-08-10 21:57:14,425]{training.py:75} INFO - Starting trial 93 from the left with             0.4 s delay
+[2021-08-10 21:57:14,879]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-10 21:57:38,371]{training.py:142} INFO - Ending trial 93 with failure due to "overshoot" after 23.9 s
+[2021-08-10 21:57:38,372]{training.py:150} INFO - Total: 93, Successes: 44 (47.3% correct)!
+[2021-08-10 21:57:40,427]{training.py:75} INFO - Starting trial 94 from the left with             0.1 s delay
+[2021-08-10 21:57:40,563]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:57:40,703]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:57:40,840]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:57:40,971]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:57:41,107]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:57:41,510]{training.py:142} INFO - Ending trial 94 with success due to "goal" after 1.1 s
+[2021-08-10 21:57:41,511]{training.py:150} INFO - Total: 94, Successes: 45 (47.9% correct)!
+[2021-08-10 21:57:43,040]{training.py:75} INFO - Starting trial 95 from the left with             0.1 s delay
+[2021-08-10 21:57:43,209]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 21:57:51,007]{training.py:142} INFO - Ending trial 95 with success due to "goal" after 8.0 s
+[2021-08-10 21:57:51,009]{training.py:150} INFO - Total: 95, Successes: 46 (48.4% correct)!
+[2021-08-10 21:57:52,544]{training.py:75} INFO - Starting trial 96 from the left with             0.3 s delay
+[2021-08-10 21:57:52,909]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-10 21:57:59,420]{training.py:142} INFO - Ending trial 96 with success due to "goal" after 6.9 s
+[2021-08-10 21:57:59,420]{training.py:150} INFO - Total: 96, Successes: 47 (49.0% correct)!
+[2021-08-10 21:58:00,945]{training.py:75} INFO - Starting trial 97 from the left with             0.1 s delay
+[2021-08-10 21:58:01,072]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:58:01,207]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:58:01,343]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 21:58:11,342]{training.py:142} INFO - Ending trial 97 with failure due to "overshoot" after 10.4 s
+[2021-08-10 21:58:11,343]{training.py:150} INFO - Total: 97, Successes: 47 (48.5% correct)!
+[2021-08-10 21:58:13,399]{training.py:75} INFO - Starting trial 98 from the left with             0.5 s delay
+[2021-08-10 21:58:13,876]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-10 21:58:25,906]{training.py:142} INFO - Ending trial 98 with failure due to "overshoot" after 12.5 s
+[2021-08-10 21:58:25,906]{training.py:150} INFO - Total: 98, Successes: 47 (48.0% correct)!
+[2021-08-10 21:58:27,960]{training.py:75} INFO - Starting trial 99 from the left with             0.1 s delay
+[2021-08-10 21:58:28,097]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:28,237]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:28,377]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:28,513]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:28,654]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:28,788]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:28,928]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:29,067]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:29,205]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:29,342]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:29,487]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:29,624]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:29,760]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:29,897]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:30,038]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:30,175]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:30,311]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:30,454]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:30,591]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:30,729]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:30,867]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:31,004]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:31,144]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:31,284]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:31,428]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:31,564]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 21:58:32,073]{training.py:142} INFO - Ending trial 99 with failure due to "overshoot" after 4.1 s
+[2021-08-10 21:58:32,074]{training.py:150} INFO - Total: 99, Successes: 47 (47.5% correct)!
+[2021-08-10 21:58:34,120]{training.py:75} INFO - Starting trial 100 from the left with             0.1 s delay
+[2021-08-10 21:58:34,206]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:58:34,772]{training.py:142} INFO - Ending trial 100 with failure due to "overshoot" after 0.7 s
+[2021-08-10 21:58:34,774]{training.py:150} INFO - Total: 100, Successes: 47 (47.0% correct)!
+[2021-08-10 21:58:36,819]{training.py:75} INFO - Starting trial 101 from the left with             0.1 s delay
+[2021-08-10 21:58:36,906]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 21:58:37,087]{training.py:142} INFO - Ending trial 101 with failure due to "overshoot" after 0.3 s
+[2021-08-10 21:58:37,088]{training.py:150} INFO - Total: 101, Successes: 47 (46.5% correct)!
+[2021-08-10 21:58:39,150]{training.py:75} INFO - Starting trial 102 from the left with             0.2 s delay
+[2021-08-10 21:58:39,373]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 21:58:41,604]{training.py:142} INFO - Ending trial 102 with failure due to "overshoot" after 2.5 s
+[2021-08-10 21:58:41,605]{training.py:150} INFO - Total: 102, Successes: 47 (46.1% correct)!
+[2021-08-10 21:58:43,644]{training.py:75} INFO - Starting trial 103 from the left with             0.2 s delay
+[2021-08-10 21:58:43,846]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-10 21:58:47,779]{training.py:142} INFO - Ending trial 103 with success due to "goal" after 4.1 s
+[2021-08-10 21:58:47,779]{training.py:150} INFO - Total: 103, Successes: 48 (46.6% correct)!
+[2021-08-10 21:58:49,306]{training.py:75} INFO - Starting trial 104 from the left with             0.3 s delay
+[2021-08-10 21:58:49,630]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 21:58:49,945]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 21:58:50,257]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 21:58:50,591]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 21:58:50,917]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 21:58:51,243]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 21:58:51,555]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 21:59:19,122]{training.py:142} INFO - Ending trial 104 with success due to "goal" after 29.8 s
+[2021-08-10 21:59:19,123]{training.py:150} INFO - Total: 104, Successes: 49 (47.1% correct)!
+[2021-08-10 21:59:20,653]{training.py:75} INFO - Starting trial 105 from the left with             0.4 s delay
+[2021-08-10 21:59:21,099]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-10 21:59:26,773]{training.py:142} INFO - Ending trial 105 with failure due to "overshoot" after 6.1 s
+[2021-08-10 21:59:26,773]{training.py:150} INFO - Total: 105, Successes: 49 (46.7% correct)!
+[2021-08-10 21:59:28,824]{training.py:75} INFO - Starting trial 106 from the left with             0.4 s delay
+[2021-08-10 21:59:29,259]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.40s
+[2021-08-10 21:59:33,387]{training.py:142} INFO - Ending trial 106 with failure due to "overshoot" after 4.6 s
+[2021-08-10 21:59:33,388]{training.py:150} INFO - Total: 106, Successes: 49 (46.2% correct)!
+[2021-08-10 21:59:35,435]{training.py:75} INFO - Starting trial 107 from the left with             0.1 s delay
+[2021-08-10 21:59:35,536]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-10 21:59:56,178]{training.py:142} INFO - Ending trial 107 with failure due to "overshoot" after 20.7 s
+[2021-08-10 21:59:56,178]{training.py:150} INFO - Total: 107, Successes: 49 (45.8% correct)!
+[2021-08-10 21:59:58,265]{training.py:75} INFO - Starting trial 108 from the left with             0.2 s delay
+[2021-08-10 21:59:58,487]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 21:59:58,726]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 21:59:58,952]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 21:59:59,172]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 21:59:59,406]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 21:59:59,752]{training.py:142} INFO - Ending trial 108 with success due to "goal" after 1.5 s
+[2021-08-10 21:59:59,753]{training.py:150} INFO - Total: 108, Successes: 50 (46.3% correct)!
+[2021-08-10 22:00:01,285]{training.py:75} INFO - Starting trial 109 from the left with             0.2 s delay
+[2021-08-10 22:00:01,561]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-10 22:00:45,838]{training.py:142} INFO - Ending trial 109 with failure due to "overshoot" after 44.6 s
+[2021-08-10 22:00:45,838]{training.py:150} INFO - Total: 109, Successes: 50 (45.9% correct)!
+[2021-08-10 22:00:47,893]{training.py:75} INFO - Starting trial 110 from the left with             0.1 s delay
+[2021-08-10 22:00:47,978]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 22:01:33,522]{training.py:142} INFO - Ending trial 110 with failure due to "overshoot" after 45.6 s
+[2021-08-10 22:01:33,523]{training.py:150} INFO - Total: 110, Successes: 50 (45.5% correct)!
+[2021-08-10 22:01:35,575]{training.py:75} INFO - Starting trial 111 from the left with             0.4 s delay
+[2021-08-10 22:01:35,971]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-10 22:01:36,371]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-10 22:01:36,766]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-10 22:01:48,852]{training.py:142} INFO - Ending trial 111 with failure due to "overshoot" after 13.3 s
+[2021-08-10 22:01:48,853]{training.py:150} INFO - Total: 111, Successes: 50 (45.0% correct)!
+[2021-08-10 22:01:50,908]{training.py:75} INFO - Starting trial 112 from the left with             0.4 s delay
+[2021-08-10 22:01:51,376]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-10 22:02:00,890]{training.py:142} INFO - Ending trial 112 with success due to "goal" after 10.0 s
+[2021-08-10 22:02:00,891]{training.py:150} INFO - Total: 112, Successes: 51 (45.5% correct)!
+[2021-08-10 22:02:02,411]{training.py:75} INFO - Starting trial 113 from the left with             0.4 s delay
+[2021-08-10 22:02:02,842]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:02:08,689]{training.py:142} INFO - Ending trial 113 with failure due to "overshoot" after 6.3 s
+[2021-08-10 22:02:08,689]{training.py:150} INFO - Total: 113, Successes: 51 (45.1% correct)!
+[2021-08-10 22:02:10,732]{training.py:75} INFO - Starting trial 114 from the left with             0.2 s delay
+[2021-08-10 22:02:11,007]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-10 22:02:41,684]{training.py:142} INFO - Ending trial 114 with failure due to "overshoot" after 31.0 s
+[2021-08-10 22:02:41,685]{training.py:150} INFO - Total: 114, Successes: 51 (44.7% correct)!
+[2021-08-10 22:02:43,756]{training.py:75} INFO - Starting trial 115 from the left with             0.2 s delay
+[2021-08-10 22:02:43,945]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-10 22:02:53,760]{training.py:142} INFO - Ending trial 115 with success due to "goal" after 10.0 s
+[2021-08-10 22:02:53,761]{training.py:150} INFO - Total: 115, Successes: 52 (45.2% correct)!
+[2021-08-10 22:02:55,287]{training.py:75} INFO - Starting trial 116 from the left with             0.3 s delay
+[2021-08-10 22:02:55,627]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:02:55,952]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:02:56,291]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:02:56,618]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:02:56,957]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:02:57,296]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:02:57,624]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:02:58,163]{training.py:142} INFO - Ending trial 116 with failure due to "overshoot" after 2.9 s
+[2021-08-10 22:02:58,163]{training.py:150} INFO - Total: 116, Successes: 52 (44.8% correct)!
+[2021-08-10 22:03:00,222]{training.py:75} INFO - Starting trial 117 from the left with             0.1 s delay
+[2021-08-10 22:03:00,325]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-10 22:03:24,835]{training.py:142} INFO - Ending trial 117 with success due to "goal" after 24.6 s
+[2021-08-10 22:03:24,836]{training.py:150} INFO - Total: 117, Successes: 53 (45.3% correct)!
+[2021-08-10 22:03:26,358]{training.py:75} INFO - Starting trial 118 from the left with             0.3 s delay
+[2021-08-10 22:03:26,635]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-10 22:03:29,113]{training.py:142} INFO - Ending trial 118 with success due to "goal" after 2.8 s
+[2021-08-10 22:03:29,113]{training.py:150} INFO - Total: 118, Successes: 54 (45.8% correct)!
+[2021-08-10 22:03:30,637]{training.py:75} INFO - Starting trial 119 from the left with             0.1 s delay
+[2021-08-10 22:03:30,772]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 22:03:31,076]{training.py:142} INFO - Ending trial 119 with failure due to "overshoot" after 0.4 s
+[2021-08-10 22:03:31,077]{training.py:150} INFO - Total: 119, Successes: 54 (45.4% correct)!
+[2021-08-10 22:03:33,125]{training.py:75} INFO - Starting trial 120 from the left with             0.4 s delay
+[2021-08-10 22:03:33,526]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-10 22:04:27,598]{training.py:142} INFO - Ending trial 120 with success due to "goal" after 54.5 s
+[2021-08-10 22:04:27,599]{training.py:150} INFO - Total: 120, Successes: 55 (45.8% correct)!
+[2021-08-10 22:04:29,117]{training.py:75} INFO - Starting trial 121 from the left with             0.3 s delay
+[2021-08-10 22:04:29,411]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 22:04:29,710]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 22:04:50,377]{training.py:142} INFO - Ending trial 121 with failure due to "overshoot" after 21.3 s
+[2021-08-10 22:04:50,377]{training.py:150} INFO - Total: 121, Successes: 55 (45.5% correct)!
+[2021-08-10 22:04:52,436]{training.py:75} INFO - Starting trial 122 from the left with             0.3 s delay
+[2021-08-10 22:04:52,804]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-10 22:05:10,352]{training.py:142} INFO - Ending trial 122 with failure due to "overshoot" after 17.9 s
+[2021-08-10 22:05:10,352]{training.py:150} INFO - Total: 122, Successes: 55 (45.1% correct)!
+[2021-08-10 22:05:12,407]{training.py:75} INFO - Starting trial 123 from the left with             0.4 s delay
+[2021-08-10 22:05:12,820]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:05:19,572]{training.py:142} INFO - Ending trial 123 with failure due to "overshoot" after 7.2 s
+[2021-08-10 22:05:19,572]{training.py:150} INFO - Total: 123, Successes: 55 (44.7% correct)!
+[2021-08-10 22:05:21,612]{training.py:75} INFO - Starting trial 124 from the left with             0.1 s delay
+[2021-08-10 22:05:21,702]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 22:05:21,786]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 22:05:21,873]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-10 22:05:22,121]{training.py:142} INFO - Ending trial 124 with failure due to "overshoot" after 0.5 s
+[2021-08-10 22:05:22,121]{training.py:150} INFO - Total: 124, Successes: 55 (44.4% correct)!
+[2021-08-10 22:05:24,168]{training.py:75} INFO - Starting trial 125 from the left with             0.1 s delay
+[2021-08-10 22:05:24,254]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 22:05:37,068]{training.py:142} INFO - Ending trial 125 with success due to "goal" after 12.9 s
+[2021-08-10 22:05:37,069]{training.py:150} INFO - Total: 125, Successes: 56 (44.8% correct)!
+[2021-08-10 22:05:38,606]{training.py:75} INFO - Starting trial 126 from the left with             0.5 s delay
+[2021-08-10 22:05:39,097]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 22:05:39,573]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-10 22:06:05,598]{training.py:142} INFO - Ending trial 126 with failure due to "overshoot" after 27.0 s
+[2021-08-10 22:06:05,599]{training.py:150} INFO - Total: 126, Successes: 56 (44.4% correct)!
+[2021-08-10 22:06:07,656]{training.py:75} INFO - Starting trial 127 from the left with             0.2 s delay
+[2021-08-10 22:06:07,845]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-10 22:06:08,037]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-10 22:06:08,290]{training.py:142} INFO - Ending trial 127 with success due to "goal" after 0.6 s
+[2021-08-10 22:06:08,293]{training.py:150} INFO - Total: 127, Successes: 57 (44.9% correct)!
+[2021-08-10 22:06:09,825]{training.py:75} INFO - Starting trial 128 from the left with             0.3 s delay
+[2021-08-10 22:06:56,745]{training.py:142} INFO - Ending trial 128 with failure due to "overshoot" after 46.9 s
+[2021-08-10 22:06:56,746]{training.py:150} INFO - Total: 128, Successes: 57 (44.5% correct)!
+[2021-08-10 22:06:58,796]{training.py:75} INFO - Starting trial 129 from the left with             0.4 s delay
+[2021-08-10 22:06:59,245]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-10 22:07:14,604]{training.py:142} INFO - Ending trial 129 with failure due to "overshoot" after 15.8 s
+[2021-08-10 22:07:14,605]{training.py:150} INFO - Total: 129, Successes: 57 (44.2% correct)!
+[2021-08-10 22:07:16,655]{training.py:75} INFO - Starting trial 130 from the left with             0.3 s delay
+[2021-08-10 22:07:17,001]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 22:07:44,395]{training.py:142} INFO - Ending trial 130 with failure due to "overshoot" after 27.7 s
+[2021-08-10 22:07:44,395]{training.py:150} INFO - Total: 130, Successes: 57 (43.8% correct)!
+[2021-08-10 22:07:46,473]{training.py:75} INFO - Starting trial 131 from the left with             0.3 s delay
+[2021-08-10 22:07:46,778]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 22:07:47,087]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 22:07:47,394]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 22:07:47,707]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 22:08:01,529]{training.py:142} INFO - Ending trial 131 with success due to "goal" after 15.1 s
+[2021-08-10 22:08:01,529]{training.py:150} INFO - Total: 131, Successes: 58 (44.3% correct)!
+[2021-08-10 22:08:03,055]{training.py:75} INFO - Starting trial 132 from the left with             0.2 s delay
+[2021-08-10 22:08:03,242]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-10 22:08:03,430]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-10 22:08:21,171]{training.py:142} INFO - Ending trial 132 with failure due to "overshoot" after 18.1 s
+[2021-08-10 22:08:21,173]{training.py:150} INFO - Total: 132, Successes: 58 (43.9% correct)!
+[2021-08-10 22:08:23,228]{training.py:75} INFO - Starting trial 133 from the left with             0.1 s delay
+[2021-08-10 22:08:23,363]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 22:08:31,649]{training.py:142} INFO - Ending trial 133 with failure due to "overshoot" after 8.4 s
+[2021-08-10 22:08:31,650]{training.py:150} INFO - Total: 133, Successes: 58 (43.6% correct)!
+[2021-08-10 22:08:33,691]{training.py:75} INFO - Starting trial 134 from the left with             0.4 s delay
+[2021-08-10 22:08:34,127]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:08:34,556]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:08:34,987]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:08:35,418]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:08:35,846]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:08:36,273]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:08:36,703]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:09:33,702]{training.py:142} INFO - Ending trial 134 with failure due to "timeout" after 60.0 s
+[2021-08-10 22:09:33,702]{training.py:150} INFO - Total: 134, Successes: 58 (43.3% correct)!
+[2021-08-10 22:09:35,745]{training.py:75} INFO - Starting trial 135 from the left with             0.3 s delay
+[2021-08-10 22:09:36,090]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 22:09:44,195]{training.py:142} INFO - Ending trial 135 with failure due to "overshoot" after 8.4 s
+[2021-08-10 22:09:44,195]{training.py:150} INFO - Total: 135, Successes: 58 (43.0% correct)!
+[2021-08-10 22:09:46,257]{training.py:75} INFO - Starting trial 136 from the left with             0.3 s delay
+[2021-08-10 22:09:46,565]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-10 22:09:48,519]{training.py:142} INFO - Ending trial 136 with failure due to "overshoot" after 2.3 s
+[2021-08-10 22:09:48,520]{training.py:150} INFO - Total: 136, Successes: 58 (42.6% correct)!
+[2021-08-10 22:09:50,570]{training.py:75} INFO - Starting trial 137 from the left with             0.3 s delay
+[2021-08-10 22:09:50,860]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 22:10:02,807]{training.py:142} INFO - Ending trial 137 with success due to "goal" after 12.2 s
+[2021-08-10 22:10:02,807]{training.py:150} INFO - Total: 137, Successes: 59 (43.1% correct)!
+[2021-08-10 22:10:04,336]{training.py:75} INFO - Starting trial 138 from the left with             0.3 s delay
+[2021-08-10 22:10:04,679]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 22:10:12,954]{training.py:142} INFO - Ending trial 138 with failure due to "overshoot" after 8.6 s
+[2021-08-10 22:10:12,954]{training.py:150} INFO - Total: 138, Successes: 59 (42.8% correct)!
+[2021-08-10 22:10:14,992]{training.py:75} INFO - Starting trial 139 from the left with             0.2 s delay
+[2021-08-10 22:10:15,218]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 22:10:22,389]{training.py:142} INFO - Ending trial 139 with failure due to "overshoot" after 7.4 s
+[2021-08-10 22:10:22,390]{training.py:150} INFO - Total: 139, Successes: 59 (42.4% correct)!
+[2021-08-10 22:10:24,434]{training.py:75} INFO - Starting trial 140 from the left with             0.1 s delay
+[2021-08-10 22:10:24,588]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-10 22:11:11,055]{training.py:142} INFO - Ending trial 140 with failure due to "overshoot" after 46.6 s
+[2021-08-10 22:11:11,056]{training.py:150} INFO - Total: 140, Successes: 59 (42.1% correct)!
+[2021-08-10 22:11:13,110]{training.py:75} INFO - Starting trial 141 from the left with             0.1 s delay
+[2021-08-10 22:11:13,261]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:11:31,691]{training.py:142} INFO - Ending trial 141 with failure due to "overshoot" after 18.6 s
+[2021-08-10 22:11:31,691]{training.py:150} INFO - Total: 141, Successes: 59 (41.8% correct)!
+[2021-08-10 22:11:33,742]{training.py:75} INFO - Starting trial 142 from the left with             0.5 s delay
+[2021-08-10 22:11:34,241]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-10 22:11:44,461]{training.py:142} INFO - Ending trial 142 with success due to "goal" after 10.7 s
+[2021-08-10 22:11:44,461]{training.py:150} INFO - Total: 142, Successes: 60 (42.3% correct)!
+[2021-08-10 22:11:45,987]{training.py:75} INFO - Starting trial 143 from the left with             0.3 s delay
+[2021-08-10 22:11:46,312]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-10 22:11:46,638]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-10 22:11:46,963]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-10 22:11:47,292]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-10 22:11:47,620]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-10 22:12:11,762]{training.py:142} INFO - Ending trial 143 with failure due to "overshoot" after 25.8 s
+[2021-08-10 22:12:11,762]{training.py:150} INFO - Total: 143, Successes: 60 (42.0% correct)!
+[2021-08-10 22:12:13,822]{training.py:75} INFO - Starting trial 144 from the left with             0.3 s delay
+[2021-08-10 22:12:14,406]{training.py:142} INFO - Ending trial 144 with success due to "goal" after 0.6 s
+[2021-08-10 22:12:14,406]{training.py:150} INFO - Total: 144, Successes: 61 (42.4% correct)!
+[2021-08-10 22:12:15,941]{training.py:75} INFO - Starting trial 145 from the left with             0.0 s delay
+[2021-08-10 22:12:16,010]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 22:12:16,077]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 22:12:16,860]{training.py:142} INFO - Ending trial 145 with failure due to "overshoot" after 0.9 s
+[2021-08-10 22:12:16,860]{training.py:150} INFO - Total: 145, Successes: 61 (42.1% correct)!
+[2021-08-10 22:12:18,921]{training.py:75} INFO - Starting trial 146 from the left with             0.1 s delay
+[2021-08-10 22:12:19,070]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:12:26,848]{training.py:142} INFO - Ending trial 146 with failure due to "overshoot" after 7.9 s
+[2021-08-10 22:12:26,849]{training.py:150} INFO - Total: 146, Successes: 61 (41.8% correct)!
+[2021-08-10 22:12:28,898]{training.py:75} INFO - Starting trial 147 from the left with             0.3 s delay
+[2021-08-10 22:12:29,172]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-10 22:13:15,809]{training.py:142} INFO - Ending trial 147 with success due to "goal" after 46.9 s
+[2021-08-10 22:13:15,810]{training.py:150} INFO - Total: 147, Successes: 62 (42.2% correct)!
+[2021-08-10 22:13:17,338]{training.py:75} INFO - Starting trial 148 from the left with             0.1 s delay
+[2021-08-10 22:13:17,474]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 22:13:44,337]{training.py:142} INFO - Ending trial 148 with success due to "goal" after 27.0 s
+[2021-08-10 22:13:44,339]{training.py:150} INFO - Total: 148, Successes: 63 (42.6% correct)!
+[2021-08-10 22:13:45,868]{training.py:75} INFO - Starting trial 149 from the left with             0.1 s delay
+[2021-08-10 22:13:45,988]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:13:46,266]{training.py:142} INFO - Ending trial 149 with success due to "goal" after 0.4 s
+[2021-08-10 22:13:46,267]{training.py:150} INFO - Total: 149, Successes: 64 (43.0% correct)!
+[2021-08-10 22:13:47,801]{training.py:75} INFO - Starting trial 150 from the left with             0.4 s delay
+[2021-08-10 22:13:48,246]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-10 22:13:48,691]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-10 22:13:53,453]{training.py:142} INFO - Ending trial 150 with failure due to "overshoot" after 5.7 s
+[2021-08-10 22:13:53,453]{training.py:150} INFO - Total: 150, Successes: 64 (42.7% correct)!
+[2021-08-10 22:13:55,500]{training.py:75} INFO - Starting trial 151 from the left with             0.1 s delay
+[2021-08-10 22:13:55,587]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 22:13:55,673]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-10 22:13:55,954]{training.py:142} INFO - Ending trial 151 with success due to "goal" after 0.5 s
+[2021-08-10 22:13:55,956]{training.py:150} INFO - Total: 151, Successes: 65 (43.0% correct)!
+[2021-08-10 22:13:57,486]{training.py:75} INFO - Starting trial 152 from the left with             0.2 s delay
+[2021-08-10 22:13:57,726]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-10 22:13:58,078]{training.py:142} INFO - Ending trial 152 with failure due to "overshoot" after 0.6 s
+[2021-08-10 22:13:58,079]{training.py:150} INFO - Total: 152, Successes: 65 (42.8% correct)!
+[2021-08-10 22:14:00,137]{training.py:75} INFO - Starting trial 153 from the left with             0.2 s delay
+[2021-08-10 22:14:00,338]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 22:14:00,543]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 22:14:00,748]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 22:14:00,958]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 22:14:01,168]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 22:14:01,376]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-10 22:14:27,573]{training.py:142} INFO - Ending trial 153 with failure due to "overshoot" after 27.4 s
+[2021-08-10 22:14:27,573]{training.py:150} INFO - Total: 153, Successes: 65 (42.5% correct)!
+[2021-08-10 22:14:29,617]{training.py:75} INFO - Starting trial 154 from the left with             0.1 s delay
+[2021-08-10 22:14:29,776]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:14:29,948]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:14:30,125]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:14:30,786]{training.py:142} INFO - Ending trial 154 with failure due to "overshoot" after 1.2 s
+[2021-08-10 22:14:30,787]{training.py:150} INFO - Total: 154, Successes: 65 (42.2% correct)!
+[2021-08-10 22:14:32,857]{training.py:75} INFO - Starting trial 155 from the left with             0.3 s delay
+[2021-08-10 22:14:33,150]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-10 22:14:37,188]{training.py:142} INFO - Ending trial 155 with failure due to "overshoot" after 4.3 s
+[2021-08-10 22:14:37,189]{training.py:150} INFO - Total: 155, Successes: 65 (41.9% correct)!
+[2021-08-10 22:14:39,241]{training.py:75} INFO - Starting trial 156 from the left with             0.3 s delay
+[2021-08-10 22:14:39,582]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-10 22:15:08,930]{training.py:142} INFO - Ending trial 156 with failure due to "overshoot" after 29.7 s
+[2021-08-10 22:15:08,930]{training.py:150} INFO - Total: 156, Successes: 65 (41.7% correct)!
+[2021-08-10 22:15:10,978]{training.py:75} INFO - Starting trial 157 from the left with             0.3 s delay
+[2021-08-10 22:15:11,292]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 22:15:11,619]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 22:15:11,943]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 22:15:12,271]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 22:15:12,597]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 22:15:17,132]{training.py:142} INFO - Ending trial 157 with failure due to "overshoot" after 6.2 s
+[2021-08-10 22:15:17,133]{training.py:150} INFO - Total: 157, Successes: 65 (41.4% correct)!
+[2021-08-10 22:15:19,191]{training.py:75} INFO - Starting trial 158 from the left with             0.3 s delay
+[2021-08-10 22:15:19,538]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 22:15:47,252]{training.py:142} INFO - Ending trial 158 with failure due to "overshoot" after 28.1 s
+[2021-08-10 22:15:47,253]{training.py:150} INFO - Total: 158, Successes: 65 (41.1% correct)!
+[2021-08-10 22:15:49,295]{training.py:75} INFO - Starting trial 159 from the left with             0.1 s delay
+[2021-08-10 22:15:49,450]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-10 22:15:49,977]{training.py:142} INFO - Ending trial 159 with failure due to "overshoot" after 0.7 s
+[2021-08-10 22:15:49,977]{training.py:150} INFO - Total: 159, Successes: 65 (40.9% correct)!
+[2021-08-10 22:15:52,024]{training.py:75} INFO - Starting trial 160 from the left with             0.2 s delay
+[2021-08-10 22:15:52,245]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-10 22:15:52,820]{training.py:142} INFO - Ending trial 160 with success due to "goal" after 0.8 s
+[2021-08-10 22:15:52,821]{training.py:150} INFO - Total: 160, Successes: 66 (41.2% correct)!
+[2021-08-10 22:15:54,355]{training.py:75} INFO - Starting trial 161 from the left with             0.3 s delay
+[2021-08-10 22:15:54,706]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 22:16:04,194]{training.py:142} INFO - Ending trial 161 with failure due to "overshoot" after 9.8 s
+[2021-08-10 22:16:04,194]{training.py:150} INFO - Total: 161, Successes: 66 (41.0% correct)!
+[2021-08-10 22:16:06,251]{training.py:75} INFO - Starting trial 162 from the left with             0.1 s delay
+[2021-08-10 22:16:06,404]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:19,818]{training.py:142} INFO - Ending trial 162 with failure due to "overshoot" after 13.6 s
+[2021-08-10 22:16:19,819]{training.py:150} INFO - Total: 162, Successes: 66 (40.7% correct)!
+[2021-08-10 22:16:21,902]{training.py:75} INFO - Starting trial 163 from the left with             0.1 s delay
+[2021-08-10 22:16:22,005]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-10 22:16:50,767]{training.py:142} INFO - Ending trial 163 with failure due to "overshoot" after 28.9 s
+[2021-08-10 22:16:50,767]{training.py:150} INFO - Total: 163, Successes: 66 (40.5% correct)!
+[2021-08-10 22:16:52,828]{training.py:75} INFO - Starting trial 164 from the left with             0.1 s delay
+[2021-08-10 22:16:52,969]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:53,103]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:53,246]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:53,381]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:53,518]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:53,653]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:53,789]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:53,928]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:54,067]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:54,220]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:54,368]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:54,515]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:16:55,108]{training.py:142} INFO - Ending trial 164 with success due to "goal" after 2.3 s
+[2021-08-10 22:16:55,108]{training.py:150} INFO - Total: 164, Successes: 67 (40.9% correct)!
+[2021-08-10 22:16:56,636]{training.py:75} INFO - Starting trial 165 from the left with             0.0 s delay
+[2021-08-10 22:16:56,706]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 22:16:56,774]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 22:16:56,950]{training.py:142} INFO - Ending trial 165 with failure due to "overshoot" after 0.3 s
+[2021-08-10 22:16:56,950]{training.py:150} INFO - Total: 165, Successes: 67 (40.6% correct)!
+[2021-08-10 22:16:59,009]{training.py:75} INFO - Starting trial 166 from the left with             0.4 s delay
+[2021-08-10 22:16:59,405]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-10 22:16:59,804]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-10 22:17:47,181]{training.py:142} INFO - Ending trial 166 with success due to "goal" after 48.2 s
+[2021-08-10 22:17:47,182]{training.py:150} INFO - Total: 166, Successes: 68 (41.0% correct)!
+[2021-08-10 22:17:48,701]{training.py:75} INFO - Starting trial 167 from the left with             0.1 s delay
+[2021-08-10 22:17:48,838]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-10 22:17:56,734]{training.py:142} INFO - Ending trial 167 with failure due to "overshoot" after 8.0 s
+[2021-08-10 22:17:56,734]{training.py:150} INFO - Total: 167, Successes: 68 (40.7% correct)!
+[2021-08-10 22:17:58,776]{training.py:75} INFO - Starting trial 168 from the left with             0.4 s delay
+[2021-08-10 22:17:59,188]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:18:15,355]{training.py:142} INFO - Ending trial 168 with failure due to "overshoot" after 16.6 s
+[2021-08-10 22:18:15,355]{training.py:150} INFO - Total: 168, Successes: 68 (40.5% correct)!
+[2021-08-10 22:18:17,419]{training.py:75} INFO - Starting trial 169 from the left with             0.0 s delay
+[2021-08-10 22:18:17,487]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-10 22:18:21,196]{training.py:142} INFO - Ending trial 169 with failure due to "overshoot" after 3.8 s
+[2021-08-10 22:18:21,197]{training.py:150} INFO - Total: 169, Successes: 68 (40.2% correct)!
+[2021-08-10 22:18:23,248]{training.py:75} INFO - Starting trial 170 from the left with             0.4 s delay
+[2021-08-10 22:18:23,678]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-10 22:18:34,929]{training.py:142} INFO - Ending trial 170 with failure due to "overshoot" after 11.7 s
+[2021-08-10 22:18:34,929]{training.py:150} INFO - Total: 170, Successes: 68 (40.0% correct)!
+[2021-08-10 22:18:36,971]{training.py:75} INFO - Starting trial 171 from the left with             0.1 s delay
+[2021-08-10 22:18:37,060]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-10 22:18:37,436]{training.py:142} INFO - Ending trial 171 with failure due to "overshoot" after 0.5 s
+[2021-08-10 22:18:37,436]{training.py:150} INFO - Total: 171, Successes: 68 (39.8% correct)!
+[2021-08-10 22:18:39,495]{training.py:75} INFO - Starting trial 172 from the left with             0.4 s delay
+[2021-08-10 22:18:39,885]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-10 22:18:40,281]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-10 22:18:59,531]{training.py:142} INFO - Ending trial 172 with failure due to "overshoot" after 20.0 s
+[2021-08-10 22:18:59,531]{training.py:150} INFO - Total: 172, Successes: 68 (39.5% correct)!
+[2021-08-10 22:19:01,592]{training.py:75} INFO - Starting trial 173 from the left with             0.1 s delay
+[2021-08-10 22:19:01,746]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-10 22:19:02,655]{training.py:142} INFO - Ending trial 173 with failure due to "overshoot" after 1.1 s
+[2021-08-10 22:19:02,656]{training.py:150} INFO - Total: 173, Successes: 68 (39.3% correct)!
+[2021-08-10 22:19:04,720]{training.py:75} INFO - Starting trial 174 from the left with             0.4 s delay
+[2021-08-10 22:19:05,182]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:05,648]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:06,114]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:06,566]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:07,032]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:07,496]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:07,962]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:08,425]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-10 22:19:14,049]{training.py:142} INFO - Ending trial 174 with failure due to "overshoot" after 9.3 s
+[2021-08-10 22:19:14,050]{training.py:150} INFO - Total: 174, Successes: 68 (39.1% correct)!
+[2021-08-10 22:19:16,099]{training.py:75} INFO - Starting trial 175 from the left with             0.3 s delay
+[2021-08-10 22:19:16,445]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-10 22:19:27,922]{training.py:142} INFO - Ending trial 175 with success due to "goal" after 11.8 s
+[2021-08-10 22:19:27,923]{training.py:150} INFO - Total: 175, Successes: 69 (39.4% correct)!
+[2021-08-10 22:19:29,450]{training.py:75} INFO - Starting trial 176 from the left with             0.1 s delay
+[2021-08-10 22:19:29,556]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-10 22:19:39,527]{training.py:142} INFO - Ending trial 176 with failure due to "overshoot" after 10.1 s
+[2021-08-10 22:19:39,528]{training.py:150} INFO - Total: 176, Successes: 69 (39.2% correct)!
+[2021-08-10 22:19:41,590]{training.py:75} INFO - Starting trial 177 from the left with             0.1 s delay
+[2021-08-10 22:19:41,743]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-10 22:19:59,745]{training.py:142} INFO - Ending trial 177 with failure due to "overshoot" after 18.2 s
+[2021-08-10 22:19:59,746]{training.py:150} INFO - Total: 177, Successes: 69 (39.0% correct)!
+[2021-08-10 22:20:01,795]{training.py:75} INFO - Starting trial 178 from the left with             0.1 s delay
+[2021-08-10 22:20:02,101]{training.py:142} INFO - Ending trial 178 with failure due to "overshoot" after 0.3 s
+[2021-08-10 22:20:02,102]{training.py:150} INFO - Total: 178, Successes: 69 (38.8% correct)!
+[2021-08-10 22:20:04,174]{training.py:75} INFO - Starting trial 179 from the left with             0.1 s delay
+[2021-08-10 22:20:04,308]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:04,428]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:04,547]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:04,683]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:04,806]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:04,926]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:05,045]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:05,175]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:05,294]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-10 22:20:05,575]{training.py:142} INFO - Ending trial 179 with failure due to "overshoot" after 1.4 s
+[2021-08-10 22:20:05,576]{training.py:150} INFO - Total: 179, Successes: 69 (38.5% correct)!
+[2021-08-10 22:20:07,623]{training.py:75} INFO - Starting trial 180 from the left with             0.2 s delay
+[2021-08-10 22:20:07,862]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-10 22:20:22,338]{training.py:142} INFO - Ending trial 180 with success due to "goal" after 14.7 s
+[2021-08-10 22:20:22,339]{training.py:150} INFO - Total: 180, Successes: 70 (38.9% correct)!
+[2021-08-10 22:20:23,862]{training.py:75} INFO - Starting trial 181 from the left with             0.4 s delay
+[2021-08-10 22:20:24,275]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:24,702]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:25,111]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:25,525]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:25,947]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:26,360]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:26,773]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:27,198]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-10 22:20:28,664]{training.py:142} INFO - Ending trial 181 with failure due to "overshoot" after 4.8 s
+[2021-08-10 22:20:28,664]{training.py:150} INFO - Total: 181, Successes: 70 (38.7% correct)!
+[2021-08-10 22:20:30,733]{training.py:75} INFO - Starting trial 182 from the left with             0.2 s delay
+[2021-08-10 22:20:30,978]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-10 22:20:31,541]{training.py:142} INFO - Ending trial 182 with success due to "goal" after 0.8 s
+[2021-08-10 22:20:31,541]{training.py:150} INFO - Total: 182, Successes: 71 (39.0% correct)!
+[2021-08-10 22:20:33,061]{training.py:75} INFO - Starting trial 183 from the left with             0.3 s delay
+[2021-08-10 22:20:33,377]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-10 22:20:33,990]{training.py:142} INFO - Ending trial 183 with failure due to "overshoot" after 0.9 s
+[2021-08-10 22:20:33,990]{training.py:150} INFO - Total: 183, Successes: 71 (38.8% correct)!
+[2021-08-10 22:20:36,043]{training.py:75} INFO - Starting trial 184 from the left with             0.2 s delay
+[2021-08-10 22:20:36,283]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-10 22:20:41,866]{training.py:142} INFO - Ending trial 184 with failure due to "overshoot" after 5.8 s
+[2021-08-10 22:20:41,870]{training.py:150} INFO - Total: 184, Successes: 71 (38.6% correct)!
+[2021-08-10 22:20:43,924]{training.py:75} INFO - Starting trial 185 from the left with             0.1 s delay
+[2021-08-10 22:20:44,096]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:44,250]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:44,422]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:44,594]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:44,755]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:44,924]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:45,094]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:45,265]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:45,437]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:45,609]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:45,780]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:45,937]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:46,110]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:46,278]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:46,449]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:46,611]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:46,779]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:46,952]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:47,123]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:47,291]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:47,463]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:47,623]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:47,793]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:47,963]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:48,137]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:48,308]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-10 22:20:48,643]{training.py:142} INFO - Ending trial 185 with success due to "goal" after 4.7 s
+[2021-08-10 22:20:48,643]{training.py:150} INFO - Total: 185, Successes: 72 (38.9% correct)!
+[2021-08-10 22:20:50,176]{training.py:75} INFO - Starting trial 186 from the left with             0.5 s delay
+[2021-08-10 22:20:50,678]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-10 22:21:13,007]{training.py:142} INFO - Ending trial 186 with success due to "goal" after 22.8 s
+[2021-08-10 22:21:13,007]{training.py:150} INFO - Total: 186, Successes: 73 (39.2% correct)!
+[2021-08-10 22:21:14,535]{training.py:75} INFO - Starting trial 187 from the left with             0.1 s delay
+[2021-08-10 22:21:14,636]{training.py:95} INFO - Hold movement exceeded. Timeout for 0.08s

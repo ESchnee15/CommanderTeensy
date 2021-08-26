@@ -1,0 +1,5 @@
+[2021-08-22 21:18:32,016]{TeensyCommander.py:150} INFO - Known serial ports: ['/dev/ttyACM0', '/dev/ttyACM1', '/dev/ttyACM2', '/dev/ttyAMA0']
+[2021-08-22 21:18:32,016]{TeensyCommander.py:152} INFO - Launching Teensy Commander on serial port /dev/ttyACM1 and the web interface on ports HTTP:8000 and WS:5678
+[2021-08-22 21:18:32,070]{WebInterface.py:42} INFO - Launching HTTP server for directory /home/pi/src/CommanderTeensy/web on port 8000
+[2021-08-22 21:18:32,070]{WebInterface.py:55} INFO - Starting Websocket Server on port 5678
+[2021-08-22 21:18:32,073]{SerialDump.py:25} INFO - Opening COBS+Base64 serial dump file /home/pi/data/2021_08_22/m400061/20210822-211832_069.b64
