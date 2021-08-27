@@ -1,0 +1,1663 @@
+[2021-08-21 21:28:49,869]{game.py:188} INFO - Starting game...
+[2021-08-21 21:28:50,145]{game.py:51} INFO - Loading module /home/pi/src/CommanderTeensy/experiments/training.py
+[2021-08-21 21:28:50,149]{game.py:57} INFO - Adding /home/pi/src/CommanderTeensy/experiments to path to import "training"
+[2021-08-21 21:28:50,427]{game.py:90} INFO - Starting engine process...
+[2021-08-21 21:28:50,452]{game.py:95} DEBUG - Starting pyglet app...
+[2021-08-21 21:28:52,046]{Experiment.py:30} INFO - Starting experiment.
+[2021-08-21 21:28:52,049]{training.py:79} DEBUG - deque([], maxlen=10)
+[2021-08-21 21:28:52,049]{training.py:80} DEBUG - Starting trial on Left with d=-0.48 (mu=0.50)
+[2021-08-21 21:28:52,051]{training.py:90} INFO - Starting trial 1 from the left with 0.3 s delay
+[2021-08-21 21:28:52,397]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 21:28:54,704]{training.py:167} INFO - Ending trial 1 with success due to "goal" after 2.7 s.
+[2021-08-21 21:28:54,706]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:28:54,707]{training.py:185} INFO - Total: 1, Successes: 1 (100.0% correct)!
+[2021-08-21 21:28:56,237]{training.py:79} DEBUG - deque([False], maxlen=10)
+[2021-08-21 21:28:56,239]{training.py:80} DEBUG - Starting trial on Right with d=0.18 (mu=0.50)
+[2021-08-21 21:28:56,243]{training.py:90} INFO - Starting trial 2 from the right with 0.4 s delay
+[2021-08-21 21:28:56,683]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.41s
+[2021-08-21 21:28:58,746]{training.py:167} INFO - Ending trial 2 with failure due to "overshoot" after 2.5 s.
+[2021-08-21 21:28:58,746]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:28:58,746]{training.py:185} INFO - Total: 2, Successes: 1 (50.0% correct)!
+[2021-08-21 21:29:00,769]{training.py:79} DEBUG - deque([False, True], maxlen=10)
+[2021-08-21 21:29:00,770]{training.py:80} DEBUG - Starting trial on Right with d=0.45 (mu=0.50)
+[2021-08-21 21:29:00,770]{training.py:90} INFO - Starting trial 3 from the right with 0.3 s delay
+[2021-08-21 21:29:01,084]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-21 21:29:08,317]{training.py:167} INFO - Ending trial 3 with success due to "goal" after 7.5 s.
+[2021-08-21 21:29:08,317]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:29:08,318]{training.py:185} INFO - Total: 3, Successes: 2 (66.7% correct)!
+[2021-08-21 21:29:09,847]{training.py:79} DEBUG - deque([False, True, False], maxlen=10)
+[2021-08-21 21:29:09,848]{training.py:80} DEBUG - Starting trial on Right with d=0.93 (mu=0.50)
+[2021-08-21 21:29:09,849]{training.py:90} INFO - Starting trial 4 from the right with 0.4 s delay
+[2021-08-21 21:29:10,244]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:29:12,964]{training.py:167} INFO - Ending trial 4 with failure due to "overshoot" after 3.1 s.
+[2021-08-21 21:29:12,967]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:29:12,968]{training.py:185} INFO - Total: 4, Successes: 2 (50.0% correct)!
+[2021-08-21 21:29:14,990]{training.py:79} DEBUG - deque([False, True, False, False], maxlen=10)
+[2021-08-21 21:29:14,991]{training.py:80} DEBUG - Starting trial on Right with d=0.30 (mu=0.50)
+[2021-08-21 21:29:14,994]{training.py:90} INFO - Starting trial 5 from the right with 0.1 s delay
+[2021-08-21 21:29:15,145]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-21 21:29:17,147]{training.py:167} INFO - Ending trial 5 with success due to "goal" after 2.2 s.
+[2021-08-21 21:29:17,148]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:29:17,148]{training.py:185} INFO - Total: 5, Successes: 3 (60.0% correct)!
+[2021-08-21 21:29:18,677]{training.py:79} DEBUG - deque([False, True, False, False, False], maxlen=10)
+[2021-08-21 21:29:18,678]{training.py:80} DEBUG - Starting trial on Right with d=0.05 (mu=0.50)
+[2021-08-21 21:29:18,679]{training.py:90} INFO - Starting trial 6 from the right with 0.3 s delay
+[2021-08-21 21:29:18,971]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-21 21:29:19,263]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-21 21:29:22,017]{training.py:167} INFO - Ending trial 6 with success due to "goal" after 3.3 s.
+[2021-08-21 21:29:22,017]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:29:22,017]{training.py:185} INFO - Total: 6, Successes: 4 (66.7% correct)!
+[2021-08-21 21:29:23,548]{training.py:79} DEBUG - deque([False, True, False, False, False, False], maxlen=10)
+[2021-08-21 21:29:23,550]{training.py:80} DEBUG - Starting trial on Right with d=0.03 (mu=0.50)
+[2021-08-21 21:29:23,552]{training.py:90} INFO - Starting trial 7 from the right with 0.1 s delay
+[2021-08-21 21:29:23,669]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 21:29:28,367]{training.py:167} INFO - Ending trial 7 with success due to "goal" after 4.8 s.
+[2021-08-21 21:29:28,367]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:29:28,368]{training.py:185} INFO - Total: 7, Successes: 5 (71.4% correct)!
+[2021-08-21 21:29:29,897]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:29:29,899]{training.py:80} DEBUG - Starting trial on Right with d=0.67 (mu=0.50)
+[2021-08-21 21:29:29,900]{training.py:90} INFO - Starting trial 8 from the right with 0.2 s delay
+[2021-08-21 21:29:30,097]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 21:29:39,235]{training.py:167} INFO - Ending trial 8 with success due to "goal" after 9.3 s.
+[2021-08-21 21:29:39,236]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:29:39,236]{training.py:185} INFO - Total: 8, Successes: 6 (75.0% correct)!
+[2021-08-21 21:29:40,763]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 21:29:40,764]{training.py:80} DEBUG - Starting trial on Right with d=0.04 (mu=0.50)
+[2021-08-21 21:29:40,764]{training.py:90} INFO - Starting trial 9 from the right with 0.1 s delay
+[2021-08-21 21:29:40,882]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 21:29:56,834]{training.py:167} INFO - Ending trial 9 with success due to "goal" after 16.1 s.
+[2021-08-21 21:29:56,835]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:29:56,836]{training.py:185} INFO - Total: 9, Successes: 7 (77.8% correct)!
+[2021-08-21 21:29:58,358]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:29:58,360]{training.py:80} DEBUG - Starting trial on Right with d=0.94 (mu=0.50)
+[2021-08-21 21:29:58,361]{training.py:90} INFO - Starting trial 10 from the right with 0.4 s delay
+[2021-08-21 21:29:58,789]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.40s
+[2021-08-21 21:30:02,347]{training.py:167} INFO - Ending trial 10 with success due to "goal" after 4.0 s.
+[2021-08-21 21:30:02,348]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:30:02,349]{training.py:185} INFO - Total: 10, Successes: 8 (80.0% correct)!
+[2021-08-21 21:30:03,884]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, True, False, True], maxlen=10)
+[2021-08-21 21:30:03,885]{training.py:80} DEBUG - Starting trial on Right with d=0.53 (mu=0.50)
+[2021-08-21 21:30:03,885]{training.py:90} INFO - Starting trial 11 from the right with 0.1 s delay
+[2021-08-21 21:30:04,007]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 21:30:06,434]{training.py:167} INFO - Ending trial 11 with failure due to "overshoot" after 2.5 s.
+[2021-08-21 21:30:06,434]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:30:06,434]{training.py:185} INFO - Total: 11, Successes: 8 (72.7% correct)!
+[2021-08-21 21:30:08,452]{training.py:79} DEBUG - deque([True, False, False, False, False, False, True, False, True, False], maxlen=10)
+[2021-08-21 21:30:08,456]{training.py:80} DEBUG - Starting trial on Right with d=0.16 (mu=0.30)
+[2021-08-21 21:30:08,457]{training.py:90} INFO - Starting trial 12 from the right with 0.3 s delay
+[2021-08-21 21:30:08,781]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-21 21:30:15,866]{training.py:167} INFO - Ending trial 12 with failure due to "overshoot" after 7.4 s.
+[2021-08-21 21:30:15,867]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:30:15,868]{training.py:185} INFO - Total: 12, Successes: 8 (66.7% correct)!
+[2021-08-21 21:30:17,895]{training.py:79} DEBUG - deque([False, False, False, False, False, True, False, True, False, True], maxlen=10)
+[2021-08-21 21:30:17,896]{training.py:80} DEBUG - Starting trial on Left with d=-0.12 (mu=0.30)
+[2021-08-21 21:30:17,896]{training.py:90} INFO - Starting trial 13 from the right with 0.3 s delay
+[2021-08-21 21:30:18,205]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-21 21:30:24,834]{training.py:167} INFO - Ending trial 13 with success due to "goal" after 6.9 s.
+[2021-08-21 21:30:24,834]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:30:24,835]{training.py:185} INFO - Total: 13, Successes: 9 (69.2% correct)!
+[2021-08-21 21:30:26,366]{training.py:79} DEBUG - deque([False, False, False, False, True, False, True, False, True, False], maxlen=10)
+[2021-08-21 21:30:26,367]{training.py:80} DEBUG - Starting trial on Right with d=0.05 (mu=0.50)
+[2021-08-21 21:30:26,369]{training.py:90} INFO - Starting trial 14 from the right with 0.4 s delay
+[2021-08-21 21:30:26,831]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-21 21:30:37,863]{training.py:167} INFO - Ending trial 14 with success due to "goal" after 11.5 s.
+[2021-08-21 21:30:37,865]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:30:37,865]{training.py:185} INFO - Total: 14, Successes: 10 (71.4% correct)!
+[2021-08-21 21:30:39,389]{training.py:79} DEBUG - deque([False, False, False, True, False, True, False, True, False, False], maxlen=10)
+[2021-08-21 21:30:39,390]{training.py:80} DEBUG - Starting trial on Right with d=0.68 (mu=0.50)
+[2021-08-21 21:30:39,390]{training.py:90} INFO - Starting trial 15 from the right with 0.3 s delay
+[2021-08-21 21:30:39,732]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 21:30:45,149]{training.py:167} INFO - Ending trial 15 with failure due to "overshoot" after 5.8 s.
+[2021-08-21 21:30:45,149]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:30:45,150]{training.py:185} INFO - Total: 15, Successes: 10 (66.7% correct)!
+[2021-08-21 21:30:47,172]{training.py:79} DEBUG - deque([False, False, True, False, True, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:30:47,173]{training.py:80} DEBUG - Starting trial on Right with d=0.84 (mu=0.30)
+[2021-08-21 21:30:47,175]{training.py:90} INFO - Starting trial 16 from the right with 0.4 s delay
+[2021-08-21 21:30:47,635]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-21 21:30:49,347]{training.py:167} INFO - Ending trial 16 with failure due to "overshoot" after 2.2 s.
+[2021-08-21 21:30:49,348]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:30:49,348]{training.py:185} INFO - Total: 16, Successes: 10 (62.5% correct)!
+[2021-08-21 21:30:51,379]{training.py:79} DEBUG - deque([False, True, False, True, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 21:30:51,380]{training.py:80} DEBUG - Starting trial on Right with d=0.11 (mu=0.30)
+[2021-08-21 21:30:51,380]{training.py:90} INFO - Starting trial 17 from the right with 0.0 s delay
+[2021-08-21 21:30:51,447]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 21:30:53,651]{training.py:167} INFO - Ending trial 17 with failure due to "overshoot" after 2.3 s.
+[2021-08-21 21:30:53,653]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:30:53,656]{training.py:185} INFO - Total: 17, Successes: 10 (58.8% correct)!
+[2021-08-21 21:30:55,679]{training.py:79} DEBUG - deque([True, False, True, False, True, False, False, False, False, True], maxlen=10)
+[2021-08-21 21:30:55,680]{training.py:80} DEBUG - Starting trial on Right with d=0.92 (mu=0.40)
+[2021-08-21 21:30:55,680]{training.py:90} INFO - Starting trial 18 from the right with 0.2 s delay
+[2021-08-21 21:30:55,866]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 21:30:59,764]{training.py:167} INFO - Ending trial 18 with failure due to "overshoot" after 4.1 s.
+[2021-08-21 21:30:59,764]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:30:59,766]{training.py:185} INFO - Total: 18, Successes: 10 (55.6% correct)!
+[2021-08-21 21:31:01,788]{training.py:79} DEBUG - deque([False, True, False, True, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:31:01,790]{training.py:80} DEBUG - Starting trial on Right with d=0.25 (mu=0.30)
+[2021-08-21 21:31:01,792]{training.py:90} INFO - Starting trial 19 from the right with 0.5 s delay
+[2021-08-21 21:31:02,302]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:31:09,496]{training.py:167} INFO - Ending trial 19 with failure due to "overshoot" after 7.7 s.
+[2021-08-21 21:31:09,498]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:31:09,498]{training.py:185} INFO - Total: 19, Successes: 10 (52.6% correct)!
+[2021-08-21 21:31:11,523]{training.py:79} DEBUG - deque([True, False, True, False, False, False, False, True, False, True], maxlen=10)
+[2021-08-21 21:31:11,525]{training.py:80} DEBUG - Starting trial on Left with d=-0.28 (mu=0.40)
+[2021-08-21 21:31:11,531]{training.py:90} INFO - Starting trial 20 from the right with 0.1 s delay
+[2021-08-21 21:31:11,644]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 21:31:18,731]{training.py:167} INFO - Ending trial 20 with failure due to "overshoot" after 7.2 s.
+[2021-08-21 21:31:18,731]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:31:18,731]{training.py:185} INFO - Total: 20, Successes: 10 (50.0% correct)!
+[2021-08-21 21:31:20,761]{training.py:79} DEBUG - deque([False, True, False, False, False, False, True, False, True, True], maxlen=10)
+[2021-08-21 21:31:20,761]{training.py:80} DEBUG - Starting trial on Right with d=0.18 (mu=0.40)
+[2021-08-21 21:31:20,762]{training.py:90} INFO - Starting trial 21 from the right with 0.3 s delay
+[2021-08-21 21:31:21,105]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 21:31:22,647]{training.py:167} INFO - Ending trial 21 with failure due to "overshoot" after 1.9 s.
+[2021-08-21 21:31:22,648]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:31:22,648]{training.py:185} INFO - Total: 21, Successes: 10 (47.6% correct)!
+[2021-08-21 21:31:24,681]{training.py:79} DEBUG - deque([True, False, False, False, False, True, False, True, True, True], maxlen=10)
+[2021-08-21 21:31:24,681]{training.py:80} DEBUG - Starting trial on Right with d=0.53 (mu=0.50)
+[2021-08-21 21:31:24,682]{training.py:90} INFO - Starting trial 22 from the right with 0.3 s delay
+[2021-08-21 21:31:25,024]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 21:31:27,937]{training.py:167} INFO - Ending trial 22 with success due to "goal" after 3.3 s.
+[2021-08-21 21:31:27,941]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:31:27,943]{training.py:185} INFO - Total: 22, Successes: 11 (50.0% correct)!
+[2021-08-21 21:31:29,467]{training.py:79} DEBUG - deque([False, False, False, False, True, False, True, True, True, True], maxlen=10)
+[2021-08-21 21:31:29,468]{training.py:80} DEBUG - Starting trial on Right with d=0.42 (mu=0.50)
+[2021-08-21 21:31:29,470]{training.py:90} INFO - Starting trial 23 from the right with 0.3 s delay
+[2021-08-21 21:31:29,852]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:31:30,230]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:31:30,612]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:31:30,988]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:31:31,368]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:31:37,680]{training.py:167} INFO - Ending trial 23 with success due to "goal" after 8.2 s.
+[2021-08-21 21:31:37,681]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:31:37,681]{training.py:185} INFO - Total: 23, Successes: 12 (52.2% correct)!
+[2021-08-21 21:31:39,212]{training.py:79} DEBUG - deque([False, False, False, True, False, True, True, True, True, False], maxlen=10)
+[2021-08-21 21:31:39,213]{training.py:80} DEBUG - Starting trial on Right with d=0.19 (mu=0.50)
+[2021-08-21 21:31:39,213]{training.py:90} INFO - Starting trial 24 from the right with 0.3 s delay
+[2021-08-21 21:31:39,585]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:31:50,647]{training.py:167} INFO - Ending trial 24 with failure due to "overshoot" after 11.4 s.
+[2021-08-21 21:31:50,649]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:31:50,649]{training.py:185} INFO - Total: 24, Successes: 12 (50.0% correct)!
+[2021-08-21 21:31:52,675]{training.py:79} DEBUG - deque([False, False, True, False, True, True, True, True, False, True], maxlen=10)
+[2021-08-21 21:31:52,675]{training.py:80} DEBUG - Starting trial on Right with d=1.08 (mu=0.60)
+[2021-08-21 21:31:52,676]{training.py:90} INFO - Starting trial 25 from the right with 0.2 s delay
+[2021-08-21 21:31:52,900]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 21:31:54,617]{training.py:167} INFO - Ending trial 25 with success due to "goal" after 1.9 s.
+[2021-08-21 21:31:54,617]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:31:54,618]{training.py:185} INFO - Total: 25, Successes: 13 (52.0% correct)!
+[2021-08-21 21:31:56,138]{training.py:79} DEBUG - deque([False, True, False, True, True, True, True, False, True, True], maxlen=10)
+[2021-08-21 21:31:56,140]{training.py:80} DEBUG - Starting trial on Right with d=0.28 (mu=0.50)
+[2021-08-21 21:31:56,141]{training.py:90} INFO - Starting trial 26 from the right with 0.4 s delay
+[2021-08-21 21:31:56,536]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:31:56,935]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:32:07,506]{training.py:167} INFO - Ending trial 26 with failure due to "overshoot" after 11.4 s.
+[2021-08-21 21:32:07,508]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:32:07,512]{training.py:185} INFO - Total: 26, Successes: 13 (50.0% correct)!
+[2021-08-21 21:32:09,548]{training.py:79} DEBUG - deque([True, False, True, True, True, True, False, True, True, True], maxlen=10)
+[2021-08-21 21:32:09,548]{training.py:80} DEBUG - Starting trial on Right with d=0.15 (mu=0.80)
+[2021-08-21 21:32:09,549]{training.py:90} INFO - Starting trial 27 from the right with 0.4 s delay
+[2021-08-21 21:32:09,996]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-21 21:32:16,998]{training.py:167} INFO - Ending trial 27 with success due to "goal" after 7.5 s.
+[2021-08-21 21:32:16,999]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:32:16,999]{training.py:185} INFO - Total: 27, Successes: 14 (51.9% correct)!
+[2021-08-21 21:32:18,528]{training.py:79} DEBUG - deque([False, True, True, True, True, False, True, True, True, False], maxlen=10)
+[2021-08-21 21:32:18,529]{training.py:80} DEBUG - Starting trial on Right with d=0.91 (mu=0.50)
+[2021-08-21 21:32:18,530]{training.py:90} INFO - Starting trial 28 from the right with 0.2 s delay
+[2021-08-21 21:32:18,752]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 21:32:35,308]{training.py:167} INFO - Ending trial 28 with failure due to "overshoot" after 16.8 s.
+[2021-08-21 21:32:35,309]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:32:35,310]{training.py:185} INFO - Total: 28, Successes: 14 (50.0% correct)!
+[2021-08-21 21:32:37,346]{training.py:79} DEBUG - deque([True, True, True, True, False, True, True, True, False, False], maxlen=10)
+[2021-08-21 21:32:37,348]{training.py:80} DEBUG - Starting trial on Right with d=0.36 (mu=0.70)
+[2021-08-21 21:32:37,349]{training.py:90} INFO - Starting trial 29 from the right with 0.2 s delay
+[2021-08-21 21:32:37,557]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-21 21:32:37,763]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-21 21:32:53,226]{training.py:167} INFO - Ending trial 29 with success due to "goal" after 15.9 s.
+[2021-08-21 21:32:53,228]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:32:53,229]{training.py:185} INFO - Total: 29, Successes: 15 (51.7% correct)!
+[2021-08-21 21:32:54,759]{training.py:79} DEBUG - deque([True, True, True, False, True, True, True, False, False, False], maxlen=10)
+[2021-08-21 21:32:54,760]{training.py:80} DEBUG - Starting trial on Right with d=1.30 (mu=0.50)
+[2021-08-21 21:32:54,761]{training.py:90} INFO - Starting trial 30 from the right with 0.1 s delay
+[2021-08-21 21:32:54,911]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-21 21:32:55,124]{training.py:167} INFO - Ending trial 30 with failure due to "overshoot" after 0.4 s.
+[2021-08-21 21:32:55,128]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:32:55,131]{training.py:185} INFO - Total: 30, Successes: 15 (50.0% correct)!
+[2021-08-21 21:32:57,166]{training.py:79} DEBUG - deque([True, True, False, True, True, True, False, False, False, False], maxlen=10)
+[2021-08-21 21:32:57,167]{training.py:80} DEBUG - Starting trial on Right with d=0.74 (mu=0.50)
+[2021-08-21 21:32:57,167]{training.py:90} INFO - Starting trial 31 from the right with 0.3 s delay
+[2021-08-21 21:32:57,478]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-21 21:33:03,085]{training.py:167} INFO - Ending trial 31 with success due to "goal" after 5.9 s.
+[2021-08-21 21:33:03,088]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:33:03,088]{training.py:185} INFO - Total: 31, Successes: 16 (51.6% correct)!
+[2021-08-21 21:33:04,612]{training.py:79} DEBUG - deque([True, False, True, True, True, False, False, False, False, True], maxlen=10)
+[2021-08-21 21:33:04,613]{training.py:80} DEBUG - Starting trial on Right with d=0.50 (mu=0.50)
+[2021-08-21 21:33:04,614]{training.py:90} INFO - Starting trial 32 from the right with 0.1 s delay
+[2021-08-21 21:33:04,695]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 21:33:11,063]{training.py:167} INFO - Ending trial 32 with failure due to "overshoot" after 6.5 s.
+[2021-08-21 21:33:11,064]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:33:11,065]{training.py:185} INFO - Total: 32, Successes: 16 (50.0% correct)!
+[2021-08-21 21:33:13,094]{training.py:79} DEBUG - deque([False, True, True, True, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:33:13,095]{training.py:80} DEBUG - Starting trial on Right with d=0.52 (mu=0.40)
+[2021-08-21 21:33:13,097]{training.py:90} INFO - Starting trial 33 from the right with 0.2 s delay
+[2021-08-21 21:33:13,300]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 21:33:18,929]{training.py:167} INFO - Ending trial 33 with success due to "goal" after 5.8 s.
+[2021-08-21 21:33:18,930]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:33:18,930]{training.py:185} INFO - Total: 33, Successes: 17 (51.5% correct)!
+[2021-08-21 21:33:20,464]{training.py:79} DEBUG - deque([True, True, True, False, False, False, False, True, False, True], maxlen=10)
+[2021-08-21 21:33:20,464]{training.py:80} DEBUG - Starting trial on Right with d=0.05 (mu=0.50)
+[2021-08-21 21:33:20,465]{training.py:90} INFO - Starting trial 34 from the right with 0.1 s delay
+[2021-08-21 21:33:20,601]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-21 21:33:23,648]{training.py:167} INFO - Ending trial 34 with failure due to "overshoot" after 3.2 s.
+[2021-08-21 21:33:23,648]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:33:23,648]{training.py:185} INFO - Total: 34, Successes: 17 (50.0% correct)!
+[2021-08-21 21:33:25,677]{training.py:79} DEBUG - deque([True, True, False, False, False, False, True, False, True, True], maxlen=10)
+[2021-08-21 21:33:25,678]{training.py:80} DEBUG - Starting trial on Right with d=0.93 (mu=0.50)
+[2021-08-21 21:33:25,678]{training.py:90} INFO - Starting trial 35 from the right with 0.3 s delay
+[2021-08-21 21:33:25,956]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-21 21:33:33,657]{training.py:167} INFO - Ending trial 35 with success due to "goal" after 8.0 s.
+[2021-08-21 21:33:33,659]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:33:33,661]{training.py:185} INFO - Total: 35, Successes: 18 (51.4% correct)!
+[2021-08-21 21:33:35,190]{training.py:79} DEBUG - deque([True, False, False, False, False, True, False, True, True, True], maxlen=10)
+[2021-08-21 21:33:35,191]{training.py:80} DEBUG - Starting trial on Right with d=1.21 (mu=0.50)
+[2021-08-21 21:33:35,197]{training.py:90} INFO - Starting trial 36 from the right with 0.1 s delay
+[2021-08-21 21:33:35,345]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-21 21:33:44,327]{training.py:167} INFO - Ending trial 36 with success due to "goal" after 9.1 s.
+[2021-08-21 21:33:44,328]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:33:44,328]{training.py:185} INFO - Total: 36, Successes: 19 (52.8% correct)!
+[2021-08-21 21:33:45,849]{training.py:79} DEBUG - deque([False, False, False, False, True, False, True, True, True, True], maxlen=10)
+[2021-08-21 21:33:45,850]{training.py:80} DEBUG - Starting trial on Right with d=0.00 (mu=0.50)
+[2021-08-21 21:33:45,850]{training.py:90} INFO - Starting trial 37 from the right with 0.2 s delay
+[2021-08-21 21:33:46,095]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-21 21:33:46,335]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-21 21:33:49,200]{training.py:167} INFO - Ending trial 37 with success due to "goal" after 3.4 s.
+[2021-08-21 21:33:49,201]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:33:49,202]{training.py:185} INFO - Total: 37, Successes: 20 (54.1% correct)!
+[2021-08-21 21:33:50,732]{training.py:79} DEBUG - deque([False, False, False, True, False, True, True, True, True, False], maxlen=10)
+[2021-08-21 21:33:50,734]{training.py:80} DEBUG - Starting trial on Right with d=0.62 (mu=0.50)
+[2021-08-21 21:33:50,736]{training.py:90} INFO - Starting trial 38 from the right with 0.4 s delay
+[2021-08-21 21:33:51,145]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:33:57,360]{training.py:167} INFO - Ending trial 38 with success due to "goal" after 6.6 s.
+[2021-08-21 21:33:57,360]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:33:57,361]{training.py:185} INFO - Total: 38, Successes: 21 (55.3% correct)!
+[2021-08-21 21:33:58,893]{training.py:79} DEBUG - deque([False, False, True, False, True, True, True, True, False, True], maxlen=10)
+[2021-08-21 21:33:58,895]{training.py:80} DEBUG - Starting trial on Right with d=0.75 (mu=0.50)
+[2021-08-21 21:33:58,895]{training.py:90} INFO - Starting trial 39 from the right with 0.1 s delay
+[2021-08-21 21:33:59,014]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 21:34:03,496]{training.py:167} INFO - Ending trial 39 with success due to "goal" after 4.6 s.
+[2021-08-21 21:34:03,497]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:34:03,497]{training.py:185} INFO - Total: 39, Successes: 22 (56.4% correct)!
+[2021-08-21 21:34:05,024]{training.py:79} DEBUG - deque([False, True, False, True, True, True, True, False, True, True], maxlen=10)
+[2021-08-21 21:34:05,026]{training.py:80} DEBUG - Starting trial on Left with d=-0.00 (mu=0.50)
+[2021-08-21 21:34:05,026]{training.py:90} INFO - Starting trial 40 from the right with 0.4 s delay
+[2021-08-21 21:34:05,433]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.39s
+[2021-08-21 21:34:18,486]{training.py:167} INFO - Ending trial 40 with failure due to "overshoot" after 13.5 s.
+[2021-08-21 21:34:18,487]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:34:18,488]{training.py:185} INFO - Total: 40, Successes: 22 (55.0% correct)!
+[2021-08-21 21:34:20,513]{training.py:79} DEBUG - deque([True, False, True, True, True, True, False, True, True, True], maxlen=10)
+[2021-08-21 21:34:20,514]{training.py:80} DEBUG - Starting trial on Right with d=1.47 (mu=0.80)
+[2021-08-21 21:34:20,515]{training.py:90} INFO - Starting trial 41 from the right with 0.4 s delay
+[2021-08-21 21:34:20,909]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:34:30,237]{training.py:167} INFO - Ending trial 41 with failure due to "overshoot" after 9.7 s.
+[2021-08-21 21:34:30,239]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:34:30,242]{training.py:185} INFO - Total: 41, Successes: 22 (53.7% correct)!
+[2021-08-21 21:34:32,273]{training.py:79} DEBUG - deque([False, True, True, True, True, False, True, True, True, False], maxlen=10)
+[2021-08-21 21:34:32,274]{training.py:80} DEBUG - Starting trial on Right with d=0.45 (mu=0.70)
+[2021-08-21 21:34:32,274]{training.py:90} INFO - Starting trial 42 from the right with 0.1 s delay
+[2021-08-21 21:34:32,427]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-21 21:34:53,180]{training.py:167} INFO - Ending trial 42 with success due to "goal" after 20.9 s.
+[2021-08-21 21:34:53,180]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:34:53,180]{training.py:185} INFO - Total: 42, Successes: 23 (54.8% correct)!
+[2021-08-21 21:34:54,702]{training.py:79} DEBUG - deque([True, True, True, True, False, True, True, True, False, False], maxlen=10)
+[2021-08-21 21:34:54,704]{training.py:80} DEBUG - Starting trial on Right with d=0.26 (mu=0.50)
+[2021-08-21 21:34:54,705]{training.py:90} INFO - Starting trial 43 from the right with 0.1 s delay
+[2021-08-21 21:34:54,804]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-21 21:34:59,777]{training.py:167} INFO - Ending trial 43 with success due to "goal" after 5.1 s.
+[2021-08-21 21:34:59,779]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:34:59,780]{training.py:185} INFO - Total: 43, Successes: 24 (55.8% correct)!
+[2021-08-21 21:35:01,311]{training.py:79} DEBUG - deque([True, True, True, False, True, True, True, False, False, False], maxlen=10)
+[2021-08-21 21:35:01,312]{training.py:80} DEBUG - Starting trial on Right with d=1.31 (mu=0.50)
+[2021-08-21 21:35:01,313]{training.py:90} INFO - Starting trial 44 from the right with 0.1 s delay
+[2021-08-21 21:35:01,430]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 21:35:06,616]{training.py:167} INFO - Ending trial 44 with failure due to "overshoot" after 5.3 s.
+[2021-08-21 21:35:06,616]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:35:06,617]{training.py:185} INFO - Total: 44, Successes: 24 (54.5% correct)!
+[2021-08-21 21:35:08,653]{training.py:79} DEBUG - deque([True, True, False, True, True, True, False, False, False, False], maxlen=10)
+[2021-08-21 21:35:08,654]{training.py:80} DEBUG - Starting trial on Left with d=-0.60 (mu=0.50)
+[2021-08-21 21:35:08,657]{training.py:90} INFO - Starting trial 45 from the right with 0.5 s delay
+[2021-08-21 21:35:09,166]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:35:15,943]{training.py:167} INFO - Ending trial 45 with success due to "goal" after 7.3 s.
+[2021-08-21 21:35:15,943]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:35:15,944]{training.py:185} INFO - Total: 45, Successes: 25 (55.6% correct)!
+[2021-08-21 21:35:17,466]{training.py:79} DEBUG - deque([True, False, True, True, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:35:17,467]{training.py:80} DEBUG - Starting trial on Right with d=0.11 (mu=0.50)
+[2021-08-21 21:35:17,468]{training.py:90} INFO - Starting trial 46 from the right with 0.2 s delay
+[2021-08-21 21:35:17,639]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-21 21:35:33,426]{training.py:167} INFO - Ending trial 46 with failure due to "overshoot" after 16.0 s.
+[2021-08-21 21:35:33,429]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:35:33,429]{training.py:185} INFO - Total: 46, Successes: 25 (54.3% correct)!
+[2021-08-21 21:35:35,452]{training.py:79} DEBUG - deque([False, True, True, True, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 21:35:35,453]{training.py:80} DEBUG - Starting trial on Right with d=0.02 (mu=0.40)
+[2021-08-21 21:35:35,454]{training.py:90} INFO - Starting trial 47 from the right with 0.1 s delay
+[2021-08-21 21:35:35,588]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:36:01,327]{training.py:167} INFO - Ending trial 47 with success due to "goal" after 25.9 s.
+[2021-08-21 21:36:01,327]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:36:01,328]{training.py:185} INFO - Total: 47, Successes: 26 (55.3% correct)!
+[2021-08-21 21:36:02,867]{training.py:79} DEBUG - deque([True, True, True, False, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:36:02,869]{training.py:80} DEBUG - Starting trial on Right with d=1.02 (mu=0.50)
+[2021-08-21 21:36:02,870]{training.py:90} INFO - Starting trial 48 from the right with 0.1 s delay
+[2021-08-21 21:36:03,003]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-21 21:36:11,959]{training.py:167} INFO - Ending trial 48 with success due to "goal" after 9.1 s.
+[2021-08-21 21:36:11,960]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:36:11,961]{training.py:185} INFO - Total: 48, Successes: 27 (56.2% correct)!
+[2021-08-21 21:36:13,496]{training.py:79} DEBUG - deque([True, True, False, False, False, False, False, True, False, True], maxlen=10)
+[2021-08-21 21:36:13,496]{training.py:80} DEBUG - Starting trial on Right with d=0.59 (mu=0.50)
+[2021-08-21 21:36:13,497]{training.py:90} INFO - Starting trial 49 from the right with 0.3 s delay
+[2021-08-21 21:36:13,874]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:36:15,681]{training.py:167} INFO - Ending trial 49 with failure due to "overshoot" after 2.2 s.
+[2021-08-21 21:36:15,682]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:36:15,683]{training.py:185} INFO - Total: 49, Successes: 27 (55.1% correct)!
+[2021-08-21 21:36:17,709]{training.py:79} DEBUG - deque([True, False, False, False, False, False, True, False, True, False], maxlen=10)
+[2021-08-21 21:36:17,710]{training.py:80} DEBUG - Starting trial on Left with d=-0.43 (mu=0.30)
+[2021-08-21 21:36:17,710]{training.py:90} INFO - Starting trial 50 from the right with 0.1 s delay
+[2021-08-21 21:36:17,846]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-21 21:36:46,637]{training.py:167} INFO - Ending trial 50 with success due to "goal" after 28.9 s.
+[2021-08-21 21:36:46,638]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:36:46,639]{training.py:185} INFO - Total: 50, Successes: 28 (56.0% correct)!
+[2021-08-21 21:36:48,158]{training.py:79} DEBUG - deque([False, False, False, False, False, True, False, True, False, False], maxlen=10)
+[2021-08-21 21:36:48,159]{training.py:80} DEBUG - Starting trial on Right with d=0.99 (mu=0.50)
+[2021-08-21 21:36:48,159]{training.py:90} INFO - Starting trial 51 from the right with 0.2 s delay
+[2021-08-21 21:36:48,346]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-21 21:37:12,209]{training.py:167} INFO - Ending trial 51 with failure due to "overshoot" after 24.1 s.
+[2021-08-21 21:37:12,210]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:37:12,211]{training.py:185} INFO - Total: 51, Successes: 28 (54.9% correct)!
+[2021-08-21 21:37:14,242]{training.py:79} DEBUG - deque([False, False, False, False, True, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:37:14,243]{training.py:80} DEBUG - Starting trial on Left with d=-0.08 (mu=0.20)
+[2021-08-21 21:37:14,243]{training.py:90} INFO - Starting trial 52 from the right with 0.4 s delay
+[2021-08-21 21:37:14,668]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.40s
+[2021-08-21 21:37:19,073]{training.py:167} INFO - Ending trial 52 with failure due to "overshoot" after 4.8 s.
+[2021-08-21 21:37:19,075]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:37:19,077]{training.py:185} INFO - Total: 52, Successes: 28 (53.8% correct)!
+[2021-08-21 21:37:21,092]{training.py:79} DEBUG - deque([False, False, False, True, False, True, False, False, False, True], maxlen=10)
+[2021-08-21 21:37:21,093]{training.py:80} DEBUG - Starting trial on Left with d=-0.33 (mu=0.30)
+[2021-08-21 21:37:21,093]{training.py:90} INFO - Starting trial 53 from the right with 0.4 s delay
+[2021-08-21 21:37:21,472]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 21:37:34,329]{training.py:167} INFO - Ending trial 53 with success due to "goal" after 13.2 s.
+[2021-08-21 21:37:34,329]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:37:34,330]{training.py:185} INFO - Total: 53, Successes: 29 (54.7% correct)!
+[2021-08-21 21:37:35,854]{training.py:79} DEBUG - deque([False, False, True, False, True, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:37:35,855]{training.py:80} DEBUG - Starting trial on Left with d=-0.40 (mu=0.50)
+[2021-08-21 21:37:35,856]{training.py:90} INFO - Starting trial 54 from the right with 0.3 s delay
+[2021-08-21 21:37:36,194]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 21:37:36,540]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 21:37:36,881]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 21:37:45,135]{training.py:167} INFO - Ending trial 54 with success due to "goal" after 9.3 s.
+[2021-08-21 21:37:45,136]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:37:45,136]{training.py:185} INFO - Total: 54, Successes: 30 (55.6% correct)!
+[2021-08-21 21:37:46,655]{training.py:79} DEBUG - deque([False, True, False, True, False, False, False, True, False, False], maxlen=10)
+[2021-08-21 21:37:46,657]{training.py:80} DEBUG - Starting trial on Right with d=0.32 (mu=0.50)
+[2021-08-21 21:37:46,661]{training.py:90} INFO - Starting trial 55 from the right with 0.4 s delay
+[2021-08-21 21:37:47,047]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-21 21:38:17,790]{training.py:167} INFO - Ending trial 55 with success due to "goal" after 31.1 s.
+[2021-08-21 21:38:17,791]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:38:17,791]{training.py:185} INFO - Total: 55, Successes: 31 (56.4% correct)!
+[2021-08-21 21:38:19,315]{training.py:79} DEBUG - deque([True, False, True, False, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:38:19,318]{training.py:80} DEBUG - Starting trial on Left with d=-0.10 (mu=0.50)
+[2021-08-21 21:38:19,320]{training.py:90} INFO - Starting trial 56 from the right with 0.1 s delay
+[2021-08-21 21:38:19,489]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-21 21:38:26,727]{training.py:167} INFO - Ending trial 56 with success due to "goal" after 7.4 s.
+[2021-08-21 21:38:26,728]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:38:26,730]{training.py:185} INFO - Total: 56, Successes: 32 (57.1% correct)!
+[2021-08-21 21:38:28,251]{training.py:79} DEBUG - deque([False, True, False, False, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 21:38:28,253]{training.py:80} DEBUG - Starting trial on Right with d=1.13 (mu=0.50)
+[2021-08-21 21:38:28,257]{training.py:90} INFO - Starting trial 57 from the right with 0.1 s delay
+[2021-08-21 21:38:29,002]{training.py:167} INFO - Ending trial 57 with success due to "goal" after 0.8 s.
+[2021-08-21 21:38:29,003]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:38:29,004]{training.py:185} INFO - Total: 57, Successes: 33 (57.9% correct)!
+[2021-08-21 21:38:30,524]{training.py:79} DEBUG - deque([True, False, False, False, True, False, False, False, False, True], maxlen=10)
+[2021-08-21 21:38:30,525]{training.py:80} DEBUG - Starting trial on Right with d=0.86 (mu=0.50)
+[2021-08-21 21:38:30,525]{training.py:90} INFO - Starting trial 58 from the right with 0.0 s delay
+[2021-08-21 21:38:30,592]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 21:39:15,071]{training.py:167} INFO - Ending trial 58 with failure due to "overshoot" after 44.5 s.
+[2021-08-21 21:39:15,072]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:39:15,072]{training.py:185} INFO - Total: 58, Successes: 33 (56.9% correct)!
+[2021-08-21 21:39:17,102]{training.py:79} DEBUG - deque([False, False, False, True, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:39:17,103]{training.py:80} DEBUG - Starting trial on Left with d=-0.36 (mu=0.20)
+[2021-08-21 21:39:17,104]{training.py:90} INFO - Starting trial 59 from the right with 0.1 s delay
+[2021-08-21 21:39:17,220]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:39:23,180]{training.py:167} INFO - Ending trial 59 with success due to "goal" after 6.1 s.
+[2021-08-21 21:39:23,181]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:39:23,181]{training.py:185} INFO - Total: 59, Successes: 34 (57.6% correct)!
+[2021-08-21 21:39:24,719]{training.py:79} DEBUG - deque([False, False, True, False, False, False, False, True, False, False], maxlen=10)
+[2021-08-21 21:39:24,721]{training.py:80} DEBUG - Starting trial on Left with d=-0.15 (mu=0.50)
+[2021-08-21 21:39:24,726]{training.py:90} INFO - Starting trial 60 from the right with 0.4 s delay
+[2021-08-21 21:39:25,197]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:39:34,063]{training.py:167} INFO - Ending trial 60 with success due to "goal" after 9.3 s.
+[2021-08-21 21:39:34,064]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:39:34,064]{training.py:185} INFO - Total: 60, Successes: 35 (58.3% correct)!
+[2021-08-21 21:39:35,590]{training.py:79} DEBUG - deque([False, True, False, False, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:39:35,591]{training.py:80} DEBUG - Starting trial on Right with d=0.05 (mu=0.50)
+[2021-08-21 21:39:35,592]{training.py:90} INFO - Starting trial 61 from the right with 0.4 s delay
+[2021-08-21 21:39:35,986]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:39:36,377]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:39:57,739]{training.py:167} INFO - Ending trial 61 with success due to "goal" after 22.1 s.
+[2021-08-21 21:39:57,740]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:39:57,741]{training.py:185} INFO - Total: 61, Successes: 36 (59.0% correct)!
+[2021-08-21 21:39:59,269]{training.py:79} DEBUG - deque([True, False, False, False, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 21:39:59,271]{training.py:80} DEBUG - Starting trial on Right with d=0.43 (mu=0.50)
+[2021-08-21 21:39:59,272]{training.py:90} INFO - Starting trial 62 from the right with 0.3 s delay
+[2021-08-21 21:39:59,611]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 21:39:59,943]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 21:40:26,897]{training.py:167} INFO - Ending trial 62 with success due to "goal" after 27.6 s.
+[2021-08-21 21:40:26,899]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:40:26,901]{training.py:185} INFO - Total: 62, Successes: 37 (59.7% correct)!
+[2021-08-21 21:40:28,435]{training.py:79} DEBUG - deque([False, False, False, False, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:40:28,435]{training.py:80} DEBUG - Starting trial on Right with d=0.64 (mu=0.50)
+[2021-08-21 21:40:28,436]{training.py:90} INFO - Starting trial 63 from the right with 0.2 s delay
+[2021-08-21 21:40:28,606]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-21 21:40:34,311]{training.py:167} INFO - Ending trial 63 with failure due to "overshoot" after 5.9 s.
+[2021-08-21 21:40:34,313]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:40:34,314]{training.py:185} INFO - Total: 63, Successes: 37 (58.7% correct)!
+[2021-08-21 21:40:36,347]{training.py:79} DEBUG - deque([False, False, False, True, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:40:36,349]{training.py:80} DEBUG - Starting trial on Left with d=-0.90 (mu=0.10)
+[2021-08-21 21:40:36,350]{training.py:90} INFO - Starting trial 64 from the right with 0.1 s delay
+[2021-08-21 21:40:36,484]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:41:08,825]{training.py:167} INFO - Ending trial 64 with success due to "goal" after 32.5 s.
+[2021-08-21 21:41:08,826]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:41:08,827]{training.py:185} INFO - Total: 64, Successes: 38 (59.4% correct)!
+[2021-08-21 21:41:10,360]{training.py:79} DEBUG - deque([False, False, True, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:41:10,360]{training.py:80} DEBUG - Starting trial on Right with d=0.56 (mu=0.50)
+[2021-08-21 21:41:10,362]{training.py:90} INFO - Starting trial 65 from the right with 0.3 s delay
+[2021-08-21 21:41:10,639]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-21 21:41:18,509]{training.py:167} INFO - Ending trial 65 with failure due to "overshoot" after 8.1 s.
+[2021-08-21 21:41:18,510]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:41:18,510]{training.py:185} INFO - Total: 65, Successes: 38 (58.5% correct)!
+[2021-08-21 21:41:20,545]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:41:20,547]{training.py:80} DEBUG - Starting trial on Left with d=-0.02 (mu=0.10)
+[2021-08-21 21:41:20,551]{training.py:90} INFO - Starting trial 66 from the right with 0.4 s delay
+[2021-08-21 21:41:20,990]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-21 21:41:24,192]{training.py:167} INFO - Ending trial 66 with success due to "goal" after 3.6 s.
+[2021-08-21 21:41:24,193]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:41:24,193]{training.py:185} INFO - Total: 66, Successes: 39 (59.1% correct)!
+[2021-08-21 21:41:25,725]{training.py:79} DEBUG - deque([True, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:41:25,726]{training.py:80} DEBUG - Starting trial on Right with d=0.99 (mu=0.50)
+[2021-08-21 21:41:25,726]{training.py:90} INFO - Starting trial 67 from the right with 0.2 s delay
+[2021-08-21 21:41:25,963]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-21 21:41:31,121]{training.py:167} INFO - Ending trial 67 with failure due to "overshoot" after 5.4 s.
+[2021-08-21 21:41:31,124]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:41:31,126]{training.py:185} INFO - Total: 67, Successes: 39 (58.2% correct)!
+[2021-08-21 21:41:33,161]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:41:33,163]{training.py:80} DEBUG - Starting trial on Right with d=0.21 (mu=0.00)
+[2021-08-21 21:41:33,166]{training.py:90} INFO - Starting trial 68 from the right with 0.3 s delay
+[2021-08-21 21:41:33,450]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 21:41:33,727]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 21:41:34,015]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 21:41:40,103]{training.py:167} INFO - Ending trial 68 with success due to "goal" after 6.9 s.
+[2021-08-21 21:41:40,104]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:41:40,105]{training.py:185} INFO - Total: 68, Successes: 40 (58.8% correct)!
+[2021-08-21 21:41:41,637]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:41:41,638]{training.py:80} DEBUG - Starting trial on Right with d=0.32 (mu=0.50)
+[2021-08-21 21:41:41,639]{training.py:90} INFO - Starting trial 69 from the right with 0.2 s delay
+[2021-08-21 21:41:41,924]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-21 21:41:49,190]{training.py:167} INFO - Ending trial 69 with failure due to "overshoot" after 7.6 s.
+[2021-08-21 21:41:49,190]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:41:49,191]{training.py:185} INFO - Total: 69, Successes: 40 (58.0% correct)!
+[2021-08-21 21:41:51,216]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 21:41:51,216]{training.py:80} DEBUG - Starting trial on Right with d=0.21 (mu=0.10)
+[2021-08-21 21:41:51,217]{training.py:90} INFO - Starting trial 70 from the right with 0.4 s delay
+[2021-08-21 21:41:51,610]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 21:42:29,841]{training.py:167} INFO - Ending trial 70 with failure due to "overshoot" after 38.6 s.
+[2021-08-21 21:42:29,841]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:42:29,841]{training.py:185} INFO - Total: 70, Successes: 40 (57.1% correct)!
+[2021-08-21 21:42:31,861]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, True, True], maxlen=10)
+[2021-08-21 21:42:31,861]{training.py:80} DEBUG - Starting trial on Right with d=0.32 (mu=0.20)
+[2021-08-21 21:42:31,862]{training.py:90} INFO - Starting trial 71 from the right with 0.1 s delay
+[2021-08-21 21:42:31,969]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 21:42:35,479]{training.py:167} INFO - Ending trial 71 with failure due to "overshoot" after 3.6 s.
+[2021-08-21 21:42:35,480]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:42:35,483]{training.py:185} INFO - Total: 71, Successes: 40 (56.3% correct)!
+[2021-08-21 21:42:37,511]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, True, True, True], maxlen=10)
+[2021-08-21 21:42:37,511]{training.py:80} DEBUG - Starting trial on Right with d=0.01 (mu=0.30)
+[2021-08-21 21:42:37,512]{training.py:90} INFO - Starting trial 72 from the right with 0.2 s delay
+[2021-08-21 21:42:37,716]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-21 21:43:37,524]{training.py:167} INFO - Ending trial 72 with failure due to "timeout" after 60.0 s.
+[2021-08-21 21:43:37,525]{training.py:185} INFO - Total: 72, Successes: 40 (55.6% correct)!
+[2021-08-21 21:43:39,557]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, True, True, True], maxlen=10)
+[2021-08-21 21:43:39,558]{training.py:80} DEBUG - Starting trial on Right with d=0.90 (mu=0.30)
+[2021-08-21 21:43:39,560]{training.py:90} INFO - Starting trial 73 from the right with 0.4 s delay
+[2021-08-21 21:43:39,990]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.40s
+[2021-08-21 21:43:41,850]{training.py:167} INFO - Ending trial 73 with failure due to "overshoot" after 2.3 s.
+[2021-08-21 21:43:41,852]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:43:41,856]{training.py:185} INFO - Total: 73, Successes: 40 (54.8% correct)!
+[2021-08-21 21:43:43,892]{training.py:79} DEBUG - deque([False, False, False, False, False, False, True, True, True, False], maxlen=10)
+[2021-08-21 21:43:43,894]{training.py:80} DEBUG - Starting trial on Right with d=0.39 (mu=0.30)
+[2021-08-21 21:43:43,897]{training.py:90} INFO - Starting trial 74 from the right with 0.5 s delay
+[2021-08-21 21:43:44,387]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:43:58,709]{training.py:167} INFO - Ending trial 74 with failure due to "overshoot" after 14.8 s.
+[2021-08-21 21:43:58,709]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:43:58,710]{training.py:185} INFO - Total: 74, Successes: 40 (54.1% correct)!
+[2021-08-21 21:44:00,733]{training.py:79} DEBUG - deque([False, False, False, False, False, True, True, True, False, True], maxlen=10)
+[2021-08-21 21:44:00,734]{training.py:80} DEBUG - Starting trial on Right with d=1.09 (mu=0.40)
+[2021-08-21 21:44:00,736]{training.py:90} INFO - Starting trial 75 from the right with 0.4 s delay
+[2021-08-21 21:44:01,181]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-21 21:45:00,748]{training.py:167} INFO - Ending trial 75 with failure due to "timeout" after 60.0 s.
+[2021-08-21 21:45:00,749]{training.py:185} INFO - Total: 75, Successes: 40 (53.3% correct)!
+[2021-08-21 21:45:02,777]{training.py:79} DEBUG - deque([False, False, False, False, False, True, True, True, False, True], maxlen=10)
+[2021-08-21 21:45:02,781]{training.py:80} DEBUG - Starting trial on Right with d=1.03 (mu=0.40)
+[2021-08-21 21:45:02,784]{training.py:90} INFO - Starting trial 76 from the right with 0.3 s delay
+[2021-08-21 21:45:03,108]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-21 21:45:48,734]{training.py:167} INFO - Ending trial 76 with failure due to "overshoot" after 46.0 s.
+[2021-08-21 21:45:48,735]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:45:48,737]{training.py:185} INFO - Total: 76, Successes: 40 (52.6% correct)!
+[2021-08-21 21:45:50,766]{training.py:79} DEBUG - deque([False, False, False, False, True, True, True, False, True, False], maxlen=10)
+[2021-08-21 21:45:50,770]{training.py:80} DEBUG - Starting trial on Right with d=0.27 (mu=0.40)
+[2021-08-21 21:45:50,771]{training.py:90} INFO - Starting trial 77 from the right with 0.2 s delay
+[2021-08-21 21:45:50,957]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-21 21:45:58,176]{training.py:167} INFO - Ending trial 77 with success due to "goal" after 7.4 s.
+[2021-08-21 21:45:58,177]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:45:58,178]{training.py:185} INFO - Total: 77, Successes: 41 (53.2% correct)!
+[2021-08-21 21:45:59,711]{training.py:79} DEBUG - deque([False, False, False, True, True, True, False, True, False, False], maxlen=10)
+[2021-08-21 21:45:59,711]{training.py:80} DEBUG - Starting trial on Right with d=0.59 (mu=0.50)
+[2021-08-21 21:45:59,711]{training.py:90} INFO - Starting trial 78 from the right with 0.2 s delay
+[2021-08-21 21:45:59,918]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 21:46:00,120]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 21:46:09,614]{training.py:167} INFO - Ending trial 78 with failure due to "overshoot" after 9.9 s.
+[2021-08-21 21:46:09,619]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:46:09,620]{training.py:185} INFO - Total: 78, Successes: 41 (52.6% correct)!
+[2021-08-21 21:46:11,647]{training.py:79} DEBUG - deque([False, False, True, True, True, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:46:11,650]{training.py:80} DEBUG - Starting trial on Right with d=0.16 (mu=0.40)
+[2021-08-21 21:46:11,654]{training.py:90} INFO - Starting trial 79 from the right with 0.1 s delay
+[2021-08-21 21:46:11,787]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:46:26,115]{training.py:167} INFO - Ending trial 79 with success due to "goal" after 14.5 s.
+[2021-08-21 21:46:26,116]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:46:26,116]{training.py:185} INFO - Total: 79, Successes: 42 (53.2% correct)!
+[2021-08-21 21:46:27,642]{training.py:79} DEBUG - deque([False, True, True, True, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 21:46:27,643]{training.py:80} DEBUG - Starting trial on Right with d=0.01 (mu=0.50)
+[2021-08-21 21:46:27,644]{training.py:90} INFO - Starting trial 80 from the right with 0.4 s delay
+[2021-08-21 21:46:28,408]{training.py:167} INFO - Ending trial 80 with success due to "goal" after 0.8 s.
+[2021-08-21 21:46:28,409]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:46:28,410]{training.py:185} INFO - Total: 80, Successes: 43 (53.8% correct)!
+[2021-08-21 21:46:29,932]{training.py:79} DEBUG - deque([True, True, True, False, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:46:29,933]{training.py:80} DEBUG - Starting trial on Left with d=-0.41 (mu=0.50)
+[2021-08-21 21:46:29,935]{training.py:90} INFO - Starting trial 81 from the right with 0.2 s delay
+[2021-08-21 21:46:30,121]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 21:46:58,432]{training.py:167} INFO - Ending trial 81 with success due to "goal" after 28.5 s.
+[2021-08-21 21:46:58,433]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:46:58,434]{training.py:185} INFO - Total: 81, Successes: 44 (54.3% correct)!
+[2021-08-21 21:46:59,957]{training.py:79} DEBUG - deque([True, True, False, True, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:46:59,957]{training.py:80} DEBUG - Starting trial on Left with d=-0.27 (mu=0.50)
+[2021-08-21 21:46:59,958]{training.py:90} INFO - Starting trial 82 from the right with 0.3 s delay
+[2021-08-21 21:47:20,189]{training.py:167} INFO - Ending trial 82 with success due to "goal" after 20.2 s.
+[2021-08-21 21:47:20,190]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:47:20,191]{training.py:185} INFO - Total: 82, Successes: 45 (54.9% correct)!
+[2021-08-21 21:47:21,716]{training.py:79} DEBUG - deque([True, False, True, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:47:21,718]{training.py:80} DEBUG - Starting trial on Right with d=0.07 (mu=0.50)
+[2021-08-21 21:47:21,719]{training.py:90} INFO - Starting trial 83 from the right with 0.2 s delay
+[2021-08-21 21:47:21,905]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-21 21:47:44,416]{training.py:167} INFO - Ending trial 83 with success due to "goal" after 22.7 s.
+[2021-08-21 21:47:44,417]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:47:44,419]{training.py:185} INFO - Total: 83, Successes: 46 (55.4% correct)!
+[2021-08-21 21:47:45,956]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:47:45,957]{training.py:80} DEBUG - Starting trial on Right with d=1.33 (mu=0.50)
+[2021-08-21 21:47:45,958]{training.py:90} INFO - Starting trial 84 from the right with 0.2 s delay
+[2021-08-21 21:47:46,227]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-21 21:47:46,505]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-21 21:48:09,073]{training.py:167} INFO - Ending trial 84 with failure due to "overshoot" after 23.1 s.
+[2021-08-21 21:48:09,074]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:48:09,074]{training.py:185} INFO - Total: 84, Successes: 46 (54.8% correct)!
+[2021-08-21 21:48:11,093]{training.py:79} DEBUG - deque([True, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:48:11,094]{training.py:80} DEBUG - Starting trial on Right with d=0.50 (mu=0.10)
+[2021-08-21 21:48:11,097]{training.py:90} INFO - Starting trial 85 from the right with 0.4 s delay
+[2021-08-21 21:48:11,573]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:48:42,417]{training.py:167} INFO - Ending trial 85 with success due to "goal" after 31.3 s.
+[2021-08-21 21:48:42,418]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:48:42,419]{training.py:185} INFO - Total: 85, Successes: 47 (55.3% correct)!
+[2021-08-21 21:48:43,953]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:48:43,954]{training.py:80} DEBUG - Starting trial on Right with d=0.58 (mu=0.50)
+[2021-08-21 21:48:43,954]{training.py:90} INFO - Starting trial 86 from the right with 0.1 s delay
+[2021-08-21 21:48:44,040]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 21:48:47,826]{training.py:167} INFO - Ending trial 86 with failure due to "overshoot" after 3.9 s.
+[2021-08-21 21:48:47,828]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:48:47,830]{training.py:185} INFO - Total: 86, Successes: 47 (54.7% correct)!
+[2021-08-21 21:48:49,853]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:48:49,854]{training.py:80} DEBUG - Starting trial on Left with d=-0.78 (mu=0.00)
+[2021-08-21 21:48:49,854]{training.py:90} INFO - Starting trial 87 from the right with 0.1 s delay
+[2021-08-21 21:48:49,957]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 21:49:03,197]{training.py:167} INFO - Ending trial 87 with success due to "goal" after 13.3 s.
+[2021-08-21 21:49:03,200]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:49:03,203]{training.py:185} INFO - Total: 87, Successes: 48 (55.2% correct)!
+[2021-08-21 21:49:04,735]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:49:04,736]{training.py:80} DEBUG - Starting trial on Left with d=-0.19 (mu=0.50)
+[2021-08-21 21:49:04,737]{training.py:90} INFO - Starting trial 88 from the right with 0.2 s delay
+[2021-08-21 21:49:04,954]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 21:49:05,175]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 21:49:05,584]{training.py:167} INFO - Ending trial 88 with success due to "goal" after 0.8 s.
+[2021-08-21 21:49:05,585]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:49:05,586]{training.py:185} INFO - Total: 88, Successes: 49 (55.7% correct)!
+[2021-08-21 21:49:07,116]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:49:07,119]{training.py:80} DEBUG - Starting trial on Right with d=0.41 (mu=0.50)
+[2021-08-21 21:49:07,123]{training.py:90} INFO - Starting trial 89 from the right with 0.1 s delay
+[2021-08-21 21:49:07,272]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-21 21:49:51,637]{training.py:167} INFO - Ending trial 89 with success due to "goal" after 44.5 s.
+[2021-08-21 21:49:51,638]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:49:51,639]{training.py:185} INFO - Total: 89, Successes: 50 (56.2% correct)!
+[2021-08-21 21:49:53,171]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:49:53,172]{training.py:80} DEBUG - Starting trial on Right with d=1.24 (mu=0.50)
+[2021-08-21 21:49:53,172]{training.py:90} INFO - Starting trial 90 from the right with 0.1 s delay
+[2021-08-21 21:49:53,290]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 21:49:55,889]{training.py:167} INFO - Ending trial 90 with failure due to "overshoot" after 2.7 s.
+[2021-08-21 21:49:55,891]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:49:55,892]{training.py:185} INFO - Total: 90, Successes: 50 (55.6% correct)!
+[2021-08-21 21:49:57,920]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 21:49:57,920]{training.py:80} DEBUG - Starting trial on Left with d=-0.58 (mu=0.00)
+[2021-08-21 21:49:57,921]{training.py:90} INFO - Starting trial 91 from the right with 0.5 s delay
+[2021-08-21 21:49:58,419]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:49:58,928]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:49:59,436]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:49:59,935]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:50:00,438]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:50:00,931]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:50:01,433]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 21:50:13,492]{training.py:167} INFO - Ending trial 91 with failure due to "overshoot" after 15.6 s.
+[2021-08-21 21:50:13,493]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:50:13,496]{training.py:185} INFO - Total: 91, Successes: 50 (54.9% correct)!
+[2021-08-21 21:50:15,522]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 21:50:15,522]{training.py:80} DEBUG - Starting trial on Left with d=-0.13 (mu=0.10)
+[2021-08-21 21:50:15,523]{training.py:90} INFO - Starting trial 92 from the right with 0.2 s delay
+[2021-08-21 21:50:15,709]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-21 21:50:31,775]{training.py:167} INFO - Ending trial 92 with success due to "goal" after 16.3 s.
+[2021-08-21 21:50:31,776]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:50:31,777]{training.py:185} INFO - Total: 92, Successes: 51 (55.4% correct)!
+[2021-08-21 21:50:33,302]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:50:33,303]{training.py:80} DEBUG - Starting trial on Right with d=1.03 (mu=0.50)
+[2021-08-21 21:50:33,306]{training.py:90} INFO - Starting trial 93 from the right with 0.5 s delay
+[2021-08-21 21:50:33,792]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:50:34,280]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:50:34,756]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:50:35,233]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:50:35,718]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 21:50:48,414]{training.py:167} INFO - Ending trial 93 with failure due to "overshoot" after 15.1 s.
+[2021-08-21 21:50:48,415]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:50:48,416]{training.py:185} INFO - Total: 93, Successes: 51 (54.8% correct)!
+[2021-08-21 21:50:50,435]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, True, False, False], maxlen=10)
+[2021-08-21 21:50:50,436]{training.py:80} DEBUG - Starting trial on Right with d=0.07 (mu=0.10)
+[2021-08-21 21:50:50,436]{training.py:90} INFO - Starting trial 94 from the right with 0.2 s delay
+[2021-08-21 21:50:50,709]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-21 21:51:09,712]{training.py:167} INFO - Ending trial 94 with success due to "goal" after 19.3 s.
+[2021-08-21 21:51:09,713]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:51:09,714]{training.py:185} INFO - Total: 94, Successes: 52 (55.3% correct)!
+[2021-08-21 21:51:11,253]{training.py:79} DEBUG - deque([False, False, False, False, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:51:11,255]{training.py:80} DEBUG - Starting trial on Right with d=0.90 (mu=0.50)
+[2021-08-21 21:51:11,256]{training.py:90} INFO - Starting trial 95 from the right with 0.1 s delay
+[2021-08-21 21:51:11,411]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 21:51:37,840]{training.py:167} INFO - Ending trial 95 with success due to "goal" after 26.6 s.
+[2021-08-21 21:51:37,841]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:51:37,841]{training.py:185} INFO - Total: 95, Successes: 53 (55.8% correct)!
+[2021-08-21 21:51:39,369]{training.py:79} DEBUG - deque([False, False, False, False, False, True, False, False, False, True], maxlen=10)
+[2021-08-21 21:51:39,370]{training.py:80} DEBUG - Starting trial on Right with d=0.37 (mu=0.50)
+[2021-08-21 21:51:39,371]{training.py:90} INFO - Starting trial 96 from the right with 0.2 s delay
+[2021-08-21 21:51:39,600]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 21:52:16,282]{training.py:167} INFO - Ending trial 96 with success due to "goal" after 36.9 s.
+[2021-08-21 21:52:16,283]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:52:16,284]{training.py:185} INFO - Total: 96, Successes: 54 (56.2% correct)!
+[2021-08-21 21:52:17,817]{training.py:79} DEBUG - deque([False, False, False, False, True, False, False, False, True, False], maxlen=10)
+[2021-08-21 21:52:17,818]{training.py:80} DEBUG - Starting trial on Left with d=-0.24 (mu=0.50)
+[2021-08-21 21:52:17,819]{training.py:90} INFO - Starting trial 97 from the right with 0.1 s delay
+[2021-08-21 21:52:17,919]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 21:52:18,022]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 21:52:20,714]{training.py:167} INFO - Ending trial 97 with success due to "goal" after 2.9 s.
+[2021-08-21 21:52:20,715]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:52:20,716]{training.py:185} INFO - Total: 97, Successes: 55 (56.7% correct)!
+[2021-08-21 21:52:22,247]{training.py:79} DEBUG - deque([False, False, False, True, False, False, False, True, False, False], maxlen=10)
+[2021-08-21 21:52:22,248]{training.py:80} DEBUG - Starting trial on Right with d=0.49 (mu=0.50)
+[2021-08-21 21:52:22,250]{training.py:90} INFO - Starting trial 98 from the right with 0.3 s delay
+[2021-08-21 21:52:22,606]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-21 21:52:30,634]{training.py:167} INFO - Ending trial 98 with success due to "goal" after 8.4 s.
+[2021-08-21 21:52:30,636]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:52:30,637]{training.py:185} INFO - Total: 98, Successes: 56 (57.1% correct)!
+[2021-08-21 21:52:32,158]{training.py:79} DEBUG - deque([False, False, True, False, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:52:32,158]{training.py:80} DEBUG - Starting trial on Right with d=0.91 (mu=0.50)
+[2021-08-21 21:52:32,162]{training.py:90} INFO - Starting trial 99 from the right with 0.2 s delay
+[2021-08-21 21:52:32,365]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-21 21:52:43,314]{training.py:167} INFO - Ending trial 99 with success due to "goal" after 11.2 s.
+[2021-08-21 21:52:43,315]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:52:43,317]{training.py:185} INFO - Total: 99, Successes: 57 (57.6% correct)!
+[2021-08-21 21:52:44,840]{training.py:79} DEBUG - deque([False, True, False, False, False, True, False, False, False, True], maxlen=10)
+[2021-08-21 21:52:44,840]{training.py:80} DEBUG - Starting trial on Left with d=-0.57 (mu=0.50)
+[2021-08-21 21:52:44,841]{training.py:90} INFO - Starting trial 100 from the right with 0.1 s delay
+[2021-08-21 21:52:44,924]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 21:53:06,800]{training.py:167} INFO - Ending trial 100 with failure due to "overshoot" after 22.0 s.
+[2021-08-21 21:53:06,801]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:53:06,802]{training.py:185} INFO - Total: 100, Successes: 57 (57.0% correct)!
+[2021-08-21 21:53:08,837]{training.py:79} DEBUG - deque([True, False, False, False, True, False, False, False, True, True], maxlen=10)
+[2021-08-21 21:53:08,838]{training.py:80} DEBUG - Starting trial on Right with d=0.48 (mu=0.40)
+[2021-08-21 21:53:08,839]{training.py:90} INFO - Starting trial 101 from the right with 0.2 s delay
+[2021-08-21 21:53:09,054]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 21:53:09,264]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 21:53:09,487]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 21:53:09,714]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 21:53:10,703]{training.py:167} INFO - Ending trial 101 with success due to "goal" after 1.9 s.
+[2021-08-21 21:53:10,704]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:53:10,704]{training.py:185} INFO - Total: 101, Successes: 58 (57.4% correct)!
+[2021-08-21 21:53:12,236]{training.py:79} DEBUG - deque([False, False, False, True, False, False, False, True, True, False], maxlen=10)
+[2021-08-21 21:53:12,236]{training.py:80} DEBUG - Starting trial on Right with d=0.64 (mu=0.50)
+[2021-08-21 21:53:12,237]{training.py:90} INFO - Starting trial 102 from the right with 0.1 s delay
+[2021-08-21 21:53:12,388]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-21 21:53:14,462]{training.py:167} INFO - Ending trial 102 with failure due to "overshoot" after 2.2 s.
+[2021-08-21 21:53:14,462]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:53:14,463]{training.py:185} INFO - Total: 102, Successes: 58 (56.9% correct)!
+[2021-08-21 21:53:16,488]{training.py:79} DEBUG - deque([False, False, True, False, False, False, True, True, False, False], maxlen=10)
+[2021-08-21 21:53:16,489]{training.py:80} DEBUG - Starting trial on Right with d=0.35 (mu=0.30)
+[2021-08-21 21:53:16,491]{training.py:90} INFO - Starting trial 103 from the right with 0.0 s delay
+[2021-08-21 21:53:16,556]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 21:53:33,770]{training.py:167} INFO - Ending trial 103 with success due to "goal" after 17.3 s.
+[2021-08-21 21:53:33,770]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:53:33,771]{training.py:185} INFO - Total: 103, Successes: 59 (57.3% correct)!
+[2021-08-21 21:53:35,290]{training.py:79} DEBUG - deque([False, True, False, False, False, True, True, False, False, False], maxlen=10)
+[2021-08-21 21:53:35,290]{training.py:80} DEBUG - Starting trial on Right with d=0.48 (mu=0.50)
+[2021-08-21 21:53:35,291]{training.py:90} INFO - Starting trial 104 from the right with 0.5 s delay
+[2021-08-21 21:53:35,771]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-21 21:53:36,251]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-21 21:53:49,702]{training.py:167} INFO - Ending trial 104 with failure due to "overshoot" after 14.4 s.
+[2021-08-21 21:53:49,702]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:53:49,703]{training.py:185} INFO - Total: 104, Successes: 59 (56.7% correct)!
+[2021-08-21 21:53:51,728]{training.py:79} DEBUG - deque([True, False, False, False, True, True, False, False, False, True], maxlen=10)
+[2021-08-21 21:53:51,731]{training.py:80} DEBUG - Starting trial on Right with d=0.02 (mu=0.40)
+[2021-08-21 21:53:51,734]{training.py:90} INFO - Starting trial 105 from the right with 0.2 s delay
+[2021-08-21 21:53:51,988]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.23s
+[2021-08-21 21:54:51,730]{training.py:167} INFO - Ending trial 105 with failure due to "timeout" after 60.0 s.
+[2021-08-21 21:54:51,735]{training.py:185} INFO - Total: 105, Successes: 59 (56.2% correct)!
+[2021-08-21 21:54:53,767]{training.py:79} DEBUG - deque([True, False, False, False, True, True, False, False, False, True], maxlen=10)
+[2021-08-21 21:54:53,767]{training.py:80} DEBUG - Starting trial on Left with d=-0.05 (mu=0.40)
+[2021-08-21 21:54:53,768]{training.py:90} INFO - Starting trial 106 from the right with 0.4 s delay
+[2021-08-21 21:54:54,155]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-21 21:55:29,803]{training.py:167} INFO - Ending trial 106 with failure due to "overshoot" after 36.0 s.
+[2021-08-21 21:55:29,804]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:55:29,806]{training.py:185} INFO - Total: 106, Successes: 59 (55.7% correct)!
+[2021-08-21 21:55:31,839]{training.py:79} DEBUG - deque([False, False, False, True, True, False, False, False, True, True], maxlen=10)
+[2021-08-21 21:55:31,840]{training.py:80} DEBUG - Starting trial on Right with d=0.02 (mu=0.40)
+[2021-08-21 21:55:31,841]{training.py:90} INFO - Starting trial 107 from the right with 0.2 s delay
+[2021-08-21 21:55:32,065]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 21:55:59,518]{training.py:167} INFO - Ending trial 107 with success due to "goal" after 27.7 s.
+[2021-08-21 21:55:59,521]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:55:59,522]{training.py:185} INFO - Total: 107, Successes: 60 (56.1% correct)!
+[2021-08-21 21:56:01,045]{training.py:79} DEBUG - deque([False, False, True, True, False, False, False, True, True, False], maxlen=10)
+[2021-08-21 21:56:01,047]{training.py:80} DEBUG - Starting trial on Right with d=1.51 (mu=0.50)
+[2021-08-21 21:56:01,048]{training.py:90} INFO - Starting trial 108 from the right with 0.1 s delay
+[2021-08-21 21:56:01,232]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-21 21:56:18,494]{training.py:167} INFO - Ending trial 108 with failure due to "overshoot" after 17.4 s.
+[2021-08-21 21:56:18,495]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:56:18,496]{training.py:185} INFO - Total: 108, Successes: 60 (55.6% correct)!
+[2021-08-21 21:56:20,513]{training.py:79} DEBUG - deque([False, True, True, False, False, False, True, True, False, False], maxlen=10)
+[2021-08-21 21:56:20,514]{training.py:80} DEBUG - Starting trial on Left with d=-0.18 (mu=0.40)
+[2021-08-21 21:56:20,514]{training.py:90} INFO - Starting trial 109 from the right with 0.2 s delay
+[2021-08-21 21:56:20,753]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-21 21:56:20,994]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-21 21:56:21,820]{training.py:167} INFO - Ending trial 109 with success due to "goal" after 1.3 s.
+[2021-08-21 21:56:21,821]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:56:21,822]{training.py:185} INFO - Total: 109, Successes: 61 (56.0% correct)!
+[2021-08-21 21:56:23,344]{training.py:79} DEBUG - deque([True, True, False, False, False, True, True, False, False, False], maxlen=10)
+[2021-08-21 21:56:23,346]{training.py:80} DEBUG - Starting trial on Right with d=0.37 (mu=0.50)
+[2021-08-21 21:56:23,348]{training.py:90} INFO - Starting trial 110 from the right with 0.3 s delay
+[2021-08-21 21:56:23,722]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-21 21:56:24,099]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-21 21:56:28,286]{training.py:167} INFO - Ending trial 110 with failure due to "overshoot" after 4.9 s.
+[2021-08-21 21:56:28,287]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:56:28,288]{training.py:185} INFO - Total: 110, Successes: 61 (55.5% correct)!
+[2021-08-21 21:56:30,317]{training.py:79} DEBUG - deque([True, False, False, False, True, True, False, False, False, True], maxlen=10)
+[2021-08-21 21:56:30,319]{training.py:80} DEBUG - Starting trial on Right with d=0.80 (mu=0.40)
+[2021-08-21 21:56:30,320]{training.py:90} INFO - Starting trial 111 from the right with 0.4 s delay
+[2021-08-21 21:56:30,714]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-21 21:56:31,105]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-21 21:56:54,620]{training.py:167} INFO - Ending trial 111 with success due to "goal" after 24.3 s.
+[2021-08-21 21:56:54,622]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:56:54,624]{training.py:185} INFO - Total: 111, Successes: 62 (55.9% correct)!
+[2021-08-21 21:56:56,144]{training.py:79} DEBUG - deque([False, False, False, True, True, False, False, False, True, True], maxlen=10)
+[2021-08-21 21:56:56,145]{training.py:80} DEBUG - Starting trial on Right with d=0.19 (mu=0.50)
+[2021-08-21 21:56:56,146]{training.py:90} INFO - Starting trial 112 from the right with 0.2 s delay
+[2021-08-21 21:56:56,332]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-21 21:57:19,400]{training.py:167} INFO - Ending trial 112 with failure due to "overshoot" after 23.3 s.
+[2021-08-21 21:57:19,401]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:57:19,402]{training.py:185} INFO - Total: 112, Successes: 62 (55.4% correct)!
+[2021-08-21 21:57:21,434]{training.py:79} DEBUG - deque([False, False, True, True, False, False, False, True, True, True], maxlen=10)
+[2021-08-21 21:57:21,436]{training.py:80} DEBUG - Starting trial on Right with d=0.87 (mu=0.50)
+[2021-08-21 21:57:21,437]{training.py:90} INFO - Starting trial 113 from the right with 0.3 s delay
+[2021-08-21 21:57:21,728]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 21:57:22,839]{training.py:167} INFO - Ending trial 113 with failure due to "overshoot" after 1.4 s.
+[2021-08-21 21:57:22,840]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:57:22,843]{training.py:185} INFO - Total: 113, Successes: 62 (54.9% correct)!
+[2021-08-21 21:57:24,867]{training.py:79} DEBUG - deque([False, True, True, False, False, False, True, True, True, False], maxlen=10)
+[2021-08-21 21:57:24,868]{training.py:80} DEBUG - Starting trial on Right with d=1.04 (mu=0.50)
+[2021-08-21 21:57:24,868]{training.py:90} INFO - Starting trial 114 from the right with 0.4 s delay
+[2021-08-21 21:57:25,311]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-21 21:57:40,570]{training.py:167} INFO - Ending trial 114 with success due to "goal" after 15.7 s.
+[2021-08-21 21:57:40,570]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:57:40,571]{training.py:185} INFO - Total: 114, Successes: 63 (55.3% correct)!
+[2021-08-21 21:57:42,103]{training.py:79} DEBUG - deque([True, True, False, False, False, True, True, True, False, True], maxlen=10)
+[2021-08-21 21:57:42,103]{training.py:80} DEBUG - Starting trial on Left with d=-0.49 (mu=0.50)
+[2021-08-21 21:57:42,103]{training.py:90} INFO - Starting trial 115 from the right with 0.1 s delay
+[2021-08-21 21:57:42,222]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:57:42,346]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:57:42,465]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:57:42,585]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 21:57:42,878]{training.py:167} INFO - Ending trial 115 with failure due to "overshoot" after 0.8 s.
+[2021-08-21 21:57:42,881]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:57:42,885]{training.py:185} INFO - Total: 115, Successes: 63 (54.8% correct)!
+[2021-08-21 21:57:44,918]{training.py:79} DEBUG - deque([True, False, False, False, True, True, True, False, True, True], maxlen=10)
+[2021-08-21 21:57:44,919]{training.py:80} DEBUG - Starting trial on Right with d=0.79 (mu=0.60)
+[2021-08-21 21:57:44,920]{training.py:90} INFO - Starting trial 116 from the right with 0.1 s delay
+[2021-08-21 21:57:45,036]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 21:57:58,132]{training.py:167} INFO - Ending trial 116 with success due to "goal" after 13.2 s.
+[2021-08-21 21:57:58,132]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:57:58,133]{training.py:185} INFO - Total: 116, Successes: 64 (55.2% correct)!
+[2021-08-21 21:57:59,653]{training.py:79} DEBUG - deque([False, False, False, True, True, True, False, True, True, True], maxlen=10)
+[2021-08-21 21:57:59,654]{training.py:80} DEBUG - Starting trial on Right with d=0.61 (mu=0.50)
+[2021-08-21 21:57:59,655]{training.py:90} INFO - Starting trial 117 from the right with 0.2 s delay
+[2021-08-21 21:57:59,926]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.24s
+[2021-08-21 21:58:00,199]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.24s
+[2021-08-21 21:58:00,793]{training.py:167} INFO - Ending trial 117 with failure due to "overshoot" after 1.1 s.
+[2021-08-21 21:58:00,795]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:58:00,796]{training.py:185} INFO - Total: 117, Successes: 64 (54.7% correct)!
+[2021-08-21 21:58:02,824]{training.py:79} DEBUG - deque([False, False, True, True, True, False, True, True, True, False], maxlen=10)
+[2021-08-21 21:58:02,826]{training.py:80} DEBUG - Starting trial on Right with d=0.17 (mu=0.60)
+[2021-08-21 21:58:02,830]{training.py:90} INFO - Starting trial 118 from the right with 0.2 s delay
+[2021-08-21 21:58:03,046]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 21:58:38,219]{training.py:167} INFO - Ending trial 118 with success due to "goal" after 35.4 s.
+[2021-08-21 21:58:38,220]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:58:38,221]{training.py:185} INFO - Total: 118, Successes: 65 (55.1% correct)!
+[2021-08-21 21:58:39,754]{training.py:79} DEBUG - deque([False, True, True, True, False, True, True, True, False, False], maxlen=10)
+[2021-08-21 21:58:39,755]{training.py:80} DEBUG - Starting trial on Right with d=1.01 (mu=0.50)
+[2021-08-21 21:58:39,755]{training.py:90} INFO - Starting trial 119 from the right with 0.4 s delay
+[2021-08-21 21:58:40,148]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-21 21:58:48,885]{training.py:167} INFO - Ending trial 119 with success due to "goal" after 9.1 s.
+[2021-08-21 21:58:48,887]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:58:48,888]{training.py:185} INFO - Total: 119, Successes: 66 (55.5% correct)!
+[2021-08-21 21:58:50,420]{training.py:79} DEBUG - deque([True, True, True, False, True, True, True, False, False, True], maxlen=10)
+[2021-08-21 21:58:50,422]{training.py:80} DEBUG - Starting trial on Right with d=0.69 (mu=0.50)
+[2021-08-21 21:58:50,424]{training.py:90} INFO - Starting trial 120 from the right with 0.1 s delay
+[2021-08-21 21:58:50,556]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.11s
+[2021-08-21 21:58:56,835]{training.py:167} INFO - Ending trial 120 with failure due to "overshoot" after 6.4 s.
+[2021-08-21 21:58:56,836]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:58:56,836]{training.py:185} INFO - Total: 120, Successes: 66 (55.0% correct)!
+[2021-08-21 21:58:58,854]{training.py:79} DEBUG - deque([True, True, False, True, True, True, False, False, True, False], maxlen=10)
+[2021-08-21 21:58:58,855]{training.py:80} DEBUG - Starting trial on Left with d=-0.49 (mu=0.60)
+[2021-08-21 21:58:58,859]{training.py:90} INFO - Starting trial 121 from the right with 0.3 s delay
+[2021-08-21 21:58:59,227]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-21 21:59:00,360]{training.py:167} INFO - Ending trial 121 with success due to "goal" after 1.5 s.
+[2021-08-21 21:59:00,361]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:59:00,365]{training.py:185} INFO - Total: 121, Successes: 67 (55.4% correct)!
+[2021-08-21 21:59:01,887]{training.py:79} DEBUG - deque([True, False, True, True, True, False, False, True, False, False], maxlen=10)
+[2021-08-21 21:59:01,889]{training.py:80} DEBUG - Starting trial on Right with d=0.20 (mu=0.50)
+[2021-08-21 21:59:01,890]{training.py:90} INFO - Starting trial 122 from the right with 0.2 s delay
+[2021-08-21 21:59:02,110]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 21:59:21,011]{training.py:167} INFO - Ending trial 122 with success due to "goal" after 19.1 s.
+[2021-08-21 21:59:21,012]{training.py:173} INFO - Moved to Left
+[2021-08-21 21:59:21,013]{training.py:185} INFO - Total: 122, Successes: 68 (55.7% correct)!
+[2021-08-21 21:59:22,544]{training.py:79} DEBUG - deque([False, True, True, True, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 21:59:22,545]{training.py:80} DEBUG - Starting trial on Right with d=0.82 (mu=0.50)
+[2021-08-21 21:59:22,546]{training.py:90} INFO - Starting trial 123 from the right with 0.1 s delay
+[2021-08-21 21:59:22,647]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 21:59:22,966]{training.py:167} INFO - Ending trial 123 with success due to "goal" after 0.4 s.
+[2021-08-21 21:59:22,966]{training.py:173} INFO - Moved to Right
+[2021-08-21 21:59:22,968]{training.py:185} INFO - Total: 123, Successes: 69 (56.1% correct)!
+[2021-08-21 21:59:24,493]{training.py:79} DEBUG - deque([True, True, True, False, False, True, False, False, False, True], maxlen=10)
+[2021-08-21 21:59:24,494]{training.py:80} DEBUG - Starting trial on Right with d=2.02 (mu=0.50)
+[2021-08-21 21:59:24,496]{training.py:90} INFO - Starting trial 124 from the right with 0.2 s delay
+[2021-08-21 21:59:24,731]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 22:00:07,760]{training.py:167} INFO - Ending trial 124 with failure due to "overshoot" after 43.3 s.
+[2021-08-21 22:00:07,764]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:00:07,765]{training.py:185} INFO - Total: 124, Successes: 69 (55.6% correct)!
+[2021-08-21 22:00:09,791]{training.py:79} DEBUG - deque([True, True, False, False, True, False, False, False, True, False], maxlen=10)
+[2021-08-21 22:00:09,792]{training.py:80} DEBUG - Starting trial on Right with d=0.42 (mu=0.40)
+[2021-08-21 22:00:09,794]{training.py:90} INFO - Starting trial 125 from the right with 0.1 s delay
+[2021-08-21 22:00:09,963]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 22:00:13,009]{training.py:167} INFO - Ending trial 125 with failure due to "overshoot" after 3.2 s.
+[2021-08-21 22:00:13,010]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:00:13,010]{training.py:185} INFO - Total: 125, Successes: 69 (55.2% correct)!
+[2021-08-21 22:00:15,033]{training.py:79} DEBUG - deque([True, False, False, True, False, False, False, True, False, True], maxlen=10)
+[2021-08-21 22:00:15,034]{training.py:80} DEBUG - Starting trial on Right with d=0.09 (mu=0.40)
+[2021-08-21 22:00:15,034]{training.py:90} INFO - Starting trial 126 from the right with 0.4 s delay
+[2021-08-21 22:00:16,495]{training.py:167} INFO - Ending trial 126 with success due to "goal" after 1.5 s.
+[2021-08-21 22:00:16,496]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:00:16,497]{training.py:185} INFO - Total: 126, Successes: 70 (55.6% correct)!
+[2021-08-21 22:00:18,020]{training.py:79} DEBUG - deque([False, False, True, False, False, False, True, False, True, False], maxlen=10)
+[2021-08-21 22:00:18,021]{training.py:80} DEBUG - Starting trial on Right with d=1.50 (mu=0.50)
+[2021-08-21 22:00:18,021]{training.py:90} INFO - Starting trial 127 from the right with 0.5 s delay
+[2021-08-21 22:00:18,500]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-21 22:00:18,995]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-21 22:00:19,491]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-21 22:00:20,885]{training.py:167} INFO - Ending trial 127 with success due to "goal" after 2.9 s.
+[2021-08-21 22:00:20,885]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:00:20,886]{training.py:185} INFO - Total: 127, Successes: 71 (55.9% correct)!
+[2021-08-21 22:00:22,416]{training.py:79} DEBUG - deque([False, True, False, False, False, True, False, True, False, True], maxlen=10)
+[2021-08-21 22:00:22,416]{training.py:80} DEBUG - Starting trial on Right with d=1.01 (mu=0.50)
+[2021-08-21 22:00:22,417]{training.py:90} INFO - Starting trial 128 from the right with 0.1 s delay
+[2021-08-21 22:00:22,570]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-21 22:00:22,968]{training.py:167} INFO - Ending trial 128 with failure due to "overshoot" after 0.6 s.
+[2021-08-21 22:00:22,969]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:00:22,969]{training.py:185} INFO - Total: 128, Successes: 71 (55.5% correct)!
+[2021-08-21 22:00:24,987]{training.py:79} DEBUG - deque([True, False, False, False, True, False, True, False, True, False], maxlen=10)
+[2021-08-21 22:00:24,988]{training.py:80} DEBUG - Starting trial on Right with d=1.08 (mu=0.40)
+[2021-08-21 22:00:24,989]{training.py:90} INFO - Starting trial 129 from the right with 0.3 s delay
+[2021-08-21 22:00:25,333]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 22:00:43,463]{training.py:167} INFO - Ending trial 129 with failure due to "overshoot" after 18.5 s.
+[2021-08-21 22:00:43,466]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:00:43,467]{training.py:185} INFO - Total: 129, Successes: 71 (55.0% correct)!
+[2021-08-21 22:00:45,498]{training.py:79} DEBUG - deque([False, False, False, True, False, True, False, True, False, False], maxlen=10)
+[2021-08-21 22:00:45,500]{training.py:80} DEBUG - Starting trial on Right with d=0.04 (mu=0.30)
+[2021-08-21 22:00:45,501]{training.py:90} INFO - Starting trial 130 from the right with 0.2 s delay
+[2021-08-21 22:00:45,719]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.19s
+[2021-08-21 22:01:45,512]{training.py:167} INFO - Ending trial 130 with failure due to "timeout" after 60.0 s.
+[2021-08-21 22:01:45,513]{training.py:185} INFO - Total: 130, Successes: 71 (54.6% correct)!
+[2021-08-21 22:01:47,537]{training.py:79} DEBUG - deque([False, False, False, True, False, True, False, True, False, False], maxlen=10)
+[2021-08-21 22:01:47,538]{training.py:80} DEBUG - Starting trial on Right with d=1.34 (mu=0.30)
+[2021-08-21 22:01:47,539]{training.py:90} INFO - Starting trial 131 from the right with 0.3 s delay
+[2021-08-21 22:01:47,886]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 22:02:09,933]{training.py:167} INFO - Ending trial 131 with failure due to "overshoot" after 22.4 s.
+[2021-08-21 22:02:09,933]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:02:09,933]{training.py:185} INFO - Total: 131, Successes: 71 (54.2% correct)!
+[2021-08-21 22:02:11,964]{training.py:79} DEBUG - deque([False, False, True, False, True, False, True, False, False, False], maxlen=10)
+[2021-08-21 22:02:11,965]{training.py:80} DEBUG - Starting trial on Right with d=1.15 (mu=0.30)
+[2021-08-21 22:02:11,966]{training.py:90} INFO - Starting trial 132 from the right with 0.0 s delay
+[2021-08-21 22:02:12,034]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 22:02:45,763]{training.py:167} INFO - Ending trial 132 with failure due to "overshoot" after 33.8 s.
+[2021-08-21 22:02:45,764]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:02:45,764]{training.py:185} INFO - Total: 132, Successes: 71 (53.8% correct)!
+[2021-08-21 22:02:47,793]{training.py:79} DEBUG - deque([False, True, False, True, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 22:02:47,795]{training.py:80} DEBUG - Starting trial on Right with d=0.30 (mu=0.30)
+[2021-08-21 22:02:47,797]{training.py:90} INFO - Starting trial 133 from the right with 0.3 s delay
+[2021-08-21 22:02:48,149]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 22:03:20,048]{training.py:167} INFO - Ending trial 133 with success due to "goal" after 32.3 s.
+[2021-08-21 22:03:20,049]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:03:20,049]{training.py:185} INFO - Total: 133, Successes: 72 (54.1% correct)!
+[2021-08-21 22:03:21,574]{training.py:79} DEBUG - deque([True, False, True, False, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:03:21,576]{training.py:80} DEBUG - Starting trial on Right with d=0.72 (mu=0.50)
+[2021-08-21 22:03:21,581]{training.py:90} INFO - Starting trial 134 from the right with 0.3 s delay
+[2021-08-21 22:03:21,914]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-21 22:03:25,088]{training.py:167} INFO - Ending trial 134 with failure due to "overshoot" after 3.5 s.
+[2021-08-21 22:03:25,090]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:03:25,091]{training.py:185} INFO - Total: 134, Successes: 72 (53.7% correct)!
+[2021-08-21 22:03:27,124]{training.py:79} DEBUG - deque([False, True, False, True, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:03:27,125]{training.py:80} DEBUG - Starting trial on Left with d=-1.13 (mu=0.20)
+[2021-08-21 22:03:27,126]{training.py:90} INFO - Starting trial 135 from the right with 0.3 s delay
+[2021-08-21 22:03:27,485]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-21 22:04:04,510]{training.py:167} INFO - Ending trial 135 with success due to "goal" after 37.4 s.
+[2021-08-21 22:04:04,510]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:04:04,511]{training.py:185} INFO - Total: 135, Successes: 73 (54.1% correct)!
+[2021-08-21 22:04:06,032]{training.py:79} DEBUG - deque([True, False, True, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:04:06,032]{training.py:80} DEBUG - Starting trial on Right with d=0.66 (mu=0.50)
+[2021-08-21 22:04:06,033]{training.py:90} INFO - Starting trial 136 from the right with 0.1 s delay
+[2021-08-21 22:04:06,117]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 22:04:47,981]{training.py:167} INFO - Ending trial 136 with failure due to "overshoot" after 41.9 s.
+[2021-08-21 22:04:47,982]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:04:47,982]{training.py:185} INFO - Total: 136, Successes: 73 (53.7% correct)!
+[2021-08-21 22:04:50,008]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:04:50,009]{training.py:80} DEBUG - Starting trial on Right with d=0.39 (mu=0.10)
+[2021-08-21 22:04:50,011]{training.py:90} INFO - Starting trial 137 from the right with 0.4 s delay
+[2021-08-21 22:04:50,491]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 22:05:25,313]{training.py:167} INFO - Ending trial 137 with success due to "goal" after 35.3 s.
+[2021-08-21 22:05:25,314]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:05:25,316]{training.py:185} INFO - Total: 137, Successes: 74 (54.0% correct)!
+[2021-08-21 22:05:26,852]{training.py:79} DEBUG - deque([True, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:05:26,854]{training.py:80} DEBUG - Starting trial on Right with d=0.48 (mu=0.50)
+[2021-08-21 22:05:26,856]{training.py:90} INFO - Starting trial 138 from the right with 0.3 s delay
+[2021-08-21 22:05:27,195]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 22:05:28,841]{training.py:167} INFO - Ending trial 138 with success due to "goal" after 2.0 s.
+[2021-08-21 22:05:28,842]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:05:28,843]{training.py:185} INFO - Total: 138, Successes: 75 (54.3% correct)!
+[2021-08-21 22:05:30,376]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:05:30,377]{training.py:80} DEBUG - Starting trial on Left with d=-0.24 (mu=0.50)
+[2021-08-21 22:05:30,378]{training.py:90} INFO - Starting trial 139 from the right with 0.1 s delay
+[2021-08-21 22:05:30,479]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 22:05:37,699]{training.py:167} INFO - Ending trial 139 with success due to "goal" after 7.3 s.
+[2021-08-21 22:05:37,700]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:05:37,702]{training.py:185} INFO - Total: 139, Successes: 76 (54.7% correct)!
+[2021-08-21 22:05:39,235]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:05:39,236]{training.py:80} DEBUG - Starting trial on Right with d=0.47 (mu=0.50)
+[2021-08-21 22:05:39,236]{training.py:90} INFO - Starting trial 140 from the right with 0.0 s delay
+[2021-08-21 22:05:39,304]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-21 22:05:39,553]{training.py:167} INFO - Ending trial 140 with failure due to "overshoot" after 0.3 s.
+[2021-08-21 22:05:39,555]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:05:39,556]{training.py:185} INFO - Total: 140, Successes: 76 (54.3% correct)!
+[2021-08-21 22:05:41,579]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 22:05:41,580]{training.py:80} DEBUG - Starting trial on Left with d=-0.25 (mu=0.10)
+[2021-08-21 22:05:41,582]{training.py:90} INFO - Starting trial 141 from the right with 0.3 s delay
+[2021-08-21 22:05:41,952]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.34s
+[2021-08-21 22:06:12,396]{training.py:167} INFO - Ending trial 141 with success due to "goal" after 30.8 s.
+[2021-08-21 22:06:12,397]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:06:12,398]{training.py:185} INFO - Total: 141, Successes: 77 (54.6% correct)!
+[2021-08-21 22:06:13,918]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 22:06:13,918]{training.py:80} DEBUG - Starting trial on Right with d=1.59 (mu=0.50)
+[2021-08-21 22:06:13,921]{training.py:90} INFO - Starting trial 142 from the right with 0.2 s delay
+[2021-08-21 22:06:14,190]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.25s
+[2021-08-21 22:06:26,178]{training.py:167} INFO - Ending trial 142 with failure due to "overshoot" after 12.3 s.
+[2021-08-21 22:06:26,179]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:06:26,179]{training.py:185} INFO - Total: 142, Successes: 77 (54.2% correct)!
+[2021-08-21 22:06:28,200]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, True, False, False], maxlen=10)
+[2021-08-21 22:06:28,202]{training.py:80} DEBUG - Starting trial on Right with d=0.02 (mu=0.10)
+[2021-08-21 22:06:28,204]{training.py:90} INFO - Starting trial 143 from the right with 0.3 s delay
+[2021-08-21 22:06:28,523]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-21 22:06:34,701]{training.py:167} INFO - Ending trial 143 with success due to "goal" after 6.5 s.
+[2021-08-21 22:06:34,701]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:06:34,701]{training.py:185} INFO - Total: 143, Successes: 78 (54.5% correct)!
+[2021-08-21 22:06:36,225]{training.py:79} DEBUG - deque([False, False, False, False, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 22:06:36,226]{training.py:80} DEBUG - Starting trial on Right with d=0.53 (mu=0.50)
+[2021-08-21 22:06:36,228]{training.py:90} INFO - Starting trial 144 from the right with 0.3 s delay
+[2021-08-21 22:06:36,540]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.29s
+[2021-08-21 22:06:51,984]{training.py:167} INFO - Ending trial 144 with failure due to "overshoot" after 15.8 s.
+[2021-08-21 22:06:51,984]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:06:51,985]{training.py:185} INFO - Total: 144, Successes: 78 (54.2% correct)!
+[2021-08-21 22:06:54,017]{training.py:79} DEBUG - deque([False, False, False, False, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 22:06:54,017]{training.py:80} DEBUG - Starting trial on Left with d=-0.26 (mu=0.10)
+[2021-08-21 22:06:54,017]{training.py:90} INFO - Starting trial 145 from the right with 0.2 s delay
+[2021-08-21 22:06:54,240]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 22:07:10,546]{training.py:167} INFO - Ending trial 145 with success due to "goal" after 16.5 s.
+[2021-08-21 22:07:10,547]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:07:10,547]{training.py:185} INFO - Total: 145, Successes: 79 (54.5% correct)!
+[2021-08-21 22:07:12,067]{training.py:79} DEBUG - deque([False, False, False, False, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:07:12,068]{training.py:80} DEBUG - Starting trial on Right with d=0.59 (mu=0.50)
+[2021-08-21 22:07:12,068]{training.py:90} INFO - Starting trial 146 from the right with 0.2 s delay
+[2021-08-21 22:07:12,304]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-21 22:07:26,787]{training.py:167} INFO - Ending trial 146 with success due to "goal" after 14.7 s.
+[2021-08-21 22:07:26,790]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:07:26,791]{training.py:185} INFO - Total: 146, Successes: 80 (54.8% correct)!
+[2021-08-21 22:07:28,315]{training.py:79} DEBUG - deque([False, False, False, True, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 22:07:28,316]{training.py:80} DEBUG - Starting trial on Left with d=-0.07 (mu=0.50)
+[2021-08-21 22:07:28,316]{training.py:90} INFO - Starting trial 147 from the right with 0.1 s delay
+[2021-08-21 22:07:28,417]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 22:07:53,787]{training.py:167} INFO - Ending trial 147 with success due to "goal" after 25.5 s.
+[2021-08-21 22:07:53,787]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:07:53,789]{training.py:185} INFO - Total: 147, Successes: 81 (55.1% correct)!
+[2021-08-21 22:07:55,312]{training.py:79} DEBUG - deque([False, False, True, False, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 22:07:55,313]{training.py:80} DEBUG - Starting trial on Right with d=1.02 (mu=0.50)
+[2021-08-21 22:07:55,314]{training.py:90} INFO - Starting trial 148 from the right with 0.3 s delay
+[2021-08-21 22:07:55,606]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 22:08:00,295]{training.py:167} INFO - Ending trial 148 with failure due to "overshoot" after 5.0 s.
+[2021-08-21 22:08:00,296]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:08:00,296]{training.py:185} INFO - Total: 148, Successes: 81 (54.7% correct)!
+[2021-08-21 22:08:02,318]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, True, False, False], maxlen=10)
+[2021-08-21 22:08:02,324]{training.py:80} DEBUG - Starting trial on Right with d=0.37 (mu=0.20)
+[2021-08-21 22:08:02,325]{training.py:90} INFO - Starting trial 149 from the right with 0.1 s delay
+[2021-08-21 22:08:02,494]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 22:08:02,666]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 22:08:02,838]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 22:08:03,648]{training.py:167} INFO - Ending trial 149 with failure due to "overshoot" after 1.3 s.
+[2021-08-21 22:08:03,649]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:08:03,649]{training.py:185} INFO - Total: 149, Successes: 81 (54.4% correct)!
+[2021-08-21 22:08:05,671]{training.py:79} DEBUG - deque([True, False, False, False, False, False, True, False, False, True], maxlen=10)
+[2021-08-21 22:08:05,671]{training.py:80} DEBUG - Starting trial on Right with d=0.76 (mu=0.30)
+[2021-08-21 22:08:05,672]{training.py:90} INFO - Starting trial 150 from the right with 0.2 s delay
+[2021-08-21 22:08:05,931]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-21 22:08:12,708]{training.py:167} INFO - Ending trial 150 with failure due to "overshoot" after 7.0 s.
+[2021-08-21 22:08:12,710]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:08:12,711]{training.py:185} INFO - Total: 150, Successes: 81 (54.0% correct)!
+[2021-08-21 22:08:14,733]{training.py:79} DEBUG - deque([False, False, False, False, False, True, False, False, True, False], maxlen=10)
+[2021-08-21 22:08:14,733]{training.py:80} DEBUG - Starting trial on Right with d=0.08 (mu=0.20)
+[2021-08-21 22:08:14,734]{training.py:90} INFO - Starting trial 151 from the right with 0.1 s delay
+[2021-08-21 22:08:15,164]{training.py:167} INFO - Ending trial 151 with success due to "goal" after 0.4 s.
+[2021-08-21 22:08:15,164]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:08:15,164]{training.py:185} INFO - Total: 151, Successes: 82 (54.3% correct)!
+[2021-08-21 22:08:16,684]{training.py:79} DEBUG - deque([False, False, False, False, True, False, False, True, False, False], maxlen=10)
+[2021-08-21 22:08:16,685]{training.py:80} DEBUG - Starting trial on Right with d=0.14 (mu=0.50)
+[2021-08-21 22:08:16,685]{training.py:90} INFO - Starting trial 152 from the right with 0.2 s delay
+[2021-08-21 22:08:16,909]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 22:08:17,780]{training.py:167} INFO - Ending trial 152 with success due to "goal" after 1.1 s.
+[2021-08-21 22:08:17,781]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:08:17,781]{training.py:185} INFO - Total: 152, Successes: 83 (54.6% correct)!
+[2021-08-21 22:08:19,301]{training.py:79} DEBUG - deque([False, False, False, True, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 22:08:19,301]{training.py:80} DEBUG - Starting trial on Left with d=-0.13 (mu=0.50)
+[2021-08-21 22:08:19,303]{training.py:90} INFO - Starting trial 153 from the right with 0.3 s delay
+[2021-08-21 22:08:19,641]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 22:08:33,846]{training.py:167} INFO - Ending trial 153 with success due to "goal" after 14.5 s.
+[2021-08-21 22:08:33,848]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:08:33,849]{training.py:185} INFO - Total: 153, Successes: 84 (54.9% correct)!
+[2021-08-21 22:08:35,376]{training.py:79} DEBUG - deque([False, False, True, False, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 22:08:35,377]{training.py:80} DEBUG - Starting trial on Right with d=0.41 (mu=0.50)
+[2021-08-21 22:08:35,378]{training.py:90} INFO - Starting trial 154 from the right with 0.1 s delay
+[2021-08-21 22:08:35,527]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.13s
+[2021-08-21 22:09:27,314]{training.py:167} INFO - Ending trial 154 with success due to "goal" after 51.9 s.
+[2021-08-21 22:09:27,315]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:09:27,315]{training.py:185} INFO - Total: 154, Successes: 85 (55.2% correct)!
+[2021-08-21 22:09:28,847]{training.py:79} DEBUG - deque([False, True, False, False, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:09:28,847]{training.py:80} DEBUG - Starting trial on Right with d=0.51 (mu=0.50)
+[2021-08-21 22:09:28,848]{training.py:90} INFO - Starting trial 155 from the right with 0.3 s delay
+[2021-08-21 22:09:29,174]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-21 22:10:14,311]{training.py:167} INFO - Ending trial 155 with failure due to "overshoot" after 45.5 s.
+[2021-08-21 22:10:14,312]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:10:14,313]{training.py:185} INFO - Total: 155, Successes: 85 (54.8% correct)!
+[2021-08-21 22:10:16,345]{training.py:79} DEBUG - deque([True, False, False, True, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:10:16,347]{training.py:80} DEBUG - Starting trial on Right with d=0.77 (mu=0.20)
+[2021-08-21 22:10:16,348]{training.py:90} INFO - Starting trial 156 from the right with 0.1 s delay
+[2021-08-21 22:10:16,432]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-21 22:10:26,967]{training.py:167} INFO - Ending trial 156 with failure due to "overshoot" after 10.6 s.
+[2021-08-21 22:10:26,969]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:10:26,971]{training.py:185} INFO - Total: 156, Successes: 85 (54.5% correct)!
+[2021-08-21 22:10:29,000]{training.py:79} DEBUG - deque([False, False, True, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:10:29,001]{training.py:80} DEBUG - Starting trial on Left with d=-0.05 (mu=0.10)
+[2021-08-21 22:10:29,003]{training.py:90} INFO - Starting trial 157 from the right with 0.1 s delay
+[2021-08-21 22:10:29,120]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 22:11:07,512]{training.py:167} INFO - Ending trial 157 with failure due to "overshoot" after 38.5 s.
+[2021-08-21 22:11:07,513]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:11:07,514]{training.py:185} INFO - Total: 157, Successes: 85 (54.1% correct)!
+[2021-08-21 22:11:09,549]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 22:11:09,552]{training.py:80} DEBUG - Starting trial on Right with d=0.86 (mu=0.20)
+[2021-08-21 22:11:09,554]{training.py:90} INFO - Starting trial 158 from the right with 0.2 s delay
+[2021-08-21 22:11:09,809]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-21 22:11:10,066]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-21 22:11:12,092]{training.py:167} INFO - Ending trial 158 with failure due to "overshoot" after 2.5 s.
+[2021-08-21 22:11:12,095]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:11:12,097]{training.py:185} INFO - Total: 158, Successes: 85 (53.8% correct)!
+[2021-08-21 22:11:14,126]{training.py:79} DEBUG - deque([True, False, False, False, False, False, False, False, True, False], maxlen=10)
+[2021-08-21 22:11:14,127]{training.py:80} DEBUG - Starting trial on Right with d=1.10 (mu=0.20)
+[2021-08-21 22:11:14,128]{training.py:90} INFO - Starting trial 159 from the right with 0.4 s delay
+[2021-08-21 22:11:14,505]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.35s
+[2021-08-21 22:11:14,984]{training.py:167} INFO - Ending trial 159 with success due to "goal" after 0.9 s.
+[2021-08-21 22:11:14,986]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:11:14,987]{training.py:185} INFO - Total: 159, Successes: 86 (54.1% correct)!
+[2021-08-21 22:11:16,515]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, True, False, True], maxlen=10)
+[2021-08-21 22:11:16,516]{training.py:80} DEBUG - Starting trial on Right with d=1.04 (mu=0.50)
+[2021-08-21 22:11:16,516]{training.py:90} INFO - Starting trial 160 from the right with 0.3 s delay
+[2021-08-21 22:11:16,806]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-21 22:11:17,705]{training.py:167} INFO - Ending trial 160 with success due to "goal" after 1.2 s.
+[2021-08-21 22:11:17,706]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:11:17,706]{training.py:185} INFO - Total: 160, Successes: 87 (54.4% correct)!
+[2021-08-21 22:11:19,233]{training.py:79} DEBUG - deque([False, False, False, False, False, False, True, False, True, True], maxlen=10)
+[2021-08-21 22:11:19,235]{training.py:80} DEBUG - Starting trial on Right with d=0.19 (mu=0.50)
+[2021-08-21 22:11:19,237]{training.py:90} INFO - Starting trial 161 from the right with 0.4 s delay
+[2021-08-21 22:11:19,711]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 22:11:20,175]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 22:11:33,308]{training.py:167} INFO - Ending trial 161 with failure due to "overshoot" after 14.1 s.
+[2021-08-21 22:11:33,309]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:11:33,309]{training.py:185} INFO - Total: 161, Successes: 87 (54.0% correct)!
+[2021-08-21 22:11:35,333]{training.py:79} DEBUG - deque([False, False, False, False, False, True, False, True, True, True], maxlen=10)
+[2021-08-21 22:11:35,336]{training.py:80} DEBUG - Starting trial on Left with d=-0.67 (mu=0.40)
+[2021-08-21 22:11:35,338]{training.py:90} INFO - Starting trial 162 from the right with 0.3 s delay
+[2021-08-21 22:11:35,626]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 22:11:49,849]{training.py:167} INFO - Ending trial 162 with success due to "goal" after 14.5 s.
+[2021-08-21 22:11:49,849]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:11:49,850]{training.py:185} INFO - Total: 162, Successes: 88 (54.3% correct)!
+[2021-08-21 22:11:51,379]{training.py:79} DEBUG - deque([False, False, False, False, True, False, True, True, True, False], maxlen=10)
+[2021-08-21 22:11:51,379]{training.py:80} DEBUG - Starting trial on Right with d=0.58 (mu=0.50)
+[2021-08-21 22:11:51,381]{training.py:90} INFO - Starting trial 163 from the right with 0.2 s delay
+[2021-08-21 22:11:51,600]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-21 22:11:55,299]{training.py:167} INFO - Ending trial 163 with failure due to "overshoot" after 3.9 s.
+[2021-08-21 22:11:55,300]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:11:55,300]{training.py:185} INFO - Total: 163, Successes: 88 (54.0% correct)!
+[2021-08-21 22:11:57,326]{training.py:79} DEBUG - deque([False, False, False, True, False, True, True, True, False, False], maxlen=10)
+[2021-08-21 22:11:57,327]{training.py:80} DEBUG - Starting trial on Right with d=0.33 (mu=0.40)
+[2021-08-21 22:11:57,328]{training.py:90} INFO - Starting trial 164 from the right with 0.4 s delay
+[2021-08-21 22:11:57,742]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.38s
+[2021-08-21 22:11:58,543]{training.py:167} INFO - Ending trial 164 with failure due to "overshoot" after 1.2 s.
+[2021-08-21 22:11:58,544]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:11:58,545]{training.py:185} INFO - Total: 164, Successes: 88 (53.7% correct)!
+[2021-08-21 22:12:00,565]{training.py:79} DEBUG - deque([False, False, True, False, True, True, True, False, False, True], maxlen=10)
+[2021-08-21 22:12:00,566]{training.py:80} DEBUG - Starting trial on Right with d=0.48 (mu=0.50)
+[2021-08-21 22:12:00,572]{training.py:90} INFO - Starting trial 165 from the right with 0.3 s delay
+[2021-08-21 22:12:00,928]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-21 22:13:00,574]{training.py:167} INFO - Ending trial 165 with failure due to "timeout" after 60.0 s.
+[2021-08-21 22:13:00,574]{training.py:185} INFO - Total: 165, Successes: 88 (53.3% correct)!
+[2021-08-21 22:13:02,596]{training.py:79} DEBUG - deque([False, False, True, False, True, True, True, False, False, True], maxlen=10)
+[2021-08-21 22:13:02,597]{training.py:80} DEBUG - Starting trial on Right with d=1.09 (mu=0.50)
+[2021-08-21 22:13:02,597]{training.py:90} INFO - Starting trial 166 from the right with 0.1 s delay
+[2021-08-21 22:13:02,765]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 22:13:21,236]{training.py:167} INFO - Ending trial 166 with success due to "goal" after 18.6 s.
+[2021-08-21 22:13:21,238]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:13:21,242]{training.py:185} INFO - Total: 166, Successes: 89 (53.6% correct)!
+[2021-08-21 22:13:22,768]{training.py:79} DEBUG - deque([False, True, False, True, True, True, False, False, True, True], maxlen=10)
+[2021-08-21 22:13:22,769]{training.py:80} DEBUG - Starting trial on Left with d=-0.27 (mu=0.50)
+[2021-08-21 22:13:22,770]{training.py:90} INFO - Starting trial 167 from the right with 0.3 s delay
+[2021-08-21 22:13:23,060]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.27s
+[2021-08-21 22:14:22,780]{training.py:167} INFO - Ending trial 167 with failure due to "timeout" after 60.0 s.
+[2021-08-21 22:14:22,780]{training.py:185} INFO - Total: 167, Successes: 89 (53.3% correct)!
+[2021-08-21 22:14:24,808]{training.py:79} DEBUG - deque([False, True, False, True, True, True, False, False, True, True], maxlen=10)
+[2021-08-21 22:14:24,810]{training.py:80} DEBUG - Starting trial on Right with d=1.09 (mu=0.50)
+[2021-08-21 22:14:24,811]{training.py:90} INFO - Starting trial 168 from the right with 0.2 s delay
+[2021-08-21 22:14:25,079]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.24s
+[2021-08-21 22:14:30,424]{training.py:167} INFO - Ending trial 168 with failure due to "overshoot" after 5.6 s.
+[2021-08-21 22:14:30,425]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:14:30,425]{training.py:185} INFO - Total: 168, Successes: 89 (53.0% correct)!
+[2021-08-21 22:14:32,460]{training.py:79} DEBUG - deque([True, False, True, True, True, False, False, True, True, False], maxlen=10)
+[2021-08-21 22:14:32,461]{training.py:80} DEBUG - Starting trial on Right with d=0.29 (mu=0.60)
+[2021-08-21 22:14:32,462]{training.py:90} INFO - Starting trial 169 from the right with 0.1 s delay
+[2021-08-21 22:14:32,560]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 22:14:38,355]{training.py:167} INFO - Ending trial 169 with failure due to "overshoot" after 5.9 s.
+[2021-08-21 22:14:38,357]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:14:38,358]{training.py:185} INFO - Total: 169, Successes: 89 (52.7% correct)!
+[2021-08-21 22:14:40,391]{training.py:79} DEBUG - deque([False, True, True, True, False, False, True, True, False, True], maxlen=10)
+[2021-08-21 22:14:40,393]{training.py:80} DEBUG - Starting trial on Left with d=-0.29 (mu=0.60)
+[2021-08-21 22:14:40,397]{training.py:90} INFO - Starting trial 170 from the right with 0.2 s delay
+[2021-08-21 22:14:40,631]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.21s
+[2021-08-21 22:14:43,245]{training.py:167} INFO - Ending trial 170 with failure due to "overshoot" after 2.9 s.
+[2021-08-21 22:14:43,246]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:14:43,248]{training.py:185} INFO - Total: 170, Successes: 89 (52.4% correct)!
+[2021-08-21 22:14:45,285]{training.py:79} DEBUG - deque([True, True, True, False, False, True, True, False, True, True], maxlen=10)
+[2021-08-21 22:14:45,286]{training.py:80} DEBUG - Starting trial on Right with d=0.73 (mu=0.70)
+[2021-08-21 22:14:45,287]{training.py:90} INFO - Starting trial 171 from the right with 0.4 s delay
+[2021-08-21 22:14:45,742]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-21 22:14:46,730]{training.py:167} INFO - Ending trial 171 with failure due to "overshoot" after 1.4 s.
+[2021-08-21 22:14:46,730]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:14:46,731]{training.py:185} INFO - Total: 171, Successes: 89 (52.0% correct)!
+[2021-08-21 22:14:48,754]{training.py:79} DEBUG - deque([True, True, False, False, True, True, False, True, True, False], maxlen=10)
+[2021-08-21 22:14:48,755]{training.py:80} DEBUG - Starting trial on Right with d=0.41 (mu=0.60)
+[2021-08-21 22:14:48,758]{training.py:90} INFO - Starting trial 172 from the right with 0.4 s delay
+[2021-08-21 22:14:49,231]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 22:15:03,821]{training.py:167} INFO - Ending trial 172 with failure due to "overshoot" after 15.1 s.
+[2021-08-21 22:15:03,823]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:15:03,824]{training.py:185} INFO - Total: 172, Successes: 89 (51.7% correct)!
+[2021-08-21 22:15:05,852]{training.py:79} DEBUG - deque([True, False, False, True, True, False, True, True, False, True], maxlen=10)
+[2021-08-21 22:15:05,853]{training.py:80} DEBUG - Starting trial on Right with d=1.08 (mu=0.60)
+[2021-08-21 22:15:05,854]{training.py:90} INFO - Starting trial 173 from the right with 0.5 s delay
+[2021-08-21 22:15:06,339]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-21 22:15:28,264]{training.py:167} INFO - Ending trial 173 with failure due to "overshoot" after 22.4 s.
+[2021-08-21 22:15:28,268]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:15:28,271]{training.py:185} INFO - Total: 173, Successes: 89 (51.4% correct)!
+[2021-08-21 22:15:30,299]{training.py:79} DEBUG - deque([False, False, True, True, False, True, True, False, True, False], maxlen=10)
+[2021-08-21 22:15:30,300]{training.py:80} DEBUG - Starting trial on Right with d=0.00 (mu=0.50)
+[2021-08-21 22:15:30,301]{training.py:90} INFO - Starting trial 174 from the right with 0.3 s delay
+[2021-08-21 22:15:30,624]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-21 22:15:49,812]{training.py:167} INFO - Ending trial 174 with failure due to "overshoot" after 19.5 s.
+[2021-08-21 22:15:49,813]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:15:49,815]{training.py:185} INFO - Total: 174, Successes: 89 (51.1% correct)!
+[2021-08-21 22:15:51,843]{training.py:79} DEBUG - deque([False, True, True, False, True, True, False, True, False, True], maxlen=10)
+[2021-08-21 22:15:51,844]{training.py:80} DEBUG - Starting trial on Right with d=0.83 (mu=0.60)
+[2021-08-21 22:15:51,848]{training.py:90} INFO - Starting trial 175 from the right with 0.2 s delay
+[2021-08-21 22:15:52,065]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 22:15:52,291]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 22:15:52,989]{training.py:167} INFO - Ending trial 175 with failure due to "overshoot" after 1.1 s.
+[2021-08-21 22:15:52,990]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:15:52,991]{training.py:185} INFO - Total: 175, Successes: 89 (50.9% correct)!
+[2021-08-21 22:15:55,016]{training.py:79} DEBUG - deque([True, True, False, True, True, False, True, False, True, False], maxlen=10)
+[2021-08-21 22:15:55,017]{training.py:80} DEBUG - Starting trial on Left with d=-0.16 (mu=0.60)
+[2021-08-21 22:15:55,018]{training.py:90} INFO - Starting trial 176 from the right with 0.2 s delay
+[2021-08-21 22:15:55,190]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-21 22:15:55,361]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-21 22:15:55,537]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.15s
+[2021-08-21 22:15:56,680]{training.py:167} INFO - Ending trial 176 with failure due to "overshoot" after 1.7 s.
+[2021-08-21 22:15:56,682]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:15:56,684]{training.py:185} INFO - Total: 176, Successes: 89 (50.6% correct)!
+[2021-08-21 22:15:58,709]{training.py:79} DEBUG - deque([True, False, True, True, False, True, False, True, False, True], maxlen=10)
+[2021-08-21 22:15:58,711]{training.py:80} DEBUG - Starting trial on Right with d=0.44 (mu=0.60)
+[2021-08-21 22:15:58,712]{training.py:90} INFO - Starting trial 177 from the right with 0.2 s delay
+[2021-08-21 22:15:59,005]{training.py:167} INFO - Ending trial 177 with failure due to "overshoot" after 0.3 s.
+[2021-08-21 22:15:59,011]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:15:59,016]{training.py:185} INFO - Total: 177, Successes: 89 (50.3% correct)!
+[2021-08-21 22:16:01,045]{training.py:79} DEBUG - deque([False, True, True, False, True, False, True, False, True, True], maxlen=10)
+[2021-08-21 22:16:01,046]{training.py:80} DEBUG - Starting trial on Right with d=0.54 (mu=0.60)
+[2021-08-21 22:16:01,046]{training.py:90} INFO - Starting trial 178 from the right with 0.2 s delay
+[2021-08-21 22:16:01,252]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 22:16:02,159]{training.py:167} INFO - Ending trial 178 with success due to "goal" after 1.1 s.
+[2021-08-21 22:16:02,160]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:16:02,161]{training.py:185} INFO - Total: 178, Successes: 90 (50.6% correct)!
+[2021-08-21 22:16:03,693]{training.py:79} DEBUG - deque([True, True, False, True, False, True, False, True, True, True], maxlen=10)
+[2021-08-21 22:16:03,694]{training.py:80} DEBUG - Starting trial on Right with d=0.49 (mu=0.50)
+[2021-08-21 22:16:03,695]{training.py:90} INFO - Starting trial 179 from the right with 0.2 s delay
+[2021-08-21 22:16:03,879]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-21 22:16:05,584]{training.py:167} INFO - Ending trial 179 with failure due to "overshoot" after 1.9 s.
+[2021-08-21 22:16:05,585]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:16:05,586]{training.py:185} INFO - Total: 179, Successes: 90 (50.3% correct)!
+[2021-08-21 22:16:07,622]{training.py:79} DEBUG - deque([True, False, True, False, True, False, True, True, True, True], maxlen=10)
+[2021-08-21 22:16:07,623]{training.py:80} DEBUG - Starting trial on Right with d=1.55 (mu=0.70)
+[2021-08-21 22:16:07,624]{training.py:90} INFO - Starting trial 180 from the right with 0.1 s delay
+[2021-08-21 22:16:07,756]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 22:17:07,625]{training.py:167} INFO - Ending trial 180 with failure due to "timeout" after 60.0 s.
+[2021-08-21 22:17:07,625]{training.py:185} INFO - Total: 180, Successes: 90 (50.0% correct)!
+[2021-08-21 22:17:09,650]{training.py:79} DEBUG - deque([True, False, True, False, True, False, True, True, True, True], maxlen=10)
+[2021-08-21 22:17:09,654]{training.py:80} DEBUG - Starting trial on Right with d=0.56 (mu=0.70)
+[2021-08-21 22:17:09,655]{training.py:90} INFO - Starting trial 181 from the right with 0.4 s delay
+[2021-08-21 22:17:10,135]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.45s
+[2021-08-21 22:17:46,473]{training.py:167} INFO - Ending trial 181 with failure due to "overshoot" after 36.8 s.
+[2021-08-21 22:17:46,475]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:17:46,476]{training.py:185} INFO - Total: 181, Successes: 90 (49.7% correct)!
+[2021-08-21 22:17:48,495]{training.py:79} DEBUG - deque([False, True, False, True, False, True, True, True, True, False], maxlen=10)
+[2021-08-21 22:17:48,496]{training.py:80} DEBUG - Starting trial on Right with d=0.32 (mu=0.60)
+[2021-08-21 22:17:48,497]{training.py:90} INFO - Starting trial 182 from the right with 0.1 s delay
+[2021-08-21 22:17:48,619]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.09s
+[2021-08-21 22:18:47,956]{training.py:167} INFO - Ending trial 182 with success due to "goal" after 59.5 s.
+[2021-08-21 22:18:47,957]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:18:47,957]{training.py:185} INFO - Total: 182, Successes: 91 (50.0% correct)!
+[2021-08-21 22:18:49,487]{training.py:79} DEBUG - deque([True, False, True, False, True, True, True, True, False, False], maxlen=10)
+[2021-08-21 22:18:49,488]{training.py:80} DEBUG - Starting trial on Left with d=-0.08 (mu=0.50)
+[2021-08-21 22:18:49,489]{training.py:90} INFO - Starting trial 183 from the right with 0.3 s delay
+[2021-08-21 22:18:49,831]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 22:18:50,172]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.31s
+[2021-08-21 22:18:52,235]{training.py:167} INFO - Ending trial 183 with failure due to "overshoot" after 2.7 s.
+[2021-08-21 22:18:52,236]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:18:52,236]{training.py:185} INFO - Total: 183, Successes: 91 (49.7% correct)!
+[2021-08-21 22:18:54,256]{training.py:79} DEBUG - deque([False, True, False, True, True, True, True, False, False, True], maxlen=10)
+[2021-08-21 22:18:54,258]{training.py:80} DEBUG - Starting trial on Left with d=-0.39 (mu=0.60)
+[2021-08-21 22:18:54,260]{training.py:90} INFO - Starting trial 184 from the right with 0.3 s delay
+[2021-08-21 22:18:54,618]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-21 22:19:51,526]{training.py:167} INFO - Ending trial 184 with success due to "goal" after 57.3 s.
+[2021-08-21 22:19:51,527]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:19:51,527]{training.py:185} INFO - Total: 184, Successes: 92 (50.0% correct)!
+[2021-08-21 22:19:53,056]{training.py:79} DEBUG - deque([True, False, True, True, True, True, False, False, True, False], maxlen=10)
+[2021-08-21 22:19:53,057]{training.py:80} DEBUG - Starting trial on Right with d=1.01 (mu=0.50)
+[2021-08-21 22:19:53,058]{training.py:90} INFO - Starting trial 185 from the right with 0.1 s delay
+[2021-08-21 22:19:53,140]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 22:19:57,724]{training.py:167} INFO - Ending trial 185 with success due to "goal" after 4.7 s.
+[2021-08-21 22:19:57,724]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:19:57,725]{training.py:185} INFO - Total: 185, Successes: 93 (50.3% correct)!
+[2021-08-21 22:19:59,251]{training.py:79} DEBUG - deque([False, True, True, True, True, False, False, True, False, True], maxlen=10)
+[2021-08-21 22:19:59,252]{training.py:80} DEBUG - Starting trial on Right with d=1.40 (mu=0.50)
+[2021-08-21 22:19:59,253]{training.py:90} INFO - Starting trial 186 from the right with 0.0 s delay
+[2021-08-21 22:19:59,319]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 22:20:47,201]{training.py:167} INFO - Ending trial 186 with failure due to "overshoot" after 48.0 s.
+[2021-08-21 22:20:47,202]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:20:47,202]{training.py:185} INFO - Total: 186, Successes: 93 (50.0% correct)!
+[2021-08-21 22:20:49,228]{training.py:79} DEBUG - deque([True, True, True, True, False, False, True, False, True, False], maxlen=10)
+[2021-08-21 22:20:49,228]{training.py:80} DEBUG - Starting trial on Right with d=1.01 (mu=0.60)
+[2021-08-21 22:20:49,229]{training.py:90} INFO - Starting trial 187 from the right with 0.2 s delay
+[2021-08-21 22:20:49,485]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.23s
+[2021-08-21 22:21:13,806]{training.py:167} INFO - Ending trial 187 with failure due to "overshoot" after 24.6 s.
+[2021-08-21 22:21:13,809]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:21:13,809]{training.py:185} INFO - Total: 187, Successes: 93 (49.7% correct)!
+[2021-08-21 22:21:15,833]{training.py:79} DEBUG - deque([True, True, True, False, False, True, False, True, False, False], maxlen=10)
+[2021-08-21 22:21:15,834]{training.py:80} DEBUG - Starting trial on Right with d=0.74 (mu=0.50)
+[2021-08-21 22:21:15,835]{training.py:90} INFO - Starting trial 188 from the right with 0.4 s delay
+[2021-08-21 22:21:16,293]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-21 22:21:20,004]{training.py:167} INFO - Ending trial 188 with success due to "goal" after 4.2 s.
+[2021-08-21 22:21:20,005]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:21:20,005]{training.py:185} INFO - Total: 188, Successes: 94 (50.0% correct)!
+[2021-08-21 22:21:21,526]{training.py:79} DEBUG - deque([True, True, False, False, True, False, True, False, False, True], maxlen=10)
+[2021-08-21 22:21:21,528]{training.py:80} DEBUG - Starting trial on Right with d=0.40 (mu=0.50)
+[2021-08-21 22:21:21,530]{training.py:90} INFO - Starting trial 189 from the right with 0.0 s delay
+[2021-08-21 22:21:21,594]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 22:21:21,662]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 22:21:22,126]{training.py:167} INFO - Ending trial 189 with failure due to "overshoot" after 0.6 s.
+[2021-08-21 22:21:22,127]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:21:22,128]{training.py:185} INFO - Total: 189, Successes: 94 (49.7% correct)!
+[2021-08-21 22:21:24,152]{training.py:79} DEBUG - deque([True, False, False, True, False, True, False, False, True, True], maxlen=10)
+[2021-08-21 22:21:24,153]{training.py:80} DEBUG - Starting trial on Right with d=0.38 (mu=0.50)
+[2021-08-21 22:21:24,154]{training.py:90} INFO - Starting trial 190 from the right with 0.1 s delay
+[2021-08-21 22:21:24,258]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-21 22:21:59,370]{training.py:167} INFO - Ending trial 190 with success due to "goal" after 35.2 s.
+[2021-08-21 22:21:59,371]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:21:59,372]{training.py:185} INFO - Total: 190, Successes: 95 (50.0% correct)!
+[2021-08-21 22:22:00,891]{training.py:79} DEBUG - deque([False, False, True, False, True, False, False, True, True, False], maxlen=10)
+[2021-08-21 22:22:00,891]{training.py:80} DEBUG - Starting trial on Right with d=0.93 (mu=0.50)
+[2021-08-21 22:22:00,892]{training.py:90} INFO - Starting trial 191 from the right with 0.5 s delay
+[2021-08-21 22:22:01,386]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.46s
+[2021-08-21 22:22:09,585]{training.py:167} INFO - Ending trial 191 with success due to "goal" after 8.7 s.
+[2021-08-21 22:22:09,585]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:22:09,586]{training.py:185} INFO - Total: 191, Successes: 96 (50.3% correct)!
+[2021-08-21 22:22:11,108]{training.py:79} DEBUG - deque([False, True, False, True, False, False, True, True, False, True], maxlen=10)
+[2021-08-21 22:22:11,108]{training.py:80} DEBUG - Starting trial on Right with d=0.11 (mu=0.50)
+[2021-08-21 22:22:11,109]{training.py:90} INFO - Starting trial 192 from the right with 0.1 s delay
+[2021-08-21 22:22:11,210]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 22:22:16,782]{training.py:167} INFO - Ending trial 192 with failure due to "overshoot" after 5.7 s.
+[2021-08-21 22:22:16,783]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:22:16,783]{training.py:185} INFO - Total: 192, Successes: 96 (50.0% correct)!
+[2021-08-21 22:22:18,822]{training.py:79} DEBUG - deque([True, False, True, False, False, True, True, False, True, True], maxlen=10)
+[2021-08-21 22:22:18,824]{training.py:80} DEBUG - Starting trial on Right with d=0.67 (mu=0.60)
+[2021-08-21 22:22:18,825]{training.py:90} INFO - Starting trial 193 from the right with 0.3 s delay
+[2021-08-21 22:22:19,110]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 22:22:19,402]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 22:22:19,922]{training.py:167} INFO - Ending trial 193 with success due to "goal" after 1.1 s.
+[2021-08-21 22:22:19,923]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:22:19,924]{training.py:185} INFO - Total: 193, Successes: 97 (50.3% correct)!
+[2021-08-21 22:22:21,446]{training.py:79} DEBUG - deque([False, True, False, False, True, True, False, True, True, True], maxlen=10)
+[2021-08-21 22:22:21,446]{training.py:80} DEBUG - Starting trial on Right with d=0.55 (mu=0.50)
+[2021-08-21 22:22:21,449]{training.py:90} INFO - Starting trial 194 from the right with 0.4 s delay
+[2021-08-21 22:22:21,846]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 22:22:22,252]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 22:22:22,653]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 22:22:23,055]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.37s
+[2021-08-21 22:22:34,382]{training.py:167} INFO - Ending trial 194 with failure due to "overshoot" after 12.9 s.
+[2021-08-21 22:22:34,383]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:22:34,386]{training.py:185} INFO - Total: 194, Successes: 97 (50.0% correct)!
+[2021-08-21 22:22:36,421]{training.py:79} DEBUG - deque([True, False, False, True, True, False, True, True, True, False], maxlen=10)
+[2021-08-21 22:22:36,422]{training.py:80} DEBUG - Starting trial on Right with d=1.19 (mu=0.60)
+[2021-08-21 22:22:36,422]{training.py:90} INFO - Starting trial 195 from the right with 0.5 s delay
+[2021-08-21 22:22:36,919]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.47s
+[2021-08-21 22:22:50,225]{training.py:167} INFO - Ending trial 195 with success due to "goal" after 13.8 s.
+[2021-08-21 22:22:50,225]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:22:50,226]{training.py:185} INFO - Total: 195, Successes: 98 (50.3% correct)!
+[2021-08-21 22:22:51,751]{training.py:79} DEBUG - deque([False, False, True, True, False, True, True, True, False, True], maxlen=10)
+[2021-08-21 22:22:51,753]{training.py:80} DEBUG - Starting trial on Right with d=1.40 (mu=0.50)
+[2021-08-21 22:22:51,754]{training.py:90} INFO - Starting trial 196 from the right with 0.1 s delay
+[2021-08-21 22:22:51,921]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 22:22:54,689]{training.py:167} INFO - Ending trial 196 with success due to "goal" after 2.9 s.
+[2021-08-21 22:22:54,690]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:22:54,690]{training.py:185} INFO - Total: 196, Successes: 99 (50.5% correct)!
+[2021-08-21 22:22:56,223]{training.py:79} DEBUG - deque([False, True, True, False, True, True, True, False, True, True], maxlen=10)
+[2021-08-21 22:22:56,223]{training.py:80} DEBUG - Starting trial on Right with d=0.07 (mu=0.50)
+[2021-08-21 22:22:56,224]{training.py:90} INFO - Starting trial 197 from the right with 0.2 s delay
+[2021-08-21 22:22:56,445]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 22:22:57,274]{training.py:167} INFO - Ending trial 197 with success due to "goal" after 1.1 s.
+[2021-08-21 22:22:57,275]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:22:57,275]{training.py:185} INFO - Total: 197, Successes: 100 (50.8% correct)!
+[2021-08-21 22:22:58,804]{training.py:79} DEBUG - deque([True, True, False, True, True, True, False, True, True, False], maxlen=10)
+[2021-08-21 22:22:58,804]{training.py:80} DEBUG - Starting trial on Right with d=0.92 (mu=0.50)
+[2021-08-21 22:22:58,805]{training.py:90} INFO - Starting trial 198 from the right with 0.4 s delay
+[2021-08-21 22:22:59,273]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-21 22:22:59,736]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-21 22:23:00,198]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.44s
+[2021-08-21 22:23:07,291]{training.py:167} INFO - Ending trial 198 with success due to "goal" after 8.5 s.
+[2021-08-21 22:23:07,292]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:23:07,293]{training.py:185} INFO - Total: 198, Successes: 101 (51.0% correct)!
+[2021-08-21 22:23:08,821]{training.py:79} DEBUG - deque([True, False, True, True, True, False, True, True, False, True], maxlen=10)
+[2021-08-21 22:23:08,824]{training.py:80} DEBUG - Starting trial on Right with d=0.54 (mu=0.50)
+[2021-08-21 22:23:08,825]{training.py:90} INFO - Starting trial 199 from the right with 0.1 s delay
+[2021-08-21 22:23:08,991]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.14s
+[2021-08-21 22:23:12,959]{training.py:167} INFO - Ending trial 199 with success due to "goal" after 4.1 s.
+[2021-08-21 22:23:12,960]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:23:12,960]{training.py:185} INFO - Total: 199, Successes: 102 (51.3% correct)!
+[2021-08-21 22:23:14,495]{training.py:79} DEBUG - deque([False, True, True, True, False, True, True, False, True, True], maxlen=10)
+[2021-08-21 22:23:14,495]{training.py:80} DEBUG - Starting trial on Left with d=-0.13 (mu=0.50)
+[2021-08-21 22:23:14,496]{training.py:90} INFO - Starting trial 200 from the right with 0.5 s delay
+[2021-08-21 22:23:15,007]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 22:23:15,509]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.48s
+[2021-08-21 22:23:16,127]{training.py:167} INFO - Ending trial 200 with failure due to "overshoot" after 1.6 s.
+[2021-08-21 22:23:16,127]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:23:16,128]{training.py:185} INFO - Total: 200, Successes: 102 (51.0% correct)!
+[2021-08-21 22:23:18,162]{training.py:79} DEBUG - deque([True, True, True, False, True, True, False, True, True, True], maxlen=10)
+[2021-08-21 22:23:18,166]{training.py:80} DEBUG - Starting trial on Right with d=1.58 (mu=0.80)
+[2021-08-21 22:23:18,167]{training.py:90} INFO - Starting trial 201 from the right with 0.1 s delay
+[2021-08-21 22:23:18,305]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.12s
+[2021-08-21 22:23:19,873]{training.py:167} INFO - Ending trial 201 with failure due to "overshoot" after 1.7 s.
+[2021-08-21 22:23:19,873]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:23:19,873]{training.py:185} INFO - Total: 201, Successes: 102 (50.7% correct)!
+[2021-08-21 22:23:21,897]{training.py:79} DEBUG - deque([True, True, False, True, True, False, True, True, True, False], maxlen=10)
+[2021-08-21 22:23:21,899]{training.py:80} DEBUG - Starting trial on Right with d=0.87 (mu=0.70)
+[2021-08-21 22:23:21,903]{training.py:90} INFO - Starting trial 202 from the right with 0.3 s delay
+[2021-08-21 22:23:22,219]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-21 22:24:04,121]{training.py:167} INFO - Ending trial 202 with failure due to "overshoot" after 42.2 s.
+[2021-08-21 22:24:04,121]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:24:04,122]{training.py:185} INFO - Total: 202, Successes: 102 (50.5% correct)!
+[2021-08-21 22:24:06,150]{training.py:79} DEBUG - deque([True, False, True, True, False, True, True, True, False, False], maxlen=10)
+[2021-08-21 22:24:06,151]{training.py:80} DEBUG - Starting trial on Right with d=0.59 (mu=0.60)
+[2021-08-21 22:24:06,152]{training.py:90} INFO - Starting trial 203 from the right with 0.4 s delay
+[2021-08-21 22:24:06,574]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.40s
+[2021-08-21 22:24:08,628]{training.py:167} INFO - Ending trial 203 with success due to "goal" after 2.5 s.
+[2021-08-21 22:24:08,631]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:24:08,633]{training.py:185} INFO - Total: 203, Successes: 103 (50.7% correct)!
+[2021-08-21 22:24:10,166]{training.py:79} DEBUG - deque([False, True, True, False, True, True, True, False, False, True], maxlen=10)
+[2021-08-21 22:24:10,171]{training.py:80} DEBUG - Starting trial on Right with d=1.12 (mu=0.50)
+[2021-08-21 22:24:10,173]{training.py:90} INFO - Starting trial 204 from the right with 0.2 s delay
+[2021-08-21 22:24:10,372]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-21 22:24:10,577]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.18s
+[2021-08-21 22:24:11,204]{training.py:167} INFO - Ending trial 204 with failure due to "overshoot" after 1.0 s.
+[2021-08-21 22:24:11,204]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:24:11,205]{training.py:185} INFO - Total: 204, Successes: 103 (50.5% correct)!
+[2021-08-21 22:24:13,236]{training.py:79} DEBUG - deque([True, True, False, True, True, True, False, False, True, False], maxlen=10)
+[2021-08-21 22:24:13,237]{training.py:80} DEBUG - Starting trial on Left with d=-0.68 (mu=0.60)
+[2021-08-21 22:24:13,238]{training.py:90} INFO - Starting trial 205 from the right with 0.3 s delay
+[2021-08-21 22:24:13,524]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.26s
+[2021-08-21 22:24:43,989]{training.py:167} INFO - Ending trial 205 with success due to "goal" after 30.8 s.
+[2021-08-21 22:24:43,990]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:24:43,992]{training.py:185} INFO - Total: 205, Successes: 104 (50.7% correct)!
+[2021-08-21 22:24:45,515]{training.py:79} DEBUG - deque([True, False, True, True, True, False, False, True, False, False], maxlen=10)
+[2021-08-21 22:24:45,516]{training.py:80} DEBUG - Starting trial on Left with d=-0.55 (mu=0.50)
+[2021-08-21 22:24:45,517]{training.py:90} INFO - Starting trial 206 from the right with 0.4 s delay
+[2021-08-21 22:24:45,975]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.43s
+[2021-08-21 22:25:22,602]{training.py:167} INFO - Ending trial 206 with success due to "goal" after 37.1 s.
+[2021-08-21 22:25:22,603]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:25:22,603]{training.py:185} INFO - Total: 206, Successes: 105 (51.0% correct)!
+[2021-08-21 22:25:24,126]{training.py:79} DEBUG - deque([False, True, True, True, False, False, True, False, False, False], maxlen=10)
+[2021-08-21 22:25:24,127]{training.py:80} DEBUG - Starting trial on Right with d=0.41 (mu=0.50)
+[2021-08-21 22:25:24,128]{training.py:90} INFO - Starting trial 207 from the right with 0.2 s delay
+[2021-08-21 22:25:24,311]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.16s
+[2021-08-21 22:26:08,266]{training.py:167} INFO - Ending trial 207 with success due to "goal" after 44.1 s.
+[2021-08-21 22:26:08,266]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:26:08,267]{training.py:185} INFO - Total: 207, Successes: 106 (51.2% correct)!
+[2021-08-21 22:26:09,786]{training.py:79} DEBUG - deque([True, True, True, False, False, True, False, False, False, False], maxlen=10)
+[2021-08-21 22:26:09,787]{training.py:80} DEBUG - Starting trial on Right with d=0.77 (mu=0.50)
+[2021-08-21 22:26:09,788]{training.py:90} INFO - Starting trial 208 from the right with 0.1 s delay
+[2021-08-21 22:26:09,905]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.10s
+[2021-08-21 22:26:17,461]{training.py:167} INFO - Ending trial 208 with failure due to "overshoot" after 7.7 s.
+[2021-08-21 22:26:17,462]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:26:17,464]{training.py:185} INFO - Total: 208, Successes: 106 (51.0% correct)!
+[2021-08-21 22:26:19,490]{training.py:79} DEBUG - deque([True, True, False, False, True, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:26:19,491]{training.py:80} DEBUG - Starting trial on Right with d=0.53 (mu=0.30)
+[2021-08-21 22:26:19,493]{training.py:90} INFO - Starting trial 209 from the right with 0.2 s delay
+[2021-08-21 22:26:19,745]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.22s
+[2021-08-21 22:26:46,952]{training.py:167} INFO - Ending trial 209 with failure due to "overshoot" after 27.5 s.
+[2021-08-21 22:26:46,953]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:26:46,953]{training.py:185} INFO - Total: 209, Successes: 106 (50.7% correct)!
+[2021-08-21 22:26:48,973]{training.py:79} DEBUG - deque([True, False, False, True, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:26:48,974]{training.py:80} DEBUG - Starting trial on Right with d=0.85 (mu=0.20)
+[2021-08-21 22:26:48,975]{training.py:90} INFO - Starting trial 210 from the right with 0.2 s delay
+[2021-08-21 22:26:49,231]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.24s
+[2021-08-21 22:27:01,746]{training.py:167} INFO - Ending trial 210 with failure due to "overshoot" after 12.8 s.
+[2021-08-21 22:27:01,747]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:27:01,747]{training.py:185} INFO - Total: 210, Successes: 106 (50.5% correct)!
+[2021-08-21 22:27:03,775]{training.py:79} DEBUG - deque([False, False, True, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:27:03,776]{training.py:80} DEBUG - Starting trial on Right with d=0.17 (mu=0.10)
+[2021-08-21 22:27:03,781]{training.py:90} INFO - Starting trial 211 from the right with 0.2 s delay
+[2021-08-21 22:27:03,997]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.20s
+[2021-08-21 22:27:52,481]{training.py:167} INFO - Ending trial 211 with success due to "goal" after 48.7 s.
+[2021-08-21 22:27:52,483]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:27:52,486]{training.py:185} INFO - Total: 211, Successes: 107 (50.7% correct)!
+[2021-08-21 22:27:54,018]{training.py:79} DEBUG - deque([False, True, False, False, False, False, False, False, False, False], maxlen=10)
+[2021-08-21 22:27:54,019]{training.py:80} DEBUG - Starting trial on Right with d=1.08 (mu=0.50)
+[2021-08-21 22:27:54,020]{training.py:90} INFO - Starting trial 212 from the right with 0.3 s delay
+[2021-08-21 22:27:54,373]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 22:27:54,715]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 22:27:55,071]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.32s
+[2021-08-21 22:28:17,356]{training.py:167} INFO - Ending trial 212 with success due to "goal" after 23.3 s.
+[2021-08-21 22:28:17,357]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:28:17,358]{training.py:185} INFO - Total: 212, Successes: 108 (50.9% correct)!
+[2021-08-21 22:28:18,884]{training.py:79} DEBUG - deque([True, False, False, False, False, False, False, False, False, True], maxlen=10)
+[2021-08-21 22:28:18,885]{training.py:80} DEBUG - Starting trial on Right with d=0.94 (mu=0.50)
+[2021-08-21 22:28:18,885]{training.py:90} INFO - Starting trial 213 from the right with 0.4 s delay
+[2021-08-21 22:28:19,328]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.42s
+[2021-08-21 22:28:26,258]{training.py:167} INFO - Ending trial 213 with success due to "goal" after 7.4 s.
+[2021-08-21 22:28:26,258]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:28:26,259]{training.py:185} INFO - Total: 213, Successes: 109 (51.2% correct)!
+[2021-08-21 22:28:27,782]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, False, True, True], maxlen=10)
+[2021-08-21 22:28:27,784]{training.py:80} DEBUG - Starting trial on Left with d=-0.52 (mu=0.50)
+[2021-08-21 22:28:27,785]{training.py:90} INFO - Starting trial 214 from the right with 0.1 s delay
+[2021-08-21 22:28:27,883]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.08s
+[2021-08-21 22:28:28,131]{training.py:167} INFO - Ending trial 214 with failure due to "overshoot" after 0.3 s.
+[2021-08-21 22:28:28,133]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:28:28,138]{training.py:185} INFO - Total: 214, Successes: 109 (50.9% correct)!
+[2021-08-21 22:28:30,170]{training.py:79} DEBUG - deque([False, False, False, False, False, False, False, True, True, True], maxlen=10)
+[2021-08-21 22:28:30,171]{training.py:80} DEBUG - Starting trial on Right with d=0.81 (mu=0.30)
+[2021-08-21 22:28:30,173]{training.py:90} INFO - Starting trial 215 from the right with 0.5 s delay
+[2021-08-21 22:28:30,696]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.49s
+[2021-08-21 22:28:31,224]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.49s
+[2021-08-21 22:28:31,752]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.49s
+[2021-08-21 22:28:32,280]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.49s
+[2021-08-21 22:28:32,797]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.49s
+[2021-08-21 22:28:33,322]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.49s
+[2021-08-21 22:28:35,134]{training.py:167} INFO - Ending trial 215 with success due to "goal" after 5.0 s.
+[2021-08-21 22:28:35,135]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:28:35,136]{training.py:185} INFO - Total: 215, Successes: 110 (51.2% correct)!
+[2021-08-21 22:28:36,667]{training.py:79} DEBUG - deque([False, False, False, False, False, False, True, True, True, True], maxlen=10)
+[2021-08-21 22:28:36,670]{training.py:80} DEBUG - Starting trial on Right with d=0.97 (mu=0.50)
+[2021-08-21 22:28:36,671]{training.py:90} INFO - Starting trial 216 from the right with 0.2 s delay
+[2021-08-21 22:28:36,871]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 22:28:37,065]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.17s
+[2021-08-21 22:28:49,686]{training.py:167} INFO - Ending trial 216 with failure due to "overshoot" after 13.0 s.
+[2021-08-21 22:28:49,688]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:28:49,690]{training.py:185} INFO - Total: 216, Successes: 110 (50.9% correct)!
+[2021-08-21 22:28:51,715]{training.py:79} DEBUG - deque([False, False, False, False, False, True, True, True, True, False], maxlen=10)
+[2021-08-21 22:28:51,720]{training.py:80} DEBUG - Starting trial on Right with d=0.07 (mu=0.40)
+[2021-08-21 22:28:51,722]{training.py:90} INFO - Starting trial 217 from the right with 0.0 s delay
+[2021-08-21 22:28:51,785]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.04s
+[2021-08-21 22:29:03,553]{training.py:167} INFO - Ending trial 217 with failure due to "overshoot" after 11.8 s.
+[2021-08-21 22:29:03,553]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:29:03,554]{training.py:185} INFO - Total: 217, Successes: 110 (50.7% correct)!
+[2021-08-21 22:29:05,584]{training.py:79} DEBUG - deque([False, False, False, False, True, True, True, True, False, True], maxlen=10)
+[2021-08-21 22:29:05,585]{training.py:80} DEBUG - Starting trial on Right with d=0.04 (mu=0.50)
+[2021-08-21 22:29:05,586]{training.py:90} INFO - Starting trial 218 from the right with 0.3 s delay
+[2021-08-21 22:29:05,928]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.30s
+[2021-08-21 22:29:06,817]{training.py:167} INFO - Ending trial 218 with failure due to "overshoot" after 1.2 s.
+[2021-08-21 22:29:06,818]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:29:06,818]{training.py:185} INFO - Total: 218, Successes: 110 (50.5% correct)!
+[2021-08-21 22:29:08,848]{training.py:79} DEBUG - deque([False, False, False, True, True, True, True, False, True, True], maxlen=10)
+[2021-08-21 22:29:08,849]{training.py:80} DEBUG - Starting trial on Right with d=0.65 (mu=0.60)
+[2021-08-21 22:29:08,850]{training.py:90} INFO - Starting trial 219 from the right with 0.1 s delay
+[2021-08-21 22:29:08,943]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.07s
+[2021-08-21 22:29:17,689]{training.py:167} INFO - Ending trial 219 with failure due to "overshoot" after 8.8 s.
+[2021-08-21 22:29:17,690]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:29:17,691]{training.py:185} INFO - Total: 219, Successes: 110 (50.2% correct)!
+[2021-08-21 22:29:19,716]{training.py:79} DEBUG - deque([False, False, True, True, True, True, False, True, True, False], maxlen=10)
+[2021-08-21 22:29:19,719]{training.py:80} DEBUG - Starting trial on Right with d=0.43 (mu=0.60)
+[2021-08-21 22:29:19,721]{training.py:90} INFO - Starting trial 220 from the right with 0.1 s delay
+[2021-08-21 22:29:19,802]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 22:29:19,973]{training.py:167} INFO - Ending trial 220 with failure due to "overshoot" after 0.3 s.
+[2021-08-21 22:29:19,973]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:29:19,974]{training.py:185} INFO - Total: 220, Successes: 110 (50.0% correct)!
+[2021-08-21 22:29:21,996]{training.py:79} DEBUG - deque([False, True, True, True, True, False, True, True, False, True], maxlen=10)
+[2021-08-21 22:29:21,997]{training.py:80} DEBUG - Starting trial on Right with d=0.64 (mu=0.70)
+[2021-08-21 22:29:21,998]{training.py:90} INFO - Starting trial 221 from the right with 0.3 s delay
+[2021-08-21 22:29:22,367]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-21 22:29:22,724]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.33s
+[2021-08-21 22:29:23,720]{training.py:167} INFO - Ending trial 221 with failure due to "overshoot" after 1.7 s.
+[2021-08-21 22:29:23,720]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:29:23,721]{training.py:185} INFO - Total: 221, Successes: 110 (49.8% correct)!
+[2021-08-21 22:29:25,755]{training.py:79} DEBUG - deque([True, True, True, True, False, True, True, False, True, False], maxlen=10)
+[2021-08-21 22:29:25,756]{training.py:80} DEBUG - Starting trial on Right with d=0.52 (mu=0.70)
+[2021-08-21 22:29:25,757]{training.py:90} INFO - Starting trial 222 from the right with 0.3 s delay
+[2021-08-21 22:29:26,067]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.28s
+[2021-08-21 22:29:37,728]{training.py:167} INFO - Ending trial 222 with success due to "goal" after 12.0 s.
+[2021-08-21 22:29:37,729]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:29:37,730]{training.py:185} INFO - Total: 222, Successes: 111 (50.0% correct)!
+[2021-08-21 22:29:39,268]{training.py:79} DEBUG - deque([True, True, True, False, True, True, False, True, False, True], maxlen=10)
+[2021-08-21 22:29:39,269]{training.py:80} DEBUG - Starting trial on Right with d=0.14 (mu=0.50)
+[2021-08-21 22:29:39,269]{training.py:90} INFO - Starting trial 223 from the right with 0.4 s delay
+[2021-08-21 22:29:40,284]{training.py:167} INFO - Ending trial 223 with success due to "goal" after 1.0 s.
+[2021-08-21 22:29:40,284]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:29:40,285]{training.py:185} INFO - Total: 223, Successes: 112 (50.2% correct)!
+[2021-08-21 22:29:41,816]{training.py:79} DEBUG - deque([True, True, False, True, True, False, True, False, True, False], maxlen=10)
+[2021-08-21 22:29:41,816]{training.py:80} DEBUG - Starting trial on Right with d=0.84 (mu=0.50)
+[2021-08-21 22:29:41,817]{training.py:90} INFO - Starting trial 224 from the right with 0.4 s delay
+[2021-08-21 22:29:42,206]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.36s
+[2021-08-21 22:30:29,132]{training.py:167} INFO - Ending trial 224 with failure due to "overshoot" after 47.3 s.
+[2021-08-21 22:30:29,133]{training.py:173} INFO - Moved to Left
+[2021-08-21 22:30:29,134]{training.py:185} INFO - Total: 224, Successes: 112 (50.0% correct)!
+[2021-08-21 22:30:31,157]{training.py:79} DEBUG - deque([True, False, True, True, False, True, False, True, False, False], maxlen=10)
+[2021-08-21 22:30:31,157]{training.py:80} DEBUG - Starting trial on Right with d=0.56 (mu=0.50)
+[2021-08-21 22:30:31,158]{training.py:90} INFO - Starting trial 225 from the right with 0.0 s delay
+[2021-08-21 22:30:31,225]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.05s
+[2021-08-21 22:30:31,800]{training.py:167} INFO - Ending trial 225 with success due to "goal" after 0.6 s.
+[2021-08-21 22:30:31,801]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:30:31,801]{training.py:185} INFO - Total: 225, Successes: 113 (50.2% correct)!
+[2021-08-21 22:30:33,333]{training.py:79} DEBUG - deque([False, True, True, False, True, False, True, False, False, True], maxlen=10)
+[2021-08-21 22:30:33,334]{training.py:80} DEBUG - Starting trial on Right with d=0.04 (mu=0.50)
+[2021-08-21 22:30:33,334]{training.py:90} INFO - Starting trial 226 from the right with 0.2 s delay
+[2021-08-21 22:30:33,606]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.24s
+[2021-08-21 22:30:33,884]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.24s
+[2021-08-21 22:30:34,154]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.24s
+[2021-08-21 22:30:37,019]{training.py:167} INFO - Ending trial 226 with failure due to "overshoot" after 3.7 s.
+[2021-08-21 22:30:37,020]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:30:37,021]{training.py:185} INFO - Total: 226, Successes: 113 (50.0% correct)!
+[2021-08-21 22:30:39,041]{training.py:79} DEBUG - deque([True, True, False, True, False, True, False, False, True, True], maxlen=10)
+[2021-08-21 22:30:39,043]{training.py:80} DEBUG - Starting trial on Left with d=-0.02 (mu=0.60)
+[2021-08-21 22:30:39,046]{training.py:90} INFO - Starting trial 227 from the right with 0.2 s delay
+[2021-08-21 22:30:39,301]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.23s
+[2021-08-21 22:30:44,865]{training.py:167} INFO - Ending trial 227 with failure due to "overshoot" after 5.8 s.
+[2021-08-21 22:30:44,868]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:30:44,870]{training.py:185} INFO - Total: 227, Successes: 113 (49.8% correct)!
+[2021-08-21 22:30:46,903]{training.py:79} DEBUG - deque([True, False, True, False, True, False, False, True, True, True], maxlen=10)
+[2021-08-21 22:30:46,904]{training.py:80} DEBUG - Starting trial on Right with d=0.03 (mu=0.60)
+[2021-08-21 22:30:46,904]{training.py:90} INFO - Starting trial 228 from the right with 0.1 s delay
+[2021-08-21 22:30:46,987]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 22:30:47,076]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 22:30:47,162]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.06s
+[2021-08-21 22:30:47,935]{training.py:167} INFO - Ending trial 228 with failure due to "overshoot" after 1.0 s.
+[2021-08-21 22:30:47,935]{training.py:173} INFO - Moved to Right
+[2021-08-21 22:30:47,936]{training.py:185} INFO - Total: 228, Successes: 113 (49.6% correct)!
+[2021-08-21 22:30:49,969]{training.py:79} DEBUG - deque([False, True, False, True, False, False, True, True, True, True], maxlen=10)
+[2021-08-21 22:30:49,970]{training.py:80} DEBUG - Starting trial on Right with d=0.93 (mu=0.60)
+[2021-08-21 22:30:49,972]{training.py:90} INFO - Starting trial 229 from the right with 0.1 s delay
+[2021-08-21 22:30:50,103]{training.py:111} INFO - Hold movement exceeded. Timeout for 0.11s
